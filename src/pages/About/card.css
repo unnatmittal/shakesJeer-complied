@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* html, body {
+  min-height: 100%;
+}
+
+body {
+  background: linear-gradient(#cddc39, #009688);
+} */
+
+.main1{
+  background-color: #fff;
+  padding: 1px 0 1px 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+/* style member component */
+.list-members {
+  background: #FFE652;
+  width: 90%;
+  margin: 4% auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.member {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.member-image {
+  width: 50%;
+  height: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.member-image img {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+}
+
+.member-image:hover img {
+  transform: scale(1.1);
+}
+
+.member-info {
+  width: 50%;
+  text-align: center;
+}
+
+.member-info h6 {
+  margin: 20px 0;
+  padding: 0 10px;
+  font-weight: lighter;
+}
+
+.before-info{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.before-info h3{
+  font-size: 1.25rem;
+  padding-top: 10px ;
+  transition: all 1s;
+  text-align: center;
+}
+
+.before-info h6{
+  font-size: 1rem;
+  transition: all 1s;
+}
+
+.after-info{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(-20px);
+  transition: all .2s;
+  opacity: 0;
+}
+
+.after-info p{
+  padding: 0 10px;
+  font-size: .9rem;
+}
+
+.after-info h4{
+  padding: 0 10px;
+  text-align: center;
+}
+
+.before-info:hover h3{ 
+  transform: rotateX(720deg) scale(0);
+  opacity: 0;
+}
+
+.before-info:hover h6{ 
+  transform: rotateX(720deg) scale(0);
+  opacity: 0;
+}
+
+.before-info:hover .after-info{
+  transform: translateY(0);
+  transition-delay: 1.2s;
+  opacity: 1;
+}
+
+/* .before-info:hover .after-info{
+  transform: rotateX(720deg) scale();
+  transition-delay: .7s;
+  opacity: 1;
+} */
+
+
+/* style social link */
+.social-link .fab {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid #000;
+  margin: 0 7px;
+  cursor: pointer;
+  transition: transform .5s;
+}
+
+.social-link .fab:hover {
+  background: #000;
+  color: #ffe501;
+  transform: translateY(-7px);
+}
+
+/* Membuat segitiga */
+.member-image::after {
+  content: '';
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 15px solid #FFE652;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+
+/* Merubah posisi member-image dengan member-info */
+@media screen and (min-width: 771px) {
+  .member:nth-child(4n+3) .member-info,
+  .member:nth-child(4n+4) .member-info {
+    order: 1;
+  }
+  .member:nth-child(4n+3) .member-image,
+  .member:nth-child(4n+4) .member-image {
+    order: 2;
+  }
+
+  /* Merubah posisi sigitiga pada baris genap */
+  .member:nth-child(4n+3) .member-image::after,
+  .member:nth-child(4n+4) .member-image::after {
+    left: 0;
+    right: auto;
+    transform: translateY(-50%) rotateZ(180deg);
+  }
+}
+
+
+/* Mobile Styles */
+@media screen and (max-width: 770px) {
+  .list-members {
+    width: 95%;
+  }
+  .member {
+    flex-basis: 100%;
+    font-size: 14px;
+  }
+  .social-link .fab {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .member:nth-child(even) .member-info {
+    order: 1;
+  }
+  .member:nth-child(even) .member-image {
+    order: 2;
+  }
+  
+  /* Merubah posisi sigitiga elemen genap */
+  .member:nth-child(even) .member-image::after {
+    left: 0;
+    right: auto;
+    transform: translateY(-50%) rotateZ(180deg);
+  }
+}

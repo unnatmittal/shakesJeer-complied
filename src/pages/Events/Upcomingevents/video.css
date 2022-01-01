@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+@font-face {
+	font-family: 'Telefon Black';
+	src: url('https://raw.githubusercontent.com/arnabmunshi/fontface/master/TelefonBlack/Telefon-Black.woff2') format('woff2'), url('https://raw.githubusercontent.com/arnabmunshi/fontface/master/TelefonBlack/Telefon-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+}
+.page-event {
+	background-color: #212121;
+	/* padding-bottom: 40px; */
+	font-family: "Varela Round", sans-serif;
+}
+.page-event .cover {
+	background-color: #36353a;
+	height: 250px;
+	/* background-image: url('https://goo.gl/NA3iQP'); */
+	/* background-position: center center;
+	background-size: cover; */
+}
+.page-event .cover .heading {
+	font-family: 'Telefon Black';
+	font-size: 200px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #ccc;
+	transition: font-size 0.3s;
+}
+.page-event .cover .heading::first-letter {
+	color: #db2d8e;
+}
+.page-event .upcoming-sec {
+	width: 70%; /* or whatever width you want. */
+   	max-width:70%;
+	display: inline-block;
+    height: 5vh;
+	margin: 0px auto;
+	border-bottom: 1px #ccc solid;
+
+	padding: 3vh 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.page-event .upcoming-sec .heading {
+	font-size: 25px;
+	color: #fff;
+}
+@media only screen and (max-width: 1035px){
+	.cover{
+		width: 770px;
+		padding: 0 130px;
+		margin: 0;
+	}
+
+}
+
+@media only screen and (max-width: 1020px){
+	.page-event{
+		width:1025px; /* or whatever width you want. */
+   		max-width:1025px;
+		display: inline-block;
+	}
+	.cover{
+		width: 770px;
+		padding: 0 130px;
+		margin: 0;
+		/* margin: 0 80px; */
+	}
+}

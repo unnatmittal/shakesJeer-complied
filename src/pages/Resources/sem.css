@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.container {
+  width: 750px;
+  margin: 50px auto 0px auto;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1055px) {
+  .ant-modal-content {
+    width: 625px !important;
+    height: 250px !important;
+  }
+}
+
+.container h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.container h1 span {
+  font-weight: 700;
+  font-style: italic;
+  color: #d90368;
+  border-bottom: 2px dashed currentColor;
+}
+.container .button-effect {
+  padding: 1px 10px;
+}
+.container .button-effect h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+.container .button-effect a {
+  margin-right: 10px;
+}
+.container .button-effect a:nth-child(2) {
+  background-color: #370d59;
+}
+.container .button-effect a:nth-child(2):hover {
+  background-color: #8920df;
+}
+.container .button-effect a:nth-child(3) {
+  background-color: #660066;
+}
+.container .button-effect a:nth-child(3):hover {
+  background-color: #ff00ff;
+}
+.container .button-effect a:nth-child(4) {
+  background-color: #135153;
+}
+.container .button-effect a:nth-child(4):hover {
+  background-color: #2fcad0;
+}
+.container .button-effect a:nth-child(5) {
+  background-color: #66000e;
+}
+.container .button-effect a:nth-child(5):hover {
+  background-color: #ff0022;
+}
+.container .button-effect a:nth-child(6) {
+  background-color: #1c204a;
+}
+.container .button-effect a:nth-child(6):hover {
+  background-color: #4650b9;
+}
+.container .button-effect a:nth-child(7) {
+  background-color: #412539;
+}
+.container .button-effect a:nth-child(7):hover {
+  background-color: #a25d8e;
+}
+.container .button-effect a:nth-child(8) {
+  background-color: #444b1b;
+}
+.container .button-effect a:nth-child(8):hover {
+  background-color: #a9bb44;
+}
+.container .button-effect a:nth-child(9) {
+  background-color: #513915;
+}
+.container .button-effect a:nth-child(9):hover {
+  background-color: #cb8f34;
+}
+.container .button-effect a:last-child {
+  margin-right: 0px;
+}
+
+/* button styles !!!YOU NEED THEM 
+  !!!ALSO YOU NEED TO ADD FONTWESOME */
+.effect {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  /* background-color: - add your own background-color */
+  font-family: "Roboto", sans-serif;
+  /* put your font-family */
+  font-size: 18px;
+  padding: 20px 0px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* effect-1 styles */
+.effect.effect-1 {
+  transition: all 0.2s linear 0s;
+}
+.effect.effect-1:before {
+  content: "\1F872";
+  font-family: FontAwesome;
+  font-size: 15px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  height: 100%;
+  width: 25px;
+  transition: all 0.2s linear 0s;
+}
+.effect.effect-1:hover {
+  text-indent: -25px;
+}
+.effect.effect-1:hover:before {
+  opacity: 1;
+  text-indent: 7px;
+}

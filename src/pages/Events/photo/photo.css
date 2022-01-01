@@ -1,0 +1,104 @@
+.image-grid {
+    --gap: 16px;
+    --num-cols: 4;
+    --row-height: 300px;
+    box-sizing: border-box;
+    padding: var(--gap);
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  .image-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* transition: 0.2s ease-in-out; */
+    cursor: pointer;
+  }
+  
+  .image-grid img:hover {
+    filter: brightness(80%);
+  }
+  
+  .image-grid-col-2 {
+    grid-column: span 2;
+  }
+  
+  .image-grid-row-2 {
+    grid-row: span 2;
+  }
+  
+  /* ---------------------------------------------- */
+  
+  /* Anything udner 1024px */
+  @media screen and (max-width: 1024px) {
+    .image-grid {
+      --num-cols: 2;
+      --row-height: 200px;
+        width: 1024px;
+        max-width: 1024px;
+        /* display: inline-block; */
+    }
+  }
+  
+  /*video*/
+  @import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,300italic,400italic,500italic,700italic");
+  @import url("https://fonts.googleapis.com/css?family=Varela+Round");
+  @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
+  iframe {
+    width: 100%;
+    height: calc(100ew / eval("width/height"));
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 5px 10px #e29507;
+  }
+  .heading {
+    margin: 6px auto;
+    width: 80%;
+    font-size: 20px;
+    font-weight: bold;
+    /* text-align: left; */
+    /* text-align: center; */
+    letter-spacing: -1px;
+    color: black;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .headingSec {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: -1px;
+    color: black;
+    flex-wrap: wrap;
+    margin: 6px auto;
+    /* justify-content: center; */
+  }
+  
+  .headingSec h1 {
+    margin-right: 10px;
+  }
+  .headingSec h2 {
+    margin-top: 25px;
+    font-size: 20px;
+  }
+  .video {
+    background-color: #ffb503;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 25px;
+    padding: 90px;
+  }
+  .video1 {
+    padding: 10px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .video {
+      grid-template-columns: auto;
+    }
+  }
+  
