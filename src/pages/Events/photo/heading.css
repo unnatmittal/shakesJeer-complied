@@ -1,0 +1,34 @@
+.event-headingcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 7px solid rgba(0, 0, 0, 0.623);
+    
+    height: 80px;
+    background-color: #fdca1294 ;
+}
+.event-headingbox{
+    text-align: center;
+    width: 50%;
+    font-family: 'Telefon Black';
+    font-size:45px;
+    font-weight: 900;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    text-decoration: double;
+    margin:0;
+    margin-bottom: -5px;
+    text-shadow: 2px 2px 8px #fdcc0c;
+}
+
+@media screen and (max-width: 1035px) {
+    .event-headingcontainer{
+        width: 1035px;
+        max-width: 1035px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .event-headingbox{
+        font-size: 65px;
+    }
+}

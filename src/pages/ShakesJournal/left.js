@@ -21,14 +21,14 @@ const contentLeft = [
 
 function LeftComponent() {
   return (
-    <div className="cardLeft">
-      <h2>Border Gavaskar</h2>
+    <div className="jr_cardLeft">
+      <h2>Border Gavaskar </h2>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's stanwith the release of
         Letraset sheets containing Lorem Ipsum passages, and more recently with
       </p>
-      <img src={panther} className="logoLeft" alt="logoLeft" />
+      <img src={panther} className="jr_logoLeft" alt="jr_logoLeft" />
     </div>
   );
 }

@@ -2,9 +2,10 @@
   @import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,300italic,400italic,500italic,700italic");
   @import url("https://fonts.googleapis.com/css?family=Varela+Round");
   @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
-  .video-container{
-      width: 90vw;
-      margin: 0 auto;
+  .event-video-container{
+      width: 100% ;
+      margin-top: 6px;
+      /* margin: 0 auto; */
   }
   h1,h2{
       color: #acacac;
@@ -46,33 +47,56 @@
     margin-top: 25px;
     font-size: 20px;
   }
-  .video {
+  .event-video {
     background-color: #ffb503;
     display: grid;
     grid-template-columns: auto auto auto;
     margin-bottom: 25px;
-    padding: 90px;
+    padding: 60px;
   }
-  .video1 {
+  .event-video1 {
     padding: 10px;
   }
   
+  @media screen and (max-width: 1035px) {
+    .event-video-container{
+        width: 1035px;
+        max-width: 1035px;
+    }
+  }
   @media screen and (max-width: 1000px) {
-    .video-container{
-        width: 800px;
-        max-width: 800px;
-        margin-left: 100px;
-        margin-right: 100px;
+    .event-video-container{
+        /* width: 800px;
+        max-width: 800px; */
+        /* margin-left: 100px;
+        margin-right: 100px; */
     }
   }
   @media screen and (max-width: 700px) {
-      .video-container{
+      /* .video-container{
           width: 700px;
           max-width: 700px ;
-      }
-    .video {
-        width: 700px;
-        max-width: 700px;
+      } */
+    iframe{
+      width: 900px;
+      height: 500px;
+      margin: 0 ;
+    }
+    .event-video {
+        /* width: 700px;
+        max-width: 700px; */
+        margin: 0 auto;
+        grid-template-columns: auto;
+    }
+  }
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
+    iframe{
+      width: 900px;
+      height: 500px;
+      margin: 0 ;
+    }
+    .event-video {
+      margin: 0 auto;
       grid-template-columns: auto;
     }
   }

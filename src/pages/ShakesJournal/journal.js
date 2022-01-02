@@ -9,23 +9,23 @@ import About from "./about.jsx";
 function Journal() {
   return (
     <>
-      <div className="components">
+      <div className="jr_slidercomponents">
         <NewSlider />
       </div>
       <About />
 
-      <div className="components">
+      <div className="jr_components">
         <Leftcomponent />
       </div>
 
-      <div className="components">
+      <div className="jr_components">
         <RightComponent />
       </div>
-      <div className="components">
+      <div className="jr_components">
         <Leftcomponent />
       </div>
 
-      <div className="components lastcomponent">
+      <div className="jr_components lastcomponent">
         <RightComponent className="lastcomponent" />
       </div>
     </>

@@ -6,11 +6,10 @@ import Menu from './menuApi';
 const Main = () => {
     const [menuData, setMenuData] = React.useState(Menu);
     return (
-        <div className="main">
+        <div className="event-main">
             <Video />
             <Card menuData={menuData}/>
         </div>
     )
 }
-
 export default Main;

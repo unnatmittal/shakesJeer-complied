@@ -37,16 +37,16 @@ const content = [
   }
 ];
 
-const Index = () => (
-  <div className="slider-main">
-    <Slider className="slider-wrapper">
+const EventSlider = () => (
+  <div className="event-slider-main">
+    <Slider className="event-slider-wrapper">
       {content.map((item, index) => (
         <div
           key={index}
-          className="slider-content"
+          className="event-slider-content"
           style={{ background: `url('${item.image}') no-repeat center center` }}
         >
-          <div className="inner">
+          <div className="event-inner">
             <h1>{item.title}</h1>
             <p>{item.description}</p>
             <button>{item.button}</button>
@@ -57,4 +57,4 @@ const Index = () => (
   </div>
 );
 
-export default Index;
+export default EventSlider;

@@ -29,8 +29,9 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Events from "./pages/Events/Events";
 import Resources from "./pages/Resources/Resources";
-//import Journal from "./pages/ShakesJournal/journal";
+import Journal from "./pages/ShakesJournal/journal";
 import Footer from "./components/Footer/Footer";
+import ContactUs from "./pages/Contact Us/ContactUs";
 
 function App() {
   return (
@@ -39,11 +40,12 @@ function App() {
         <Navbar />
         <main>
           <Switch>
-            <Route path="/" exact component={Home} />
+            <Route exact path="/" exact component={Home} />
             <Route path="/about" component={About} />
             <Route path="/events" component={Events} />
             <Route path="/resources" component={Resources} />
-            {/* <Route path="/shakesjournal" component={Journal} /> */}
+            <Route path="/shakesjournal" component={Journal} />
+            <Route path="/contact-us" component={ContactUs} />
           </Switch>
         </main>
         <Footer />

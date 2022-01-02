@@ -7,30 +7,37 @@
 	font-style: normal;
 }
 .page-event {
-	background-color: #212121;
+	background-color: #fdca1294 ;
+	
 	/* padding-bottom: 40px; */
-	font-family: "Varela Round", sans-serif;
+	font-family: "Varela Round", sans-serif !important;
 }
-.page-event .cover {
-	background-color: #36353a;
-	height: 250px;
+.page-event .event-cover {
+	/* background-color: #e0b107e1; */
+	width: calc(98vw +5px);
+	height: 200px;
+	padding: 0px 15px;
+	padding-bottom: 25px;
+	border-bottom: 7px solid rgba(0, 0, 0, 0.623);
 	/* background-image: url('https://goo.gl/NA3iQP'); */
 	/* background-position: center center;
 	background-size: cover; */
 }
-.page-event .cover .heading {
+.page-event .event-cover .event-heading {
 	font-family: 'Telefon Black';
-	font-size: 200px;
+	font-size: 150px;
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
 	text-align: center;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	color: #ccc;
+	color: black;
+	text-shadow: 2px 2px 8px #fdcc0c;
 	transition: font-size 0.3s;
 }
-.page-event .cover .heading::first-letter {
-	color: #db2d8e;
+.page-event .event-cover .event-heading::first-letter {
+	color: #fdcc0c;
+	text-shadow: 2px 2px 8px black;
 }
 .page-event .upcoming-sec {
 	width: 70%; /* or whatever width you want. */
@@ -38,34 +45,35 @@
 	display: inline-block;
     height: 5vh;
 	margin: 0px auto;
-	border-bottom: 1px #ccc solid;
+	/* border-bottom: 7px solid rgba(0, 0, 0, 0.623); */
 
-	padding: 3vh 0;
+	padding: 0;
 
 	display: flex;
 	justify-content: center;
 	align-items: center;	
 }
-.page-event .upcoming-sec .heading {
+.page-event .upcoming-sec .event-heading {
+	padding : 0;
 	font-size: 25px;
-	color: #fff;
+	color: black;
 }
 @media only screen and (max-width: 1035px){
-	.cover{
-		width: 770px;
+	.page-event{
+		width: 1035px;
+		max-width: 1035px;
 		padding: 0 130px;
 		margin: 0;
 	}
-
 }
 
 @media only screen and (max-width: 1020px){
-	.page-event{
-		width:1025px; /* or whatever width you want. */
+	/* .page-event{
+		width:1025px; 
    		max-width:1025px;
 		display: inline-block;
-	}
-	.cover{
+	} */
+	.event-cover{
 		width: 770px;
 		padding: 0 130px;
 		margin: 0;

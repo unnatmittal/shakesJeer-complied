@@ -37,7 +37,7 @@ export const SidebarData = [
   },
   {
     title: "Contact Us",
-    path: "/contact",
+    path: "/contact-us",
     icon: <RiIcons.RiContactsFill />,
     cName: "nav-text",
   },

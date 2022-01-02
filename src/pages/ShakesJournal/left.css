@@ -1,4 +1,4 @@
-.cardLeft {
+.jr_cardLeft {
   margin-right: auto;
   margin-left: 30px;
   height: 40vh;
@@ -15,15 +15,14 @@
   border-top-left-radius: 2.5vh;
   border-bottom-left-radius: 2.5vh;
 }
-.components {
+.jr_components {
   padding-top: 4%;
-  
 }
-.logoLeft {
+.jr_logoLeft {
   /* display: none; */
   height: 140%;
   /* transform: scale(0.8); */
-  z-index: 1000;
+  z-index: 2;
   max-width: 100%;
   position: absolute;
   top: 45%;
@@ -32,14 +31,14 @@
   transition: all 0.2s;
   /* background-color: red; */
 }
-.cardLeft h2 {
+.jr_cardLeft h2 {
   padding-top: 8%;
   font-size: 6vw;
   color: #e5aa1d;
   transition: all 0.2s;
   /* background-color: chartreuse; */
 }
-.cardLeft p {
+.jr_cardLeft p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   transition: all 0.2s;
@@ -53,201 +52,198 @@
   /* background-color: darkgoldenrod; */
 }
 
-.cardLeft:hover img {
+.jr_cardLeft:hover img {
   left: 93%;
   top: 48%;
   height: 43.5vh;
 }
-.cardLeft:hover h2 {
+.jr_cardLeft:hover h2 {
   padding-top: 4%;
   margin-left: 2%;
   font-size: 4vw;
   margin-bottom: 1vh;
   letter-spacing: 5px;
 }
-.cardLeft:hover p,
-.cardLeft:hover a {
+.jr_cardLeft:hover p,
+.jr_cardLeft:hover a {
   opacity: 5;
   margin-left: 2%;
-  
 }
 
-@media only screen and (max-width: 400px ){
-  .cardLeft h2 {
+@media only screen and (max-width: 400px) {
+  .jr_cardLeft h2 {
     margin-left: -5%;
     font-size: 12vw;
     width: 35vw;
     padding-top: 15%;
   }
-  .cardLeft {
+  .jr_cardLeft {
     width: 145vw;
     margin: 2vh auto;
     height: 35vh;
   }
-  .cardLeft:hover h2 {
+  .jr_cardLeft:hover h2 {
     font-size: 3.5vh;
     margin-left: -15%;
     white-space: nowrap;
   }
-  .cardLeft:hover p {
+  .jr_cardLeft:hover p {
     margin-left: -15%;
     font-size: 2.6vh;
     width: 77vw;
   }
-  .logoLeft{
+  .jr_logoLeft {
     height: 120%;
     left: 100%;
   }
-  .cardLeft:hover img{
+  .jr_cardLeft:hover img {
     height: 105%;
-   padding-top: 1%;
-   left: 98%;
+    padding-top: 1%;
+    left: 98%;
   }
 }
 
-@media only screen and (min-width: 400px )and (max-width: 430px){
-  .cardLeft h2 {
+@media only screen and (min-width: 400px) and (max-width: 430px) {
+  .jr_cardLeft h2 {
     margin-left: -5%;
     font-size: 10vw;
     width: 30vw;
     padding-top: 7%;
   }
-  .cardLeft {
+  .jr_cardLeft {
     width: 115vw;
     margin: 2vh auto;
     height: 30vh;
   }
-  .cardLeft:hover h2 {
+  .jr_cardLeft:hover h2 {
     font-size: 4vh;
     margin-left: -15%;
   }
-  .cardLeft:hover p {
+  .jr_cardLeft:hover p {
     margin-left: -16%;
     font-size: 2vh;
     width: 66vw;
   }
-  .logoLeft{
+  .jr_logoLeft {
     height: 120%;
     left: 100%;
   }
-  .cardLeft:hover img{
+  .jr_cardLeft:hover img {
     height: 105%;
-   padding-top: 1%;
-   left: 98%;
+    padding-top: 1%;
+    left: 98%;
   }
 }
 
-@media only screen and (min-width: 430px )and (max-width: 500px){
-  .cardLeft h2 {
+@media only screen and (min-width: 430px) and (max-width: 500px) {
+  .jr_cardLeft h2 {
     margin-left: -10%;
     font-size: 10vw;
     width: 30vw;
     padding-top: 7%;
   }
-  .cardLeft {
+  .jr_cardLeft {
     width: 105vw;
     margin: 3vh auto;
     height: 35vh;
   }
-  .cardLeft:hover h2 {
+  .jr_cardLeft:hover h2 {
     font-size: 4.7vh;
     margin-left: -7%;
   }
-  .cardLeft:hover p {
+  .jr_cardLeft:hover p {
     margin-left: -7%;
     font-size: 2.5vh;
     width: 60vw;
   }
-  .logoLeft{
+  .jr_logoLeft {
     height: 120%;
     left: 100%;
   }
-  .cardLeft:hover img{
+  .jr_cardLeft:hover img {
     height: 105%;
-   padding-top: 1%;
-   left: 95%;
+    padding-top: 1%;
+    left: 95%;
   }
 }
 
-@media only screen and (min-width: 500px ) and (max-width: 640px) {
-  
-  .cardLeft h2 {
+@media only screen and (min-width: 500px) and (max-width: 640px) {
+  .jr_cardLeft h2 {
     margin-left: -10%;
     font-size: 10vw;
     width: 30vw;
     padding-top: 7%;
   }
-  .cardLeft {
+  .jr_cardLeft {
     width: 90vw;
     margin: 3vh auto;
     height: 35vh;
   }
-  .cardLeft:hover h2 {
+  .jr_cardLeft:hover h2 {
     font-size: 6vh;
     margin-left: -5%;
   }
-  .cardLeft:hover p {
+  .jr_cardLeft:hover p {
     margin-left: -5%;
     font-size: 2vh;
   }
-  .logoLeft{
+  .jr_logoLeft {
     height: 120%;
     left: 100%;
   }
-  .cardLeft:hover img{
+  .jr_cardLeft:hover img {
     height: 105%;
-   padding-top: 1%;
-   left: 95%;
+    padding-top: 1%;
+    left: 95%;
   }
 }
-@media only screen and (min-width: 640px ) and (max-width:800px){
- 
-  .cardLeft h2 {
-    margin-left: -1%;
-    font-size: 6.6vw;
+@media only screen and (min-width: 640px) and (max-width: 800px) {
+  .jr_cardLeft h2 {
+    margin-left: -8%;
+    font-size: 8.6vw;
     width: 30vw;
-    padding-top: 7%;
+    padding-top: 17%;
   }
-  .cardLeft {
+  .jr_cardLeft {
     width: 85vw;
     margin: 3vh auto;
     height: 35vh;
     margin-top: 8%;
   }
-  .logoLeft{
+  .jr_logoLeft {
     height: 130%;
-    left: 95%;
+    left: 97%;
   }
-  .cardLeft:hover h2 {
+  .jr_cardLeft:hover h2 {
     font-size: 5.5vh;
-    margin-left: -3%;
+    margin-left: -15%;
   }
-  .cardLeft:hover p {
-    margin-left: -3%;
+  .jr_cardLeft:hover p {
+    margin-left: -15%;
     font-size: 2.3vh;
   }
-  .cardLeft:hover img{
+  .jr_cardLeft:hover img {
     height: 110%;
-   left: 95%;
+    left: 98%;
   }
 }
 
-@media only screen and (min-width: 800px ) and (max-width:1200px){
-  .cardLeft h2 {
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+  .jr_cardLeft h2 {
     margin-left: 1%;
     font-size: 6.6vw;
     width: 10vw;
     padding-top: 5.5%;
   }
-  .cardLeft:hover h2 {
+  .jr_cardLeft:hover h2 {
     font-size: 6vh;
     margin-left: -3%;
   }
-  .cardLeft:hover p {
+  .jr_cardLeft:hover p {
     margin-left: -3%;
     font-size: 3vh;
   }
-  .logoLeft{
+  .jr_logoLeft {
     height: 130%;
     left: 95%;
   }

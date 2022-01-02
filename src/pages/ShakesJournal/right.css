@@ -1,4 +1,4 @@
-.card {
+.jr_card {
   /* display: flex; */
   margin-left: auto;
   /* margin-right: 15%; */
@@ -13,14 +13,14 @@
   border-bottom-left-radius: 4vh;
   border-top-right-radius: 1.5vh;
   border-bottom-right-radius: 1.5vh;
-  padding-left: 17vh; 
+  padding-left: 17vh;
   color: whitesmoke;
   transition: all 0.2s;
   /* margin-top: 6%;  */
 }
-.logo {
+.jr_logo {
   height: 140%;
-  z-index: 1000;
+  z-index: 2;
   max-width: 100%;
   position: absolute;
   top: 45%;
@@ -28,14 +28,14 @@
   transform: translate(-80%, -50%);
   transition: all 0.2s;
 }
-.card h2 {
+.jr_card h2 {
   padding-top: 8%;
   padding-left: 20%;
   font-size: 6vw;
   color: #e5aa1d;
   transition: all 0.2s;
 }
-.card p {
+.jr_card p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   transition: all 0.2s;
@@ -46,194 +46,193 @@
   font-size: 1.4vw;
 }
 
-.card:hover img {
+.jr_card:hover img {
   left: 21%;
   top: 48%;
   height: 43.5vh;
 }
-.card:hover h2 {
+.jr_card:hover h2 {
   padding-top: 4%;
   padding-left: 19%;
   font-size: 4vw;
   margin-bottom: 1vh;
   letter-spacing: 5px;
 }
-.card:hover p,
-.card:hover a {
+.jr_card:hover p,
+.jr_card:hover a {
   opacity: 5;
   margin-left: 19%;
 }
-@media only screen and (min-width: 500px ) and (max-width: 640px) {
-  .card h2 {
+@media only screen and (min-width: 500px) and (max-width: 640px) {
+  .jr_card h2 {
     margin-left: -1%;
     font-size: 10vw;
     width: 30vw;
     padding-top: 10%;
   }
-  .card {
+  .jr_card {
     width: 90vw;
     margin: 3vh auto;
     height: 35vh;
   }
-  .card:hover h2 {
+  .jr_card:hover h2 {
     font-size: 6vh;
     margin-left: 2%;
     letter-spacing: 1px;
   }
-  .card:hover p {
+  .jr_card:hover p {
     margin-left: 21%;
     font-size: 2.3vh;
   }
-  .logo{
+  .jr_logo {
     height: 120%;
     margin-left: 10%;
   }
-  .card:hover img{
+  .jr_card:hover img {
     height: 105%;
-   margin-left: 8.5%;
+    margin-left: 8.5%;
   }
 }
-@media only screen and (min-width: 640px )and (max-width: 800px){
-  .card h2 {
-    margin-left: 8%;
+@media only screen and (min-width: 640px) and (max-width: 800px) {
+  .jr_card h2 {
+    margin-left: 5%;
     font-size: 8vw;
     width: 30vw;
-    padding-top: 9%;
+    padding-top: 19%;
   }
-  .card {
+  .jr_card {
     width: 85vw;
     margin: 3vh auto;
     height: 35vh;
     margin-top: 8%;
   }
-  .logo{
+  .jr_logo {
     height: 125%;
-    left: 33%;
+    left: 35%;
   }
-  .card:hover h2 {
+  .jr_card:hover h2 {
     font-size: 6vh;
-    margin-left: 1%;
-    letter-spacing: 1px;
+    margin-left: 0.2%;
+    letter-spacing: 0.5px;
   }
-  .card:hover p {
-    margin-left: 20%;
-    font-size: 2.3vh;
+  .jr_card:hover p {
+    margin-left: 10%;
+    font-size: 2.2vh;
   }
-  .card:hover img{
+  .jr_card:hover img {
     height: 110%;
-    left: 25%;
+    left: 29%;
   }
 }
 
-@media only screen and (min-width: 800px )and (max-width: 1200px){
-  .card:hover h2 {
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+  .jr_card:hover h2 {
     font-size: 7.5vh;
     margin-left: 0.8%;
     letter-spacing: 1px;
   }
-  .card:hover p {
+  .jr_card:hover p {
     margin-left: 20%;
     font-size: 2.8vh;
   }
-  .card:hover img{
+  .jr_card:hover img {
     height: 110%;
     left: 23%;
   }
 }
-@media only screen and (max-width: 400px ){
-  
-  .card h2 {
+@media only screen and (max-width: 400px) {
+  .jr_card h2 {
     margin-left: 7%;
     font-size: 12vw;
     width: 35vw;
     padding-top: 17%;
   }
-  .card {
+  .jr_card {
     width: 140vw;
     margin: 2vh auto;
     height: 35vh;
   }
-  .card:hover h2 {
+  .jr_card:hover h2 {
     font-size: 4vh;
     margin-left: -1.2%;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
     white-space: nowrap;
   }
-  .card:hover p {
+  .jr_card:hover p {
     margin-left: 13%;
-    font-size: 2.6vh;    
+    font-size: 2.6vh;
     width: 77vw;
   }
-  .logo{
+  .jr_logo {
     height: 120%;
     margin-left: 11%;
   }
-  .card:hover img{
+  .jr_card:hover img {
     height: 105%;
-   margin-left: 8.5%;
+    margin-left: 8.5%;
   }
 }
-@media only screen and (min-width: 430px )and (max-width: 500px){
-  .card h2 {
+@media only screen and (min-width: 430px) and (max-width: 500px) {
+  .jr_card h2 {
     margin-left: 4.5%;
     font-size: 9vw;
     width: 10vw;
     padding-top: 8%;
   }
-  .card {
+  .jr_card {
     width: 105vw;
     margin: 2vh auto;
     height: 30vh;
   }
-  .card:hover h2 {
+  .jr_card:hover h2 {
     font-size: 4.7vh;
     margin-left: -3%;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
     white-space: nowrap;
   }
-  .card:hover p {
+  .jr_card:hover p {
     margin-left: 15%;
-    font-size: 2.5vh;    
+    font-size: 2.5vh;
     width: 61vw;
   }
-  .logo{
+  .jr_logo {
     height: 120%;
     margin-left: 8%;
   }
-  .card:hover img{
+  .jr_card:hover img {
     height: 105%;
-   margin-left: 6%;
+    margin-left: 6%;
   }
 }
-@media only screen and (min-width: 400px )and (max-width: 430px){
-  .card h2 {
+@media only screen and (min-width: 400px) and (max-width: 430px) {
+  .jr_card h2 {
     margin-left: 4.5%;
     font-size: 9vw;
     width: 10vw;
     padding-top: 8%;
   }
-  .card {
+  .jr_card {
     width: 115vw;
     margin: 2vh auto;
     height: 30vh;
   }
-  .card:hover h2 {
+  .jr_card:hover h2 {
     font-size: 3.6vh;
     margin-left: -5%;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
     white-space: nowrap;
   }
-  .card:hover p {
+  .jr_card:hover p {
     margin-left: 15%;
-    font-size: 2.2vh;    
+    font-size: 2.2vh;
     width: 60vw;
   }
-  .logo{
+  .jr_logo {
     height: 120%;
     margin-left: 8%;
   }
-  .card:hover img{
+  .jr_card:hover img {
     height: 105%;
-   margin-left: 10%;
+    margin-left: 10%;
   }
 }

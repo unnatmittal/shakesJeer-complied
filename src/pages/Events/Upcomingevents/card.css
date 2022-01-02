@@ -7,13 +7,14 @@
 	font-style: normal;
 }
 
-.container{
+.event-container{
 	display: flex;
 	justify-content: space-evenly;
-	align-items: center;
 	height: auto;
-	margin-bottom: 50px;
-	background-color: #212121;
+	align-items: center;
+	margin: 20px 0;
+	padding: 20px 0;
+	/* background-color: #220c0c !important; */
 }
 table{
 	margin-left: 20px;
@@ -23,13 +24,23 @@ table{
 	justify-content: center;
 	align-items: center;
 }
-.card{
-	width: 40vw;
-    height: 70vh;
-	margin: 20px 0px;
 
-	font-family: "Varela Round", sans-serif;
-	color:#acacac;
+.event-card1{
+	width: 43vw;
+    /* height: 65vh; */
+	margin: 20px 0px;
+	margin-bottom: 10px;
+	padding: 10px;
+	/* background-color: #212121 !important; */
+	font-family: "Varela Round", sans-serif !important;
+	color:black;
+
+	background-color: #fdcc0c;
+	/* backdrop-filter: blur(20px); */
+
+	border-radius: 8px;
+	box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+
 }
 table .month {
 	text-transform: uppercase;
@@ -47,44 +58,47 @@ table .date {
 	font-weight: bolder;
 	line-height: normal;
 }
-.thumbnail{
-	padding: 20px 40px;
-	width: 300px;
-	height: 300px;
+.event-thumbnail{
+	padding: 0 20px;
+	padding-right: 0;
+	width: 34vw;
+	
 }
-.title > h3{
+.event-title > h3{
 	margin: 3px 10px;
 	font-size: 25px;
-	font-weight:550;
+	font-weight:800;
 }
-.id{
+.event-id{
 	margin-bottom: 0px;
 	margin-left: 20px;
 }
-.location, .time{
+.event-location, .event-time{
 	display: inline-block;
 }
-.location > img{
+.event-location > img{
 	width: 100px;
 }
-.time, .location ,.quote{
-	font-size: 13px;
+.event-time, .event-location ,.event-quote{
+	font-size: 18px;
+	font-weight:600;
+	color:rgba(20, 20, 20, 0.822);
 	
 }
-.time{
+.event-time{
 	padding-left: 2px;
 }
-.quote{
+.event-quote{
 	width: calc(260px + 90px);
 	padding: 4px 10px;
 }
-.form{
+.event-form{
 	margin-top: 10px;
 	margin-left: 10px
 }
-.form > a{
-	width:140px; /* or whatever width you want. */
-   	max-width:140px;
+.event-form .event-formlink{
+	width:160px; /* or whatever width you want. */
+   	max-width:160px;
 	display: inline-block;
 	background-color: #3cbfaf;
     color: #fff;
@@ -93,37 +107,99 @@ table .date {
     border-radius: 2px;
     text-decoration: none;
 }
-
-
-@media only screen and (max-width: 1180px){
-	.container{
-		margin-bottom: 100px;
+@media only screen and (max-width: 1035px) {
+	.event-container{
+		width: 1035px;
+		min-width: 1035px;
 	}
 }
-@media only screen and (max-width: 950px){
-	.container{
-		width: 100vw;
-		flex-direction: column;
-    	justify-content:space-between;
-		align-items: center;
-		margin-bottom: 100px;
+
+/* @media only screen and (max-width: 1180px){
+	.event-container{
+		margin-bottom: 10px;
 	}
-	.card{
-		margin: 60px 0px;
+} */
+@media only screen and (max-width: 950px){
+	.event-container{
+		width: 1010px;
+		max-width: 1010px;
+		flex-direction: column;
+    	justify-content:center;
+		align-items: center;
+		/* margin-bottom: 10px; */
+	}
+	.event-thumbnail{
+		width: 400px;
+		padding: 0;
+		margin: 0;
+	}
+	.event-card1{
+		width: 550px;
+		max-width: 550px;
+		margin: 30px 0px;
+		padding: 10px 30px;
 		display: inline-block;
 	}
 }
 @media only screen and (max-width: 800px){
-	.container{
-		gap: 120px;
-		margin-bottom: 140px;
+	.event-container{
+		gap: 10px;
+		/* margin-bottom: 10px; */
+		justify-items: center;
 	}
-	.card{
-		width:auto; 
-   		max-width:auto;
+	/* .event-card1{
+		width: 800px; 
+   		max-width:800px;
 		display: inline-block;
 		margin: 0 auto;
 		padding-left: 280px;
 		padding-right: 220px;
+	} */
+}
+
+@media only screen and (max-width: 650px){
+	div .event-title h3{
+		font-size: 48px;
 	}
+	.event-form .event-formlink{
+		font-size: 24px;
+		width: 260px;
+	}
+	.event-location,.event-time,.event-quote{
+		font-size: 32px;
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+}
+@media only screen and (max-width: 650px){
+	.event-card1{
+		width: 850px;
+		max-width: 850px;
+	}
+	.event-thumbnail{
+		width: 550px;
+	}
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+	.event-card1{
+		width: 700px;
+		max-width: 700px;
+	}
+	.event-thumbnail{
+		width: 550px;
+	}
+	.event-location,.event-time,.event-quote{
+		font-size: 24px;
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+	div .event-title h3{
+		font-size: 48px;
+	}
+	.event-form .event-formlink{
+		font-size: 24px;
+		width: 260px;
+	}	
 }

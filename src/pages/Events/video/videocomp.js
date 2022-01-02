@@ -1,24 +1,26 @@
 import React from "react";
 import "./videocomp.css";
+import Heading from "../photo/heading"
 
 const Video = () => {
   return (
-      <>
-          <div className="video-container">
-      <div class="heading">
+    <>
+     <Heading name="Video Section"/>
+          <div className="event-video-container">
+      {/* <div class="heading">
         <div class="headingSec">
           <h1>ShakesJeer</h1>
           <h2>
             Open Mic Series <code>2021</code>
           </h2>
         </div>
-      </div>
+      </div> */}
 
-      <div class="video">
-        <div class="video1">
+      <div class="event-video">
+        <div class="event-video1">
           <iframe
             width="450"
-            height="225"
+            height="300"
             src="https://www.youtube.com/embed/gVvtrOtpdjg"
             title="YouTube video player"
             frameborder="0"
@@ -27,10 +29,10 @@ const Video = () => {
           ></iframe>
         </div>
         <br />
-        <div class="video1">
+        <div class="event-video1">
           <iframe
             width="450"
-            height="225"
+            height="300"
             src="https://www.youtube.com/embed/gVvtrOtpdjg"
             title="YouTube video player"
             frameborder="0"
@@ -38,8 +40,8 @@ const Video = () => {
             allowfullscreen
           ></iframe>
         </div>
-              </div>
-              </div>
+        </div>
+      </div>
     </>
   );
 }
