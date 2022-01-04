@@ -55,28 +55,22 @@ class Footer extends React.Component {
             </h3>
             <ul>
               <li className="quicklinks">
-                <a href>
+                
                   <i className="fas fa-home" />
                   <div className="quicklink_text">Home</div>
-                </a>
+                
               </li>
               <li className="quicklinks">
-                <a href>
                   <i className="fas fa-users" />
                   <div className="quicklink_text">About Us</div>
-                </a>
               </li>
               <li className="quicklinks">
-                <a href>
                   <i className="fas fa-newspaper" />
                   <div className="quicklink_text">Journal</div>
-                </a>
               </li>
               <li className="quicklinks">
-                <a href>
                   <i className="fas fa-tv" />
                   <div className="quicklink_text">Event</div>
-                </a>
               </li>
             </ul>
           </div>
@@ -111,22 +105,22 @@ class Footer extends React.Component {
                 </li>
               </ul>
             </div>
-            <h3 className="location">
+            {/* <h3 className="location">
               Location
               <div className="underline">
                 <span />
               </div>
             </h3>
             <div className=" mapContainer">
-              {/* <Map
+              <Map
                 google={this.props.google}
                 zoom={13}
                 style={mapStyles}
                 initialCenter={{ lat: 28.618, lng: 77.038 }}
               >
                 <Marker position={{ lat: 28.61, lng: 77.038 }} />
-              </Map> */}
-            </div>
+              </Map>
+            </div> */}
           </div>
         </div>
         <hr />

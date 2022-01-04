@@ -20,26 +20,31 @@ footer {
 }
 .row {
   width: 85%;
-  margin-left: 15%;
+  margin: 0 10%;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
 }
 .col {
-  flex-basis: 30%;
+  flex-basis: 25%;
   margin-bottom: 5px;
   padding: 10px;
   text-align: left;
 }
-.col:nth-child(2),
-.col:nth-child(3) {
-  flex-basis: 15%;
+.col:nth-child(3){
+flex-basis: 20%;
+}
+.col:nth-child(4) {
+  flex-basis: 25%;
 }
 .footer-logo {
   width: 160px;
   margin-bottom: 30px;
 }
+/* .col p{
+  width: 50%;
+} */
 .col h3 {
   width: fit-content;
   margin-bottom: 40px;
@@ -64,6 +69,7 @@ ul li a {
 }
 .quicklinks {
   margin-bottom: 30px;
+  cursor: pointer;
 }
 .quicklinks i {
   font-size: 20px;
@@ -78,10 +84,13 @@ ul li a {
 }
 
 .quicklinks:hover {
-  border-bottom: 1px solid #ccc;
+  /* border-bottom: 1px solid #ccc; */
+  color: #f5c656;
   transform: translateX(10px);
 }
-
+.quicklink_text:hover{
+  color: #f5c656;
+}
 form {
   padding-bottom: 15px;
   justify-content: space-between;
@@ -128,9 +137,7 @@ form {
   margin-right: 15px;
   cursor: pointer;
 }
-.location {
-  margin-top: 15px;
-}
+
 .social-icons li {
   display: inline-block;
 }
@@ -165,15 +172,6 @@ hr {
   left: 10px;
   animation: moving 2s linear infinite;
 }
-.mapContainer {
-  height: 10%;
-  width: 25%;
-}
-.mapContainer > div {
-  height: 28% !important;
-
-  width: 20% !important;
-}
 @keyframes moving {
   0% {
     left: -20px;
@@ -189,22 +187,21 @@ hr {
   .col {
     flex-basis: 100%;
   }
-  .col:nth-child(2),
-  .col:nth-child(3) {
+  .col:nth-child(3),
+  .col:nth-child(4){
     flex-basis: 100%;
   }
-  .mapContainer {
-    height: 2% !important;
-    width: 25%;
+
+  .row{
+    align-items: flex-end;
   }
 
-  .mapContainer > div {
-    /* height:8%  !important; */
-    height: 14% !important;
-    width: 60% !important;
+  .row .col:nth-child(1) p , .row .col:nth-child(1) h3{
+    display: none;
   }
-  hr {
-    margin-top: 50%;
+
+  .row .col:nth-child(3) ul , .row .col:nth-child(3) h3{
+    display: none;
   }
 }
 
@@ -231,6 +228,16 @@ hr {
   background-color: #0073a4;
   color: white;
 }
+@media screen and (max-width: 850px) and (min-width:701px){
+  .col{
+    flex-basis: 50%;
+  }
+  .col:nth-child(4),
+  .col:nth-child(3) {
+    flex-basis: 50%;
+  }
+}
+
 @media screen and (min-width: 700px) and (max-width: 772px) {
   .underline {
     position: absolute;

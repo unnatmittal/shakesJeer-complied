@@ -1,0 +1,77 @@
+/* body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+} */
+.jr_componentss{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  flex-wrap: wrap;
+}
+.jr_card {
+  position: relative;
+  width: 600px;
+  height: 460px;
+  cursor: pointer;
+  border-radius: 16px;
+  box-shadow: 0 0 13px 0px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+  overflow: hidden;
+  margin: 1.85rem;
+}
+.jr_card:hover {
+  height: 600px;
+}
+.jr_card img {
+  width: 100%;
+  border-radius: 16px;
+  transition: 0.5s;
+}
+.jr_card:hover img {
+  border-radius: 16px 16px 0 0;
+}
+
+.jr_card .jr_card-body {
+  padding: 0.5rem 0.85rem 1rem;
+  height: 0;
+}
+
+.jr_card .jr_card-body h6 {
+  /* margin: 0.5rem 0; */
+  text-align: center;
+  font-size: 1.5rem;
+  color: crimson;
+  letter-spacing: 3px;  
+  
+}
+.jr_card:hover h6{
+  color: blue;
+  transition: all 1s ease-in-out;
+  transform: scale(1.5);
+}
+.jr_card .jr_card-body p {
+  text-align: justify;
+  padding-top: 10px;
+  font-size: 1.3rem;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+.jr_card .jr_card-body div {
+  text-align: right;
+  width: 100%;
+}
+
+
