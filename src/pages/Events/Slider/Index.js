@@ -37,7 +37,7 @@ const content = [
   }
 ];
 
-const EventSlider = () => (
+const Index = () => (
   <div className="event-slider-main">
     <Slider className="event-slider-wrapper">
       {content.map((item, index) => (
@@ -57,4 +57,4 @@ const EventSlider = () => (
   </div>
 );
 
-export default EventSlider;
+export default Index;

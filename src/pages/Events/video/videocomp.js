@@ -1,11 +1,10 @@
 import React from "react";
 import "./videocomp.css";
 import Heading from "../photo/heading"
-
 const Video = () => {
   return (
     <>
-     <Heading name="Video Section"/>
+      <Heading name="Video Section"/>
           <div className="event-video-container">
       {/* <div class="heading">
         <div class="headingSec">
@@ -19,7 +18,7 @@ const Video = () => {
       <div class="event-video">
         <div class="event-video1">
           <iframe
-            width="450"
+            width="500"
             height="300"
             src="https://www.youtube.com/embed/gVvtrOtpdjg"
             title="YouTube video player"
@@ -31,7 +30,7 @@ const Video = () => {
         <br />
         <div class="event-video1">
           <iframe
-            width="450"
+            width="500"
             height="300"
             src="https://www.youtube.com/embed/gVvtrOtpdjg"
             title="YouTube video player"

@@ -4,7 +4,7 @@
   @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
   .event-video-container{
       width: 100% ;
-      margin-top: 6px;
+      margin: 6px 0;
       /* margin: 0 auto; */
   }
   h1,h2{
@@ -60,8 +60,8 @@
   
   @media screen and (max-width: 1035px) {
     .event-video-container{
-        width: 1035px;
-        max-width: 1035px;
+        /* width: 1035px;
+        max-width: 1035px; */
     }
   }
   @media screen and (max-width: 1000px) {
@@ -72,16 +72,16 @@
         margin-right: 100px; */
     }
   }
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 800px) {
       /* .video-container{
           width: 700px;
           max-width: 700px ;
       } */
-    iframe{
+    /* iframe{
       width: 900px;
       height: 500px;
       margin: 0 ;
-    }
+    } */
     .event-video {
         /* width: 700px;
         max-width: 700px; */
@@ -89,6 +89,29 @@
         grid-template-columns: auto;
     }
   }
+  @media screen and (max-width: 500px){
+    .event-video{
+      padding: 20px;
+      grid-template-columns: 90%;
+      margin:0 auto;
+    }
+    iframe{
+      width: 110%;
+      height: 250px;
+    }
+  }
+  @media screen and (max-width: 410px){
+    .event-video{
+      grid-template-columns: 90%;
+      margin:0;
+      padding: 20px;
+    }
+    iframe{
+      width: 110%;
+      height: 150px;
+    }
+  }
+
   @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
     iframe{
       width: 900px;

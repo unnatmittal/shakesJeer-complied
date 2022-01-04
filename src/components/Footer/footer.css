@@ -12,24 +12,23 @@ footer {
   position: relative;
   bottom: 0;
   /* background-image: linear-gradient(to right,#00093c,#2d0b00); */
-  background-image: linear-gradient(to right, #141e30, #243b55);
+  background: #161616;
   color: #fff;
-  padding: 100px 0 30px;
-  border-top-left-radius: 125px;
+  padding: 30px 0 10px;
   font-size: 13px;
-  line-height: 20px;
+  line-height: 18px;
 }
 .row {
   width: 85%;
-  margin: auto;
+  margin-left: 15%;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
 }
 .col {
-  flex-basis: 25%;
-  margin-bottom: 30px;
+  flex-basis: 30%;
+  margin-bottom: 5px;
   padding: 10px;
   text-align: left;
 }
@@ -37,14 +36,18 @@ footer {
 .col:nth-child(3) {
   flex-basis: 15%;
 }
-.logo {
+.footer-logo {
   width: 160px;
   margin-bottom: 30px;
 }
 .col h3 {
   width: fit-content;
   margin-bottom: 40px;
+  color: #f5c656;
   position: relative;
+}
+.phone_text {
+  color: #ccc;
 }
 .email-id {
   width: fit-content;
@@ -53,11 +56,25 @@ footer {
 }
 ul li {
   list-style: none;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 ul li a {
   text-decoration: none;
   color: #fff;
+}
+.quicklinks {
+  margin-bottom: 30px;
+}
+.quicklinks i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.quicklink_text {
+  display: inline-block;
+  font-size: 20px;
+}
+.footer_text {
+  font-size: 10px;
 }
 
 .quicklinks:hover {
@@ -79,7 +96,7 @@ form {
   margin-right: 10px;
 }
 .input {
-  width: 100%;
+  width: 10%;
   background: transparent;
   color: #ccc;
   border: 0;
@@ -93,7 +110,7 @@ form {
 }
 .fas {
   font: size 16px;
-  color: #ccc;
+  color: #f5c656;
 }
 .social-icons {
   margin-top: 20px;
@@ -120,12 +137,13 @@ form {
 hr {
   width: 90%;
   border: 0;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1.5px solid #ccc;
   margin: 20px auto;
   margin-top: 30px;
 }
 .copyright {
   text-align: center;
+  color: #f5c656;
 }
 .underline {
   width: 100%;
@@ -141,7 +159,7 @@ hr {
   width: 15px;
   height: 100%;
   background: #fff;
-  border-radius: 3px;
+  border-radius: 5px;
   position: absolute;
   top: 0;
   left: 10px;
@@ -212,4 +230,15 @@ hr {
 .fa-linkedin:hover {
   background-color: #0073a4;
   color: white;
+}
+@media screen and (min-width: 700px) and (max-width: 772px) {
+  .underline {
+    position: absolute;
+    top: 40px;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 1066px) {
+  .row {
+    margin-left: 10%;
+  }
 }

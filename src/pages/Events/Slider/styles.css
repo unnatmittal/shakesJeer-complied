@@ -48,19 +48,17 @@ button:hover {
   margin-left: 0;
 }
 
-.event-slider-main{
-  position: relative;
-  top:65px;
-}
-
 .event-slider-wrapper {
   position: relative;
-  height: 90vh;
+  height: 70vh;
   overflow: hidden;
+}
+.event-slider-main{
+  padding-top: 60px;
 }
 
 .slide {
-  height: 90vh;
+  height: 70vh;
   background-size: cover !important;
 }
 
@@ -197,8 +195,8 @@ button:hover {
 @media (max-width: 1035px) {
   .event-slider-wrapper,
   .slide{
-    width:1035px;
-    max-width: 1035px;
+    /* width:1035px;
+    max-width: 1035px; */
   }
 }
 @media (max-height: 500px) {
@@ -211,18 +209,26 @@ button:hover {
 @media (max-width: 640px) {
   .event-slider-wrapper,
   .slide {
-
-    height: 1000px;
+    height: 400px;
   }
-  .event-slider-content .event-inner h1{
-    font-size: 100px;
+   .event-slider-content .event-inner h1{
+    font-size: 40px;
   }
   .event-slider-content .event-inner p{
-    font-size: 28px;
+    font-size: 16px;
   }
+  /*
   .previousButton, .nextButton{
     width: 50px;
     height: 50px;
+  } */
+}
+@media (max-width: 350px) {
+   .event-slider-content .event-inner h1{
+    font-size: 28px;
+  }
+  .event-slider-content .event-inner p{
+    font-size: 12px;
   }
 }
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {

@@ -1,0 +1,55 @@
+.land-headingcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 7px solid rgba(0, 0, 0, 0.623);
+    margin: 35px 0 20px;
+    height: 80px;
+    background-color: #fdca1294 ;
+}
+.land-headingbox{
+    text-align: center;
+    width: 50%;
+    font-family: 'Telefon Black';
+    font-size:45px;
+    font-weight: 900;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    text-decoration: double;
+    margin:0;
+    margin-bottom: -5px;
+    text-shadow: 2px 2px 8px #fdcc0c;
+}
+
+@media screen and (max-width: 1035px) {
+    .land-headingcontainer{
+        width:100%;
+        max-width: 1035px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .land-headingbox{
+        font-size: 2.5rem;
+    }
+    .land-headingcontainer{
+        height: 1.5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .land-headingbox{
+        font-size: 2rem;
+    }
+    .land-headingcontainer{
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .land-headingbox{
+        font-size: 1.5rem;
+    }
+    .land-headingcontainer{
+        height: 40px;
+    }
+}

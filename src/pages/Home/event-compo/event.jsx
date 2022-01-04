@@ -6,16 +6,16 @@ import Trans3 from "./Transpara";
 
 function Event() {
   return (
-    <div className="top">
+    <div className="land-top">
       {/* <div className="set">
       <img className="vari" src={graphic} alt=""></img>
       </div> */}
       <div>
-      <section className = "overlay">
-        <div className="container">
+      <section className = "land-overlay">
+        <div className="land-container">
           <Trans2/>
-          <div className="right">
-            <div className="content">
+          <div className="land-right">
+            <div className="land-content">
               <h1 id="heading10" ><Trans/></h1>
               <p><Trans3/></p>
               

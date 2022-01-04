@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
 
-.slider-wrapper {
+.land-slider-wrapper {
   position: relative;
   top: 65px;
   height: 100vh;
@@ -111,14 +111,14 @@
 
 
 @media (max-height: 500px) {
-  .slider-wrapper,
+  .land-slider-wrapper,
   .slide {
     height: calc(100vh - 75px);
   }
 }
 
 @media (max-width: 640px) {
-  .slider-wrapper,
+  .land-slider-wrapper,
   .slide {
     height: calc(80vh - 75px);
   }

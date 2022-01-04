@@ -4,8 +4,8 @@ import VisibilitySensor from 'react-visibility-sensor';
  
 function Counter(props){
  return(
-  <div className="outer-counter" >
-     <div className = "counter"><CountUp start= {props.start} end={props.end} duration = {props.dura} redraw={true}>
+  <div className="land-outer-counter" >
+     <div className = "land-counter"><CountUp start= {props.start} end={props.end} duration = {props.dura} redraw={true}>
          {({ countUpRef, start }) => (
              <VisibilitySensor onChange={start} delayedCall>
                  <span className = "dimag-kharab" ref={countUpRef} />

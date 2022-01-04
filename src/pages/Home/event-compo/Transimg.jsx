@@ -46,7 +46,7 @@ class Trans2 extends React.Component {
     return (
       
         <div
-          className="left" 
+          className="land-left" 
           style={{ backgroundImage: urlString }}
         ></div>
     );

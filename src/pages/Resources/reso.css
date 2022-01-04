@@ -1,69 +1,69 @@
-.button-effect {
+.res_button-effect {
   padding: 1px 10px;
 }
-.button-effect h2 {
+.res_button-effect h2 {
   font-family: "Roboto", sans-serif;
   font-size: 50px;
   margin-bottom: 60px;
 }
-.button-effect a {
+.res_button-effect a {
   margin-right: 10px;
 }
-.button-effect a:nth-child(2) {
+.res_button-effect a:nth-child(2) {
   background-color: #370d59;
 }
-.button-effect a:nth-child(2):hover {
+.res_button-effect a:nth-child(2):hover {
   background-color: #8920df;
 }
-.button-effect a:nth-child(3) {
+.res_button-effect a:nth-child(3) {
   background-color: #660066;
 }
-.button-effect a:nth-child(3):hover {
+.res_button-effect a:nth-child(3):hover {
   background-color: #ff00ff;
 }
-.button-effect a:nth-child(4) {
+.res_button-effect a:nth-child(4) {
   background-color: #135153;
 }
-.button-effect a:nth-child(4):hover {
+.res_button-effect a:nth-child(4):hover {
   background-color: #2fcad0;
 }
-.button-effect a:nth-child(5) {
+.res_button-effect a:nth-child(5) {
   background-color: #66000e;
 }
-.button-effect a:nth-child(5):hover {
+.res_button-effect a:nth-child(5):hover {
   background-color: #ff0022;
 }
-.button-effect a:nth-child(6) {
+.res_button-effect a:nth-child(6) {
   background-color: #1c204a;
 }
-.button-effect a:nth-child(6):hover {
+.res_button-effect a:nth-child(6):hover {
   background-color: #4650b9;
 }
-.button-effect a:nth-child(7) {
+.res_button-effect a:nth-child(7) {
   background-color: #412539;
 }
-.button-effect a:nth-child(7):hover {
+.res_button-effect a:nth-child(7):hover {
   background-color: #a25d8e;
 }
-.button-effect a:nth-child(8) {
+.res_button-effect a:nth-child(8) {
   background-color: #444b1b;
 }
-.button-effect a:nth-child(8):hover {
+.res_button-effect a:nth-child(8):hover {
   background-color: #a9bb44;
 }
-.button-effect a:nth-child(9) {
+.res_button-effect a:nth-child(9) {
   background-color: #513915;
 }
-.button-effect a:nth-child(9):hover {
+.res_button-effect a:nth-child(9):hover {
   background-color: #cb8f34;
 }
-.button-effect a:last-child {
+.res_button-effect a:last-child {
   margin-right: 0px;
 }
 
-/* button styles !!!YOU NEED THEM 
+/* res_button styles !!!YOU NEED THEM 
   !!!ALSO YOU NEED TO ADD FONTWESOME */
-.effect {
+.res_effect {
   text-align: center;
   display: inline-block;
   position: relative;
@@ -82,10 +82,10 @@
 }
 
 /* effect-1 styles */
-.effect.effect-1 {
+.res_effect.res_effect-1 {
   transition: all 0.2s linear 0s;
 }
-.effect.effect-1:before {
+.res_effect.res_effect-1:before {
   content: "\1F872";
   font-family: FontAwesome;
   font-size: 15px;
@@ -100,10 +100,10 @@
   width: 25px;
   transition: all 0.2s linear 0s;
 }
-.effect.effect-1:hover {
+.res_effect.res_effect-1:hover {
   text-indent: -25px;
 }
-.effect.effect-1:hover:before {
+.res_effect.res_effect-1:hover:before {
   opacity: 1;
   text-indent: 7px;
 }

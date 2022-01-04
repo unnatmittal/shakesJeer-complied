@@ -93,7 +93,7 @@
         padding-top: 0rem;
     }
 }
-.box-area {
+.land-box-area {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -101,7 +101,7 @@
 	height: 210vh;
 	overflow: hidden;
 }
-.box-area li {
+.land-box-area li {
 	position: absolute;
 	display: block;
 	list-style: none;
@@ -112,39 +112,39 @@
 	bottom: -120px;
     z-index: 0;
 }
-.box-area li:nth-child(1) {
+.land-box-area li:nth-child(1) {
 	left: 86%;
 	width: 80px;
 	height: 80px;
 	animation-delay: 0s;
 }
-.box-area li:nth-child(2) {
+.land-box-area li:nth-child(2) {
 	left: 12%;
 	width: 30px;
 	height: 30px;
 	animation-delay: 1.5s;
 	animation-duration: 8s;
 }
-.box-area li:nth-child(3) {
+.land-box-area li:nth-child(3) {
 	left: 70%;
 	width: 100px;
 	height: 100px;
 	animation-delay: 5s;
 }
-.box-area li:nth-child(4) {
+.land-box-area li:nth-child(4) {
 	left: 42%;
 	width: 90px;
 	height: 90px;
 	animation-delay: 0s;
 	animation-duration: 15s;
 }
-.box-area li:nth-child(5) {
+.land-box-area li:nth-child(5) {
 	left: 65%;
 	width: 40px;
 	height: 40px;
 	animation-delay: 0s;
 }
-.box-area li:nth-child(6) {
+.land-box-area li:nth-child(6) {
 	left: 15%;
 	width: 110px;
 	height: 110px;
@@ -170,18 +170,21 @@
 }
 
 
-/* //counter */
-.flex-box{
+/* //land-counter */
+.land-flex-box2{
     display: flex;
     /* justify-content: space-around; */
     /* padding: 50px 50px; */
     /* align-items: center; */
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+      padding: 10px 50px 50px;
+    /* border: solid 5px black; */
 }
 
-.counter{
+.land-counter{
     font-size: 3.8rem;
     /* margin: 0px 55px;   */
     /* border: 3px solid red; */
@@ -190,8 +193,9 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
+
 }
-.outer-counter{
+.land-outer-counter{
     display: flex;  
     align-content: center;
     justify-content: center;
@@ -219,7 +223,7 @@
         width: 25rem;
         height: 24rem;
     }
-    .counter{
+    .land-counter{
         font-size: 120%;
         
     }
@@ -266,14 +270,14 @@
         text-align: center;
         padding: 0rem;
     }
-    .box-area li:nth-child(4){
+    .land-box-area li:nth-child(4){
         display: none;
     }
     .box3second img{
         width: 24rem;
         height: 23rem;
     }
-    .counter{
+    .land-counter{
         font-size: 100%;
         margin: 0px 25px;    
         
@@ -284,7 +288,7 @@
 
 }
 @media (max-width:837px) {
-    .counter{
+    .land-counter{
         font-size: 90%;
         
     }
@@ -306,6 +310,9 @@
     .box3second img{
         width: 20rem;
         height: 19rem;
+    }
+    .land-outer-counter{
+        margin: 0 55px;
     }
 }
 @media (max-width:527px) {
@@ -373,46 +380,65 @@
     }
 }
 
-@media (max-width: 500px){
-    .outer-counter{
+@media (max-width: 510px){
+    .land-outer-counter{
         margin: 0 25px 0;
     }
 }
 @media (max-width: 391px){
-    .outer-counter{
+    .land-outer-counter{
         margin: 0 10px 0;
     }
 }
-@media (max-width: 331px){
-    .outer-counter{
-        margin: 0 0 0;
+
+@media (max-width: 420px){
+    .land-counter{
+        font-size: 70%;
+        
+    }
+    .counter-title{
+        font-size: 70%;
     }
 }
+@media (max-width: 335px){
+    .land-outer-counter{
+        margin-top: 20px;
+    }
+    .land-counter{
+        font-size: 70%;
+        
+    }
+    .counter-title{
+        font-size: 70%;
+    }
+}
+
+
 /* @media (max-width:1497px) {
-    .counter{
+    .land-counter{
         font-size: 200%;
         justify-content: center;
     }
-    .counter-title{
+    .land-counter-title{
         font-size: 100%;
     }
     
 } */
 /* @media (max-width:1095px) {
-    .counter{
+    .land-counter{
         font-size: 180%;
         justify-content: center;
     }
-    .counter-title{
+    .land-counter-title{
         font-size: 80%;
     }
 }
 @media (max-width:1005px) {
-    .counter{
+    .land-counter{
         font-size: 200%;
         
     }
-    .counter-title{
+    .land-counter-title{
         font-size: 100%;
     }
     .containers{

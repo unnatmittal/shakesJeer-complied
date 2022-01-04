@@ -31,7 +31,7 @@ class Trans3 extends Component {
     //   </p>
     // <p>hello</p>
     <div>
-      <p className="trans-para">
+      <p className="land-trans-para">
     <span className="dimag-kharab">{textThatChanges}</span>
      </p>
     </div>

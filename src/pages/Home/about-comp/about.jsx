@@ -24,7 +24,7 @@ const Aboutsection = () => {
                 </div>
             </div>
             <div class="animation-area">
-                <ul class="box-area">
+                <ul class="land-box-area">
                     <li></li>
                     <li></li>
                     <li></li>
@@ -33,7 +33,7 @@ const Aboutsection = () => {
                     <li></li>
                 </ul>
             </div>
-            <div className="flex-box">
+            <div className="land-flex-box2">
                 <Counter start="0" end="5" dura="2" title="Open Mic" />
                 <Counter start="0" end="5" dura="2" title="Venue" />
                 <Counter start="0" end="6" dura="2" title="Members" />

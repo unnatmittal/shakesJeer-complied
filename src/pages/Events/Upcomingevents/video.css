@@ -15,9 +15,8 @@
 .page-event .event-cover {
 	/* background-color: #e0b107e1; */
 	width: calc(98vw +5px);
-	height: 200px;
-	padding: 0px 15px;
-	padding-bottom: 25px;
+	/* height: 75px; */
+	padding: 0 15px;
 	border-bottom: 7px solid rgba(0, 0, 0, 0.623);
 	/* background-image: url('https://goo.gl/NA3iQP'); */
 	/* background-position: center center;
@@ -25,7 +24,7 @@
 }
 .page-event .event-cover .event-heading {
 	font-family: 'Telefon Black';
-	font-size: 150px;
+	font-size: 120px;
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
 	text-align: center;
@@ -45,7 +44,7 @@
 	display: inline-block;
     height: 5vh;
 	margin: 0px auto;
-	/* border-bottom: 7px solid rgba(0, 0, 0, 0.623); */
+	border-bottom: 7px solid rgba(0, 0, 0, 0.623);
 
 	padding: 0;
 
@@ -54,15 +53,15 @@
 	align-items: center;	
 }
 .page-event .upcoming-sec .event-heading {
-	padding : 0;
-	font-size: 25px;
+	padding : 0px 0;
+	font-size: 20px;
 	color: black;
 }
 @media only screen and (max-width: 1035px){
 	.page-event{
-		width: 1035px;
-		max-width: 1035px;
-		padding: 0 130px;
+		/* width: 1035px;
+		max-width: 1035px; */
+		/* padding: 0 130px; */
 		margin: 0;
 	}
 }
@@ -74,9 +73,19 @@
 		display: inline-block;
 	} */
 	.event-cover{
-		width: 770px;
-		padding: 0 130px;
-		margin: 0;
+		/* width: 770px; */
+		/* padding: 0 130px;
+		margin: 0; */
 		/* margin: 0 80px; */
+	}
+}
+@media only screen and (max-width:500px){
+	.page-event .event-cover .event-heading{
+		font-size: 70px;
+	}
+}
+@media only screen and (max-width:300px){
+	.page-event .event-cover .event-heading{
+		font-size: 50px;
 	}
 }

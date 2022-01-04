@@ -48,7 +48,7 @@ const content = [
 
 const NewSlider = () => (
   <div>
-    <Slider className="slider-wrapper">
+    <Slider className="land-slider-wrapper">
       {content.map((item, index) => (
         <div
           key={index}

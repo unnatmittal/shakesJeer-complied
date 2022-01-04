@@ -4,64 +4,66 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 @import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css);
 
-.row {
+.res_row {
   max-width: 1024px;
 }
 
-.resources-heading {
+
+.res_resources-heading {
   margin-top: 70px;
   margin-bottom: -5px;
   color: black;
   font-weight: 800;
   font-size: 40px;
   text-align: center;
+  text-decoration: underline; 
 }
 
-.resources-details {
+.res_resources-details {
   margin-top: 10px;
   color: gray;
   text-align: center;
 }
 
-.button {
-  background-color: grey;
+.res_button {
+  background-color: rgb(3, 2, 2);
   border: none;
-  font-weight: 500;
-  color: aliceblue;
-  padding: 0 7px;
-  border-radius: 5px;
+  font-weight: 700;
+  color: rgb(217, 229, 240);
+  padding: 5px 20px;
+  border-radius: 10px;
 }
 
-.button:hover {
-  background-color: #d84b4b;
+.res_button:hover {
+  background-color: #f6be00;
 }
 
-.main-container {
+.res_main-container {
   position: relative;
   overflow-x: hidden;
   margin-left: 7%;
   margin-right: 7%;
 }
 
-#grid {
+#res_grid {
   margin-bottom: 60px;
   display: grid;
   grid-template-columns: 49% 49%;
   grid-column-gap: 5px;
 }
 @media only screen and (max-width: 900px) {
-  #grid {
+  #res_grid {
     grid-template-columns: 99%;
   }
 }
 
-.book-item {
+.res_book-item {
   display: flex;
   margin: 10px 0;
   padding: 15px;
   list-style-type: none;
 }
-.book-item:after {
+.res_book-item:after {
   content: "";
   position: absolute;
   top: 0;
@@ -74,23 +76,27 @@
   z-index: -1;
   transition: all 250ms ease-out;
 }
-/* .book-item:hover:after {
+/* .res_book-item:hover:after {
   box-shadow: 0px 1px 1px 1px rgba(210, 214, 213, 0.5);
   background-color: blue;
 } */
+.res_book-item:hover{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
 
-.book-item:hover a.button {
+.res_book-item:hover a.button {
   background-color: black;
 }
-.book-item:hover .bk-bookdefault {
+.res_book-item:hover .res_bk-bookdefault {
   transform: rotate3d(0, 1, 0, 25deg);
 }
 
-.book-item h2 {
+.res_book-item h2 {
   font-weight: 800 !important;
+  text-decoration: underline; 
 }
 
-.book-item p:not(.author) {
+.res_book-item p:not(.author) {
   display: block;
   display: -webkit-box;
   font-size: 18px;
@@ -101,16 +107,14 @@
   text-overflow: ellipsis;
 }
 
-.bk-img {
+.res_bk-img {
   position: relative;
-  /* display: inline-block; */
   padding-right: 30px;
   list-style: none;
 }
 
-.bk-img .bk-wrapper {
+.res_bk-img .res_bk-wrapper {
   position: relative;
-  /* border: 2px solid red; */
   width: 140px;
   height: 165px;
   float: left;
@@ -118,11 +122,11 @@
   perspective: 1400px;
 }
 
-.bk-img .bk-wrapper:last-child {
+.res_bk-img .res_bk-wrapper:last-child {
   margin-right: 100;
 }
 
-.bk-img .bk-book {
+.res_bk-img .res_bk-book {
   position: absolute;
   width: 100%;
   height: 175px;
@@ -130,20 +134,20 @@
   transition: transform 0.5s;
 }
 
-.bk-img .bk-book > div,
-.bk-img .bk-front > div {
+.res_bk-img .res_bk-book > div,
+.res_bk-img .res_bk-front > div {
   display: block;
   position: absolute;
 }
 
-.bk-img .bk-front {
+.res_bk-img .res_bk-front {
   transform-style: preserve-3d;
   transform-origin: 0% 50%;
   transition: transform 0.5s;
   transform: translate3d(0, 0, 20px);
   z-index: 10;
 }
-.bk-img .bk-front > div {
+.res_bk-img .res_bk-front > div {
   z-index: 1;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -151,7 +155,7 @@
   border-radius: 0 5px 3px 0;
   box-shadow: inset 10px 0 10px rgba(0, 0, 0, 0.1);
 }
-.bk-img .bk-front:after {
+.res_bk-img .res_bk-front:after {
   content: "...";
   position: absolute;
   top: 1px;
@@ -159,24 +163,24 @@
   left: -1px;
   width: 1px;
 }
-.bk-img .bk-front,
-.bk-img .bk-back,
-.bk-img .bk-front > div {
+.res_bk-img .res_bk-front,
+.res_bk-img .res_bk-back,
+.res_bk-img .res_bk-front > div {
   width: 130px;
   height: 175px;
 }
-.bk-img .bk-left,
-.bk-img .bk-right {
+.res_bk-img .res_bk-left,
+.res_bk-img .res_bk-right {
   width: 40px;
   left: -20px;
 }
 
-.bk-img .bk-left {
+.res_bk-img .res_bk-left {
   height: 175px;
   transform: rotate3d(0, 1, 0, -90deg);
 }
 
-.bk-img .bk-cover:after {
+.res_bk-img .res_bk-cover:after {
   content: "";
   position: absolute;
   top: 0;
@@ -188,7 +192,7 @@
 }
 
 @media only screen and (max-width: 700px) {
-  .book-item_content {
+  .res_book-item_content {
     font-size: 12px !important;
   }
 }

@@ -13,7 +13,7 @@ class Footer extends React.Component {
       <footer>
         <div className="row">
           <div className="col">
-            <img src={logo} alt="incorrect address" className="logo" />
+            <img src={logo} alt="incorrect address" className="footer-logo" />
             <h3>
               About us
               <div className="underline">
@@ -42,7 +42,7 @@ class Footer extends React.Component {
               <i className="far fa-envelope" />
               Email-id :- shakesjeer@nsutac.in
             </p>
-            <h4>
+            <h4 className="phone_text">
               <i class="fas fa-phone"></i> 011 - 5151515
             </h4>
           </div>
@@ -56,26 +56,26 @@ class Footer extends React.Component {
             <ul>
               <li className="quicklinks">
                 <a href>
-                  <i className="fas fa-arrow-right" />
-                  Home
+                  <i className="fas fa-home" />
+                  <div className="quicklink_text">Home</div>
                 </a>
               </li>
               <li className="quicklinks">
                 <a href>
-                  <i className="fas fa-arrow-right" />
-                  About Us
+                  <i className="fas fa-users" />
+                  <div className="quicklink_text">About Us</div>
                 </a>
               </li>
               <li className="quicklinks">
                 <a href>
-                  <i className="fas fa-arrow-right" />
-                  Journal
+                  <i className="fas fa-newspaper" />
+                  <div className="quicklink_text">Journal</div>
                 </a>
               </li>
               <li className="quicklinks">
                 <a href>
-                  <i className="fas fa-arrow-right" />
-                  Events
+                  <i className="fas fa-tv" />
+                  <div className="quicklink_text">Event</div>
                 </a>
               </li>
             </ul>

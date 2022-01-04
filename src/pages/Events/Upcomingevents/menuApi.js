@@ -23,7 +23,28 @@ const Menu = [
         quote: "For a woman to be complete, she has to be a blend of Paro & Chandramukhi. I feel that I am that woman. - Rekha",
         formlink: "www.google.com"
     },
-    
+    // {
+    //     id: 3,
+    //     month: "Jan",
+    //     date: "13",
+    //     title: "Shakesjeer 2",
+    //     imgUrl: Second,
+    //     venue: "Fountain",
+    //     time: "At 4:00pm",
+    //     quote: "For a woman to be complete, she has to be a blend of Paro & Chandramukhi. I feel that I am that woman. - Rekha",
+    //     formlink: "www.google.com"
+    // },
+    // {
+    //     id: 4,
+    //     month: "Jan",
+    //     date: "13",
+    //     title: "Shakesjeer 2",
+    //     imgUrl: Second,
+    //     venue: "Fountain",
+    //     time: "At 4:00pm",
+    //     quote: "For a woman to be complete, she has to be a blend of Paro & Chandramukhi. I feel that I am that woman. - Rekha",
+    //     formlink: "www.google.com"
+    // }
 ];
 
 export default Menu;
