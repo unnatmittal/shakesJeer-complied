@@ -13,21 +13,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 .containerVideo {
   position: relative;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 1000px;
+  width: 900px;
   user-select: none;
   cursor: pointer;
 }
 .containerVideo > .boxVideo {
   position: relative;
   width: 425px;
-  height: 85vh;
+  height: 70vh;
   margin-left: 30px;
   margin-right: 30px;
   background: #000;
@@ -111,7 +111,6 @@
   .containerVideo {
     flex-direction: column;
     justify-content:space-between;
-
   }
   .boxVideo {
     margin-top: 50px;
@@ -120,11 +119,11 @@
   .containerVideo > .boxVideo {
     position: relative;
     width: 400px;
-    height: 90vh;
+    height: 80vh;
     background: #000;
   }
   .containerVideo > .boxVideo > .contentBox > .content{
-    font-size: 1.1em;
+    font-size: 1.8em;
   }
   .containerVideo > .boxVideo > .contentBox {
     font-size: 10px;
@@ -143,9 +142,9 @@
   }
 }
 
-@media only screen and (max-width : 700px) {
+@media only screen and (max-width : 640px) {
   .containerVideo {
-    width: 70vw;
+    /* width: 70vw; */
   }
   .containerVideo > .boxVideo {
     position: relative;
@@ -190,12 +189,15 @@
 @media only screen and (max-width : 420px) {
   .containerVideo{
     width: 20rem;
-    height: calc(70vh*2) ;
+    height: calc(60vh*2) ;
     margin-left: 200px;
     margin-right: 200px;
   }
+  .containerVideo > .boxVideo >.imgBox >img{
+    height: 50vh;
+  }
 }
-@media only screen and (min-width : 320px) and (max-width : 420px) {
+@media only screen  and (max-width : 420px) {
   .containerVideo{
     width: calc(50% * 2);
     margin-left: 400px;

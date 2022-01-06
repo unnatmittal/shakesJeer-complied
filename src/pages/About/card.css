@@ -17,8 +17,9 @@ body {
   padding: 1px 0 1px 0;
 }
 
-li {
+.member {
   list-style: none;
+  margin-bottom: 0;
 }
 
 

@@ -31,7 +31,36 @@
   .event-image-grid-row-2 {
     grid-row: span 2;
   }
-  
+  .photo-seemore{
+    /* opacity: 0.4; */
+  }
+  .photo-seemore:hover{
+    opacity: 1;
+    transform:rotate3d(45deg);
+  }
+  .photo-seemore .seemore{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    font-size: 2em;
+    color: antiquewhite;
+    background-color: black;
+    opacity: 0.5;
+    /* text-decoration: underline; */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .photo-seemore .seemore:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+    
+  }
+  .seemore p{
+    margin: 0;
+  }
   /* ---------------------------------------------- */
   @media screen and (max-width: 1035px) {
     .event-image-grid{

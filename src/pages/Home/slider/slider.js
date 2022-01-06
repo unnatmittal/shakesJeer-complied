@@ -15,7 +15,7 @@ const content = [
     image:
       "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/Vd3bj2jPe/videoblocks-serious-businessman-analyzing-financial-graphs-on-laptop-screen-in-office-interior-happy-professional-looking-at-laptop-positive-business-man-working-on-laptop-computer-at-home-office_rtaxpt7zw_thumbnail-1080_01.png",
     user: "Luan Gjokaj",
-    userProfile: "https://i.imgur.com/JSW6mEk.png"
+    userProfile: "https://i.imgur.com/JSW6mEk.png",
   },
   {
     title: "Tortor Dapibus Commodo Aenean Quam",
@@ -32,7 +32,7 @@ const content = [
     image:
       "https://images.unsplash.com/photo-1570717173024-ec8081c8f8e9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuJTIwd29ya2luZyUyMG9uJTIwY29tcHV0ZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
     user: "Bruno Vizovskyy",
-    userProfile: "https://i.imgur.com/4KeKvtH.png"
+    userProfile: "https://i.imgur.com/4KeKvtH.png",
   },
   {
     title: "Phasellus volutpat metus",
@@ -42,8 +42,8 @@ const content = [
     image:
       "https://images.pexels.com/photos/842567/pexels-photo-842567.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     user: "Bruno Vizovskyy",
-    userProfile: "https://i.imgur.com/4KeKvtH.png"
-  }
+    userProfile: "https://i.imgur.com/4KeKvtH.png",
+  },
 ];
 
 const NewSlider = () => (
@@ -53,7 +53,11 @@ const NewSlider = () => (
         <div
           key={index}
           className="slider-content"
-          style={{ background: `url('${item.image}') no-repeat center center` }}
+          style={{
+            background: `url('${item.image}') no-repeat center center`,
+            width: "100%",
+            height: "100vh",
+          }}
         >
           <div className="inner">
             <h1>{item.title}</h1>

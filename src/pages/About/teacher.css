@@ -164,7 +164,7 @@
     width: 80%;
 }
     .tbox2 p{
-        text-align: center;
+        text-align: justify;
     }
 }
 @media (max-width:600px) {

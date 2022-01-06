@@ -5,6 +5,7 @@ import logo from "./assets/logo.png";
 import logo2 from "./assets/logo2.png";
 import Teacher from "./teacher";
 import Heading from "./heading";
+import Abbout from "./new_about";
 
 import HoneyBlock from "./HoneyBlock";
 // import DepartMentBook from "./DepartMentBook";
@@ -35,12 +36,12 @@ import manasvi from "./assets/members_photo/manasvi.jpeg";
 const About = () => {
   return (
     <div data-aos="fade-up" data-aos-offset="20">
-      <div id="section_logo" style={{ width: "100%" }}>
-        <div className="drop">
-          <img src={logo2} alt="" />
+      {/* <div id="section_logo" style={{ width: "100%" }}> */}
+        {/* <div className="drop"> */}
+          {/* <img src={logo2} alt="" /> */}
           {/* style={{ width: "450px", height: "450px",backgroundColor:"red", borderRadius:"50%" }} */}
-        </div>
-        <div
+        {/* </div> */}
+        {/* <div
           className="about-box"
           data-aos="fade-up"
           data-aos-offset="200"
@@ -55,16 +56,23 @@ const About = () => {
             Stand Ups, Raps and Poetry with a special limelight on the art of
             comedy and wit. ShakesJeer is not confined to the aforementioned
             performances as we believe in augmentation by inculcating new ideas
-            and activities pertaining to open mics.
+            and activities pertaining to open mics. ShakesJeer also specialises
+            in serving palatable content to avid readers, curators or anyone
+            who's just looking for a light hearted read as we release our
+            magazine Shakesjournal annually, starting from the year 2021. We
+            envision success and a stage full of opportunities not only for the
+            students of NSUT but for any person, student or not, across the
+            country with the right passion and the will to participate.
           </p>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
+      <Abbout />
       <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
-        <Heading name="Faculty Incharge" />
+        <Heading name="Faculty Incharge"/>
         <Teacher />
-        <Heading name="Departments" />
+        <Heading name = "Departments"/>
         <Card />
-        <Heading name="Our Team" />
+        <Heading name="Our Team"/>
         <div className="honey">
           {/* <!--col div--> */}
           <div className="comb_0">
@@ -187,7 +195,7 @@ const About = () => {
             />
             </div> */}
       </div>
-      <div className="bubbles">
+      {/* <div className="bubbles">
         <div className="bubble"></div>
         <div className="bubble"></div>
         <div className="bubble"></div>
@@ -238,7 +246,7 @@ const About = () => {
         <div className="bubble"></div>
         <div className="bubble"></div>
         <div className="bubble"></div>
-      </div>
+      </div> */}
     </div>
   );
 };

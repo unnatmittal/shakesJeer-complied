@@ -50,15 +50,15 @@ button:hover {
 
 .event-slider-wrapper {
   position: relative;
-  height: 70vh;
+  height: 65vh;
   overflow: hidden;
 }
-.event-slider-main{
+.event-slider-main {
   padding-top: 60px;
 }
 
 .slide {
-  height: 70vh;
+  height: 100vh;
   background-size: cover !important;
 }
 
@@ -194,7 +194,7 @@ button:hover {
 }
 @media (max-width: 1035px) {
   .event-slider-wrapper,
-  .slide{
+  .slide {
     /* width:1035px;
     max-width: 1035px; */
   }
@@ -211,10 +211,10 @@ button:hover {
   .slide {
     height: 400px;
   }
-   .event-slider-content .event-inner h1{
+  .event-slider-content .event-inner h1 {
     font-size: 40px;
   }
-  .event-slider-content .event-inner p{
+  .event-slider-content .event-inner p {
     font-size: 16px;
   }
   /*
@@ -224,23 +224,21 @@ button:hover {
   } */
 }
 @media (max-width: 350px) {
-   .event-slider-content .event-inner h1{
+  .event-slider-content .event-inner h1 {
     font-size: 28px;
   }
-  .event-slider-content .event-inner p{
+  .event-slider-content .event-inner p {
     font-size: 12px;
   }
 }
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-  .event-slider-content .event-inner p{
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  .event-slider-content .event-inner p {
     font-size: 24px;
   }
-  .event-slider-content .event-inner h1{
+  .event-slider-content .event-inner h1 {
     font-size: 75px;
   }
 }
-
-
 
 /* @media (max-width: 1030px) {
   .event-slider-wrapper,

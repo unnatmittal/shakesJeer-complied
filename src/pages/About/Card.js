@@ -1,9 +1,10 @@
 import React from "react";
-import tech from "./assets/tech.png";
-import gra from "./assets/gra.png";
-import pr from "./assets/pr.png";
-import performer from "./assets/performer.png";
-import cont from "./assets/cont.png";
+import tech from "./assets/tech.gif";
+import gra from "./assets/graph.gif";
+import pr from "./assets/pr.gif";
+import performer from "./assets/perf.gif";
+import cont from "./assets/cont.gif";
+import tres from "./assets/tresure.gif";
 import "./card.css";
 
 function Card() {
@@ -12,7 +13,7 @@ function Card() {
       <ul className="list-members">
         <li className="member">
           <div className="member-image">
-            <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/1.png" alt=".." />
+            <img src={pr} alt=".." />
           </div>
           <div className="member-info">
             <div className="before-info">
@@ -37,7 +38,7 @@ function Card() {
         </li>
         <li className="member">
           <div className="member-image">
-            <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/1.png" alt=".." />
+            <img src={tech} alt=".." />
           </div>
           <div className="member-info">
             <div className="before-info">
@@ -62,7 +63,7 @@ function Card() {
         </li>
         <li className="member">
           <div className="member-image">
-            <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/1.png" alt=".." />
+            <img src={gra} alt=".." />
           </div>
           <div className="member-info">
             <div className="before-info">
@@ -86,7 +87,7 @@ function Card() {
         </li>
         <li className="member">
           <div className="member-image">
-            <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/1.png" alt=".." />
+            <img src={cont} alt=".." />
           </div>
           <div className="member-info">
             <div className="before-info">
@@ -110,7 +111,7 @@ function Card() {
         </li>
         <li className="member">
           <div className="member-image">
-            <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/1.png" alt=".." />
+            <img src={performer} alt=".." />
           </div>
           <div className="member-info">
             <div className="before-info">
@@ -135,7 +136,7 @@ function Card() {
         <li className="member">
           <div className="member-image">
             <img
-              src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/1.png"
+              src={tres}
               alt=".."
             />
           </div>
