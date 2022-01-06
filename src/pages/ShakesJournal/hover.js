@@ -1,97 +1,39 @@
 import React from "react";
 import "./hover.css";
+import "./articles";
+import articles from "./articles";
 
 function Hover() {
   return (
     <>
-     <div className="jr_componentss">
-      <div class="jr_card">
-        <img
-          src="https://source.unsplash.com/user/diegyms/300x200"
-          alt="vitateach"
-        />
-        <div class="jr_card-body">
-          <h6>Vitateach</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sit?
-            Nesciunt porro.adipisicing elit. Sed, sit? Nesciunt porro.
-          </p>
-          <div>
+      <div className="jr_componentss">
+        {articles.map((item) => (
+          <div
+            style={{
+              backgroundColor: item.bgcolor,
+            }}
+            className="jr_card"
+          >
+            <img src={item.img} alt={item.title} />
+            <div className="jr_card-body">
+              <h6
+                style={{
+                  color: item.h_color,
+                }}
+              >
+                {item.title}
+              </h6>
+              <p
+                style={{
+                  color: item.text_color,
+                }}
+              >
+                {item.content}
+              </p>
+              <div></div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="jr_card">
-        <img
-          src="https://source.unsplash.com/user/frantic/300x200"
-          alt="vitateach"
-        />
-        <div class="jr_card-body">
-          <h6>Vitateach</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sit?
-            Nesciunt porro.adipisicing elit. Sed, sit? Nesciunt porro.
-          </p>
-          <div>
-          </div>
-        </div>
-      </div>
-      <div class="jr_card">
-        <img
-          src="https://source.unsplash.com/user/frantic/300x200"
-          alt="vitateach"
-        />
-        <div class="jr_card-body">
-          <h6>Vitateach</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sit?
-            Nesciunt porro.adipisicing elit. Sed, sit? Nesciunt porro.
-          </p>
-          <div>
-          </div>
-        </div>
-      </div>
-      <div class="jr_card">
-        <img
-          src="https://source.unsplash.com/user/frantic/300x200"
-          alt="vitateach"
-        />
-        <div class="jr_card-body">
-          <h6>Vitateach</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sit?
-            Nesciunt porro.adipisicing elit. Sed, sit? Nesciunt porro.
-          </p>
-          <div>
-          </div>
-        </div>
-      </div>
-      <div class="jr_card">
-        <img
-          src="https://source.unsplash.com/user/frantic/300x200"
-          alt="vitateach"
-        />
-        <div class="jr_card-body">
-          <h6>Vitateach</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sit?
-            Nesciunt porro.adipisicing elit. Sed, sit? Nesciunt porro.
-          </p>
-          <div>
-          </div>
-        </div>
-      </div>
-      <div class="jr_card">
-        <img src="https://source.unsplash.com/user/5tep5/300x200" />
-        <div class="jr_card-body">
-          <h6>Vitateach</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sit?
-            Nesciunt porro.adipisicing elit. Sed, sit? Nesciunt porro.
-          </p>
-          <div>
-          </div>
-        </div>
-      </div>
+        ))}
       </div>
     </>
   );

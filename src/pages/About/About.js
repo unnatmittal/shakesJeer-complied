@@ -4,6 +4,7 @@ import "./style/bubble.css";
 import logo from "./assets/logo.png";
 import logo2 from "./assets/logo2.png";
 import Teacher from "./teacher";
+import Heading from "./heading";
 
 import HoneyBlock from "./HoneyBlock";
 // import DepartMentBook from "./DepartMentBook";
@@ -35,17 +36,12 @@ const About = () => {
   return (
     <div data-aos="fade-up" data-aos-offset="20">
       <div id="section_logo" style={{ width: "100%" }}>
-        <div
-          className="section_logo"
-          data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-duration="1000"
-        >
+        <div className="drop">
           <img src={logo2} alt="" />
           {/* style={{ width: "450px", height: "450px",backgroundColor:"red", borderRadius:"50%" }} */}
         </div>
         <div
-          className="box"
+          className="about-box"
           data-aos="fade-up"
           data-aos-offset="200"
           data-aos-duration="800"
@@ -59,40 +55,16 @@ const About = () => {
             Stand Ups, Raps and Poetry with a special limelight on the art of
             comedy and wit. ShakesJeer is not confined to the aforementioned
             performances as we believe in augmentation by inculcating new ideas
-            and activities pertaining to open mics. ShakesJeer also specialises
-            in serving palatable content to avid readers, curators or anyone
-            who's just looking for a light hearted read as we release our
-            magazine Shakesjournal annually, starting from the year 2021. We
-            envision success and a stage full of opportunities not only for the
-            students of NSUT but for any person, student or not, across the
-            country with the right passion and the will to participate.
+            and activities pertaining to open mics.
           </p>
         </div>
       </div>
       <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
-        <h1
-          className="headingEffect"
-          style={{ fontSize: "36px" }}
-          data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-duration="1000"
-        >
-          Faculty Incharge
-        </h1>
+        <Heading name="Faculty Incharge" />
         <Teacher />
-        <h1
-          className="headingEffect"
-          style={{ fontSize: "36px" }}
-          data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-duration="1000"
-        >
-          Departments
-        </h1>
+        <Heading name="Departments" />
         <Card />
-        <h1 className="our_team headingEffect" style={{ fontSize: "36px" }}>
-          Our Team
-        </h1>
+        <Heading name="Our Team" />
         <div className="honey">
           {/* <!--col div--> */}
           <div className="comb_0">

@@ -79,17 +79,29 @@ li {
 }
 
 .before-info h3{
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   padding-top: 10px ;
-  transition: all 1s;
+  transition: all .5s;
   text-align: center;
+  margin-bottom: -10px;
 }
 
 .before-info h6{
   font-size: 1rem;
-  transition: all 1s;
+  transition: all .5s;
 }
 
+.about-showit{
+  display: none;
+  margin-left: 0;
+}
+
+.about-hideit{
+  margin-left: 0;
+}
+.about-firstletter{
+  margin-left: 0;
+}
 .after-info{
   height: 100%;
   width: 100%;
@@ -101,18 +113,25 @@ li {
   align-items: center;
   flex-direction: column;
   transform: translateY(-20px);
-  transition: all .2s;
+  transition: all .1s;
   opacity: 0;
+}
+
+.about-techhead{
+  margin-bottom: 50px;
 }
 
 .after-info p{
   padding: 0 10px;
   font-size: .9rem;
+  margin-top: -40px;
 }
 
 .after-info h4{
-  padding: 0 10px;
-  text-align: center;
+  padding: 0 10px 15px;
+  margin-top: 15px;
+  font-size: 1.2rem;
+  text-align: left;
 }
 
 .before-info:hover h3{ 
@@ -127,7 +146,7 @@ li {
 
 .before-info:hover .after-info{
   transform: translateY(0);
-  transition-delay: 1.2s;
+  transition-delay: .6s;
   opacity: 1;
 }
 
@@ -169,7 +188,7 @@ li {
 
 
 /* Merubah posisi member-image dengan member-info */
-@media screen and (min-width: 771px) {
+@media screen and (min-width: 950px) {
   .member:nth-child(4n+3) .member-info,
   .member:nth-child(4n+4) .member-info {
     order: 1;
@@ -190,7 +209,7 @@ li {
 
 
 /* Mobile Styles */
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 950px) {
   .list-members {
     width: 95%;
   }
@@ -216,5 +235,34 @@ li {
     left: 0;
     right: auto;
     transform: translateY(-50%) rotateZ(180deg);
+  }
+}
+
+@media (max-width: 500px){
+  .about-hideit{
+    display: none;
+  }
+  .about-firstletter{
+    text-transform: uppercase;
+    margin-left: 0;
+  }
+  .before-info h3{
+    font-size: 1rem;
+    margin-bottom: -10px;
+  }
+  .before-info h6{
+    font-size: .8rem;
+  }
+  .about-showit{
+    display: inline;
+    margin-left: 0;
+  }
+  .after-info h4{
+    display: none;
+  }
+
+  .after-info p{
+    margin-top: 10px;
+    font-size: .7rem;
   }
 }

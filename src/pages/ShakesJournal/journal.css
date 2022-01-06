@@ -1,22 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  /* height: 100vh;
-  font-family: "Courier New", Courier, monospace;
-  background: rgb(240, 239, 239); 
-   background: chartreuse; 
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
-  grid-gap: 20px; */
-}
-
-.lastcomponent{
+.lastcomponent {
   margin-bottom: 150px;
 }
-.jr_slidercomponents{
+.jr_slidercomponents {
   margin-top: 0.1px;
 }
-
