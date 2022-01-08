@@ -31,13 +31,15 @@ import Events from "./pages/Events/Events";
 import Resources from "./pages/Resources/Resources";
 import Journal from "./pages/ShakesJournal/journal";
 import Footer from "./components/Footer/Footer";
-import ContactUs from "./pages/Contact Us/ContactUs";
+import ContactUs from "./pages/ContactUs/contact";
+import ScrollToTop from "./components/ScrollToTop";
 //import Hover from "./pages/ShakesJournal/hover";
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Navbar />
         <main>
           <Switch>

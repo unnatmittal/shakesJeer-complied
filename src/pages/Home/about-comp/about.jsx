@@ -20,7 +20,7 @@ const Aboutsection = () => {
                     </div>
                 </div>
                 <div className="box3second">
-                    <img src={pic} alt="mic image" />
+                    <img src={pic} alt="mic" />
                 </div>
             </div>
             <div class="animation-area">

@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.8.3",
     "antd": "^4.17.2",
     "chokidar": "^3.5.2",
+    "emailjs-com": "^3.2.0",
     "google-map-react": "^2.1.10",
     "normalize.css": "^8.0.1",
     "react": "^17.0.2",

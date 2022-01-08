@@ -37,7 +37,8 @@ const Video = () => {
             frameborder="0"
             allow="accelerometer; autoplay;  clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+            ></iframe>
+            <p> <a  href="https://www.youtube.com/channel/UCxjRIS5xt8nvBTT7naTxe7Q"  className="event-video-seemore"> SeeMore...</a> </p>
         </div>
         </div>
       </div>
