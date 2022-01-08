@@ -193,7 +193,7 @@ h1{
 
 .comb_0 {
     display: flex;
-    background-color: #ffeb3b;
+    /* background-color: #ffeb3b; */
     justify-content: center;
     grid-template-columns: 195px 195px 195px 195px;
     margin: -2.2vw 0px 0px 0vw;
@@ -202,7 +202,7 @@ h1{
 .comb_1 {
     display: flex;
     justify-content: center;
-    background-color: #fdd835;
+    /* background-color: #fdd835; */
     grid-template-columns: 195px 195px 195px 195px;
     margin: -2.2vw 0px 0px 0vw;
 }
@@ -210,7 +210,7 @@ h1{
 .comb_2 {
     display: flex;
     justify-content: center;
-    background-color: #fbc02d;
+    /* background-color: #fbc02d; */
     grid-template-columns: 195px 195px 195px 195px;
     margin: -2.2vw 0px 0px 0vw;
 }
@@ -218,7 +218,7 @@ h1{
 .comb_3 {
     display: flex;
     justify-content: center;
-    background-color: #f9a825;
+    /* background-color: #f9a825; */
     grid-template-columns: 15px 15px 95px 15px;
     margin: -2.2vw 0px 0px 0vw;
 }
@@ -373,7 +373,11 @@ h1{
 .honey {
     /* background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%); */
     /* background:linear-gradient( #fac117 , #f8e856 ); */
-    background:linear-gradient( #ffe608,#ff9900  );
+    /* background:linear-gradient( #ffe608,#ff9900  ); */
+    background-image: url(/src/pages/About/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding-top: 40px;
     padding-bottom: 40px;
     margin: 0px auto;
