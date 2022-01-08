@@ -2,6 +2,7 @@ import React, { Component } from "react";
 //import { Map, GoogleApiWrapper, Marker } from "google-maps-react";
 import logo from "./logo.png";
 import "./footer.css";
+import { Link } from "react-router-dom";
 const mapStyles = {
   width: "100%",
   height: "100%",
@@ -57,20 +58,20 @@ class Footer extends React.Component {
               <li className="quicklinks">
                 
                   <i className="fas fa-home" />
-                  <div className="quicklink_text">Home</div>
+                  <Link to="/"className="quicklink_text">Home</Link>
                 
               </li>
               <li className="quicklinks">
                   <i className="fas fa-users" />
-                  <div className="quicklink_text">About Us</div>
+                  <Link to="/about" className="quicklink_text">About Us</Link>
               </li>
               <li className="quicklinks">
                   <i className="fas fa-newspaper" />
-                  <div className="quicklink_text">Journal</div>
+                  <Link to="/shakesjournal"className="quicklink_text">Journal</Link>
               </li>
               <li className="quicklinks">
                   <i className="fas fa-tv" />
-                  <div className="quicklink_text">Event</div>
+                  <Link to="/events"className="quicklink_text">Event</Link>
               </li>
             </ul>
           </div>
