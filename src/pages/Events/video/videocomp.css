@@ -66,18 +66,24 @@
     font-size: 1.5em;
     font-weight: 600;
     text-shadow: #acacac;
-    text-decoration: underline;
   }
   .event-video-seemore:hover{
-    color:rgba(255, 0, 0, 0.664);
+    color:rgba(0, 0, 0, 0.664);
     transform: scale(1.4);
-    text-decoration: underline;
   }
   @media screen and (max-width: 1035px) {
-    
+    .event-video-container{
+        /* width: 1035px;
+        max-width: 1035px; */
+    }
   }
   @media screen and (max-width: 1000px) {
-    
+    .event-video-container{
+        /* width: 800px;
+        max-width: 800px; */
+        /* margin-left: 100px;
+        margin-right: 100px; */
+    }
   }
   @media screen and (max-width: 800px) {
       /* .video-container{
