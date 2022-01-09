@@ -4,7 +4,7 @@ import Menu from "./menuApi.jsx";
 import Videocard from "./Videocard.jsx";
 
 const Video = () => {
-  const [menuData] = React.useState(Menu);
+  const [menuData, setMenuData] = React.useState(Menu);
 
   return (
     <>

@@ -3,7 +3,7 @@
     padding: 0;
 }
 .containers{
-    padding: 4rem 0;
+    padding: 4rem 0 0;
     /* box-sizing: none; */
     font-size: 2rem;
     width: 100%;
@@ -16,6 +16,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .box2, .box3{
     margin:0rem 12rem;
 }
@@ -244,7 +245,7 @@
         margin: 0rem 7rem;
     }
     .box2{
-        text-align: center;
+        text-align: justify;
     }
     .text1,.text12,.line{
         font-size: 100%;
@@ -258,6 +259,7 @@
         flex-direction:column-reverse;
         align-items: center;
         flex-wrap: wrap;
+        padding-bottom: 0;
     }
     .box3first{
         width:100%;
@@ -267,7 +269,7 @@
     .box3firstcontent{
         font-size: 80%;
         height: 40vh;
-        text-align: center;
+        text-align: justify;
         padding: 0rem;
     }
     .land-box-area li:nth-child(4){
@@ -312,7 +314,11 @@
         height: 19rem;
     }
     .land-outer-counter{
-        margin: 0 55px;
+        margin: 0 65px;
+    }
+    .land-flex-box2{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 @media (max-width:527px) {
@@ -326,6 +332,20 @@
     .box3second img{
         width: 15rem;
         height: 15rem;
+    }
+}
+@media (max-width:500px){
+    .land-counter{
+        font-size: 80%;
+    }
+    .counter-title{
+        font-size: 70%;
+    }
+    .land-outer-counter{
+        margin-left: 50px;
+    }
+    .box3{
+        padding-bottom: 20px;
     }
 }
 @media (max-width:485px) {
@@ -350,6 +370,18 @@
     .box3firstcontent{
         height: 30vh;
         font-size: 70%;
+    }
+    .land-outer-counter{
+        margin: 0 100px;
+    }
+}
+
+@media (max-width: 372px){
+    .land-flex-box2{
+        margin-bottom: 10px;
+    }
+    .box3{
+        padding-bottom: 40px;
     }
 }
 @media (max-width:321px) {
@@ -381,13 +413,17 @@
 }
 
 @media (max-width: 510px){
+    .land-flex-box2{
+        padding-left: 0;
+        padding-right: 0;
+    }
     .land-outer-counter{
-        margin: 0 25px 0;
+        margin: 0 50px 0;
     }
 }
 @media (max-width: 391px){
     .land-outer-counter{
-        margin: 0 10px 0;
+        margin: 0 25px 0;
     }
 }
 
@@ -403,6 +439,7 @@
 @media (max-width: 335px){
     .land-outer-counter{
         margin-top: 20px;
+        margin-bottom: 10px;
     }
     .land-counter{
         font-size: 70%;
@@ -412,7 +449,6 @@
         font-size: 70%;
     }
 }
-
 
 /* @media (max-width:1497px) {
     .land-counter{
@@ -445,3 +481,6 @@
         margin-bottom: -150px 0;
     }
 } */
+
+
+

@@ -20,18 +20,18 @@ const Aboutsection = () => {
                     </div>
                 </div>
                 <div className="box3second">
-                    <img src={pic} alt="mic" />
+                    <img src={pic} alt="mic image" />
                 </div>
             </div>
             <div class="animation-area">
-                <ul class="land-box-area">
+                {/* <ul class="land-box-area">
                     <li></li>
                     <li></li>
                     <li></li>
                     <li></li>
                     <li></li>
                     <li></li>
-                </ul>
+                </ul> */}
             </div>
             <div className="land-flex-box2">
                 <Counter start="0" end="5" dura="2" title="Open Mic" />

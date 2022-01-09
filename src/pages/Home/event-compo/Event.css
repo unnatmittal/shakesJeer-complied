@@ -6,7 +6,7 @@
 }
 
 .land-overlay{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -186,7 +186,7 @@
         font-size: 2rem;
     }
     .land-container{
-        margin-top: -130px ;
+        padding-bottom: 130px ;
         
     }
 
@@ -195,6 +195,22 @@
 .dimag-kharab{
     margin-left: 0;
 }
+
+/* @media (max-height:920px){
+    .land-container{
+        margin-top: -320px;
+    }
+   
+}
+
+@media (max-height:750px){
+    .land-container{
+        margin-top: -130px;
+    }
+   
+} */
+
+
 
 /* @media only screen and (max-width : 760px){
     .land-container
