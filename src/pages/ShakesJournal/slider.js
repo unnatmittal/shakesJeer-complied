@@ -47,13 +47,13 @@ const content = [
 ];
 
 const NewSlider = () => (
-  <div>
+  <div className="jr-sliderMain">
     <Slider className="slider-wrapper">
       {content.map((item, index) => (
         <div
           key={index}
           className="slider-content"
-          style={{ background: `url('${item.image}') no-repeat center center` }}
+          style={{ background: `url('${item.image}') no-repeat center center`, width:"100%", height:"70vh" }}
         >
           <div className="inner">
             <h1>{item.title}</h1>

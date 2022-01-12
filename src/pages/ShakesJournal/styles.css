@@ -2,13 +2,16 @@
 
 .slider-wrapper {
   position: relative;
-  height: 65vh;
+  height: 70vh;
   overflow: hidden;
 }
 
 .slide {
   height: 100vh;
   background-size: cover !important;
+}
+.jr-sliderMain{
+  padding-top: 65px;
 }
 
 .slide::before {
