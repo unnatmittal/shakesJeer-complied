@@ -30,8 +30,8 @@ export default function Contact() {
                                     <div className="fas fa-map-marker-alt"></div>
                                 </span>
                                 <span >
-                                    Lorem ipsum dolor sit amet.<br />
-                                    Lorem, ipsum.
+                                    Sector-3,Dwarka Road.<br />
+                                    Pincode :- 110078.
                                 </span>
                             </li>
                             <li >
@@ -47,7 +47,7 @@ export default function Contact() {
                                     <div className="fas fa-phone-volume"></div>
                                 </span>
                                 <span >
-                                    254-684-329
+                                   +91 9315911429
                                 </span>
                             </li>
                         </ul>
