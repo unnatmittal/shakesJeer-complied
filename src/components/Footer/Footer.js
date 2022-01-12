@@ -22,10 +22,7 @@ class Footer extends React.Component {
               </div>
             </h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
-              quis nesciunt, quasi quaerat consequuntur dignissimos ratione
-              culpa? Quaerat repudiandae aperiam, Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit.
+              ShakesJeer is a group of exceptionally driven students who are dedicated to our mission of giving opportunities and a platform for NSUT students to express themselves creatively through various open mics, allowing them to showcase their humor and wit. Our magazine "ShakesJournal" also aims to provide a fantastic platform for writers of NSU
             </p>
           </div>
           <div className="col">
