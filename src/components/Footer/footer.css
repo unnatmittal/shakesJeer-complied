@@ -56,7 +56,7 @@ flex-basis: 20%;
 }
 .email-id {
   width: fit-content;
-  border-bottom: 1px solid #ccc;
+  text-decoration: none;
   margin: 20px 0;
 }
 ul li {

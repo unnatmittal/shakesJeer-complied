@@ -22,7 +22,7 @@ class Footer extends React.Component {
               </div>
             </h3>
             <p>
-              ShakesJeer is a group of exceptionally driven students who are dedicated to our mission of giving opportunities and a platform for NSUT students to express themselves creatively through various open mics, allowing them to showcase their humor and wit. Our magazine "ShakesJournal" also aims to provide a fantastic platform for writers of NSU
+              ShakesJeer is a group of exceptionally driven students who are dedicated to our mission of giving opportunities and a platform for NSUT students
             </p>
           </div>
           <div className="col">
@@ -35,13 +35,13 @@ class Footer extends React.Component {
             <p>Sector-3,Dwarka Road</p>
             <p>Dwarka</p>
             <p>New Delhi</p>
-            <p>Pincode :-110078,India</p>
+            <p>Pincode :-110078, India</p>
             <p className="email-id">
               <i className="far fa-envelope" />
-              Email-id :- shakesjeer@nsutac.in
+              Email-id :- shakesjeer.nsutd@gmail.com
             </p>
             <h4 className="phone_text">
-              <i class="fas fa-phone"></i> +91 9315911429
+              <i class="fas fa-phone"></i> +91-9315911429
             </h4>
           </div>
           <div className="col">

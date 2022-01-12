@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
 import "./Navbar.css";
 import { IconContext } from "react-icons";
@@ -11,9 +11,10 @@ import yellowlogo_lightbg from "./yellowlogo_lightbg.png";
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
-
+  let location = useLocation();
   const showSidebar = () => setSidebar(!sidebar);
-
+console.log(location.pathname);
+const path = location.pathname.substr(1).toUpperCase();
   return (
     <>
       <IconContext.Provider value={{ color: "#fec701" }}>
@@ -46,6 +47,7 @@ function Navbar() {
                 height="75px"
               />
             </div>
+            <p className="npath">{path}</p>
             <Link to="#" className="menu-bars">
               <FaIcons.FaBars onClick={showSidebar} />
             </Link>
