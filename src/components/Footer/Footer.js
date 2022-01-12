@@ -32,16 +32,16 @@ class Footer extends React.Component {
                 <span />
               </div>
             </h3>
-            <p>Lorem</p>
-            <p>lipsum</p>
+            <p>Sector-3,Dwarka Road</p>
+            <p>Dwarka</p>
             <p>New Delhi</p>
-            <p>Pincode :-0092,India</p>
+            <p>Pincode :-110078,India</p>
             <p className="email-id">
               <i className="far fa-envelope" />
               Email-id :- shakesjeer@nsutac.in
             </p>
             <h4 className="phone_text">
-              <i class="fas fa-phone"></i> 011 - 5151515
+              <i class="fas fa-phone"></i> +91 9315911429
             </h4>
           </div>
           <div className="col">
