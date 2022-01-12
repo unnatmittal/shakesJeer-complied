@@ -28,7 +28,7 @@
     min-width: 1100px;
     min-height: 550px;
     display: flex;
-    z-index: 1000;
+    z-index: 2;
 }
 .c-container .c-contactinfo{
     border-radius: 3px;

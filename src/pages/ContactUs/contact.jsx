@@ -60,9 +60,6 @@ export default function Contact() {
                         <li ><a href="https://www.instagram.com/shakesjeer.nsut/" target="_blank" className="fab c-insta fa-instagram"></a></li>
                     </ul>
                 </div>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque eos autem sequi quam repellat, voluptate maxime ad? Aut ipsam ab maiores perspiciatis quaerat.
-                </p>
                 <div className="c-contactform">
                 {status && renderAlert()}
                     <h2>Send us a Message</h2>
