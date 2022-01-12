@@ -24,6 +24,21 @@ const Photo = () => {
       <a href="myphotos.htm/Flag-India.jpg">
         <img src={one} alt="architecture" />
       </a>
+      <a href="myphotos.htm/Flag-India.jpg">
+        <img src={one} alt="architecture" />
+      </a>
+      <a href="myphotos.htm/Flag-India.jpg">
+        <img src={one} alt="architecture" />
+      </a>
+      <a href="myphotos.htm/Flag-India.jpg" >
+        <img src={one} alt="architecture" />
+      </a>
+      <a href="myphotos.htm/Flag-India.jpg" className="photo-seemore">
+          <img src={one} alt="architecture" />
+          <div className="seemore">
+            <p>See More</p>
+          </div>
+      </a>
       </div>
       </>
   );
