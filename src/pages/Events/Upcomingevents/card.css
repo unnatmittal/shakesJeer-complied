@@ -17,10 +17,6 @@
   align-items: center;
   margin: 20px 0;
   padding: 20px 0;
-  /* background-color: #220c0c !important; */
-}
-table {
-  /* margin-left: 20px; */
 }
 td:nth-child(1) {
   margin-left: 30px;
@@ -33,25 +29,27 @@ td:nth-child(1) {
 
 .event-card1 {
   width: 43vw;
-  /* height: 65vh; */
   margin: 20px 0px;
   margin-bottom: 10px;
   padding: 10px;
   /* background-color: #212121 !important; */
   font-family: "Varela Round", sans-serif;
   color: black;
-
   background: linear-gradient(135deg, #f76b1c 0%, #fad961 100%);
-  /* background-color: #ffb503; */
-  /* backdrop-filter: blur(20px); */
-
   border-radius: 8px;
   box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.2);
+}
+table{
+  vertical-align:text-top;
+  width: 100%;
+}
+td:nth-child(1){
+  width:10% ;
 }
 table .month {
   text-transform: uppercase;
   color: #a1045a;
-  font-size: 36px;
+  font-size: 28px;
   transform: scaleY(1.9);
   margin-left: 7px;
   font-weight: 700;
@@ -63,7 +61,7 @@ table .month-date-devider {
   height: 5px;
 }
 table .date {
-  font-size: 60px;
+  font-size: 42px;
   font-weight: bold;
   line-height: normal;
   color: #fff;
@@ -75,7 +73,7 @@ table .date {
 .event-thumbnail {
   /* padding: 0 20px; */
   padding-right: 0;
-  width: 34vw;
+  width: 100%;
 }
 .event-title > h3 {
   font-size: 25px;
@@ -160,17 +158,9 @@ table .date {
 @media only screen and (max-width: 800px) {
   .event-container {
     gap: 10px;
-    /* margin-bottom: 10px; */
     justify-items: center;
   }
-  /* .event-card1{
-		width: 800px; 
-   		max-width:800px;
-		display: inline-block;
-		margin: 0 auto;
-		padding-left: 280px;
-		padding-right: 220px;
-	} */
+  
 }
 @media only screen and (max-width: 700px) {
   .event-card1 {
@@ -178,11 +168,22 @@ table .date {
   }
 }
 @media only screen and (max-width: 650px) {
+  .event-container {
+    padding: 0;
+    margin: 0;
+  }
   .event-location,
+  table .month {
+    font-size: 24px;
+  }
+  table .date {
+    font-size: 40px;
+  }
   .event-time,
   .event-quote {
     font-size: 14px;
-    width: auto;
+    width: 100%;
+    
     margin: 0;
     padding: 0;
   }
@@ -196,64 +197,24 @@ table .date {
     position: relative;
     left: -5%;
   }
-  table .month {
-    font-size: 24px;
-  }
-  table .date {
-    font-size: 40px;
-  }
-}
-@media only screen and (max-width: 650px) {
-  /* div .event-title h3{
-		font-size: 48px;
-	}
-	.event-form .event-formlink{
-		font-size: 24px;
-		width: 260px;
-	} */
-  /* .event-location,.event-time, */
   .event-card1 {
     padding: 10px 20px;
   }
   .event-quote {
     font-size: 14px;
     width: 100%;
-    /* width: auto;
-		margin: 0;
-		padding: 0; */
   }
-  /* td:nth-child(1) {
-		width: 10%;
-		margin: 0;
-		padding: 0;
-		background: red;
-	}
-	td:nth-child(2) {
-		background: red;
-	} */
+  
 }
-@media only screen and (max-width: 650px) {
-  .event-container {
-    padding: 0;
-    margin: 0;
-  }
-}
-@media only screen and (max-width: 350px) {
-  .event-card1 {
+@media only screen and (max-width: 500px) {
+  .event-card1{
     width: 80%;
-    /* width: 850px;
-		max-width: 850px; */
   }
-  .event-thumbnail {
-    /* width: 550px; */
-  }
-}
-@media only screen and (max-width: 350px) {
   table .month {
-    font-size: 20px;
+    font-size: 24px;
   }
   table .date {
-    font-size: 24px;
+    font-size: 28px;
     /* background-color: blue; */
     margin-left: 2.5vw;
     margin-right: 2vw;
@@ -266,6 +227,27 @@ table .date {
   }
   .event-title {
     margin-top: 3vh;
+  }
+}
+@media only screen and (max-width:335px) {
+  .event-title {
+    margin-top: 3vh;
+  }
+  table .month {
+    font-size:18px;
+    margin: 0;
+  }
+  table .date {
+    font-size: 22px;
+    margin: 0;
+  }
+  table .month-date-devider {
+    width: 6vh;
+  }
+  .event-thumbnail{
+    height:20vh;
+    width:105%;
+    margin: 0 0 0 6px;
   }
 }
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {

@@ -4,9 +4,9 @@ import card from "./Upcomingevents/card";
 import Index from "./Slider/Index"
 import Photo from "./photo/photo";
 import Video from "./video/videocomp";
+import "./Events.css";
 function Events() {
   return (
-  
       <div className="EventOuter">
         <Index />
         <Main />

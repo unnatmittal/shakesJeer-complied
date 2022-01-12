@@ -5,6 +5,7 @@ import "normalize.css/normalize.css";
 import "./slider-animations.css";
 import "./styles.css";
 import Image from './Cover.png';
+import Cover02 from './Cover02.jpeg'
 const content = [
   {
     title: "ShakesJeer Open Mic Event",
@@ -12,7 +13,7 @@ const content = [
       "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.",
     button: "Read More",
     image:
-      Image,
+      Cover02,
     user: "An Admin",
     userProfile: "https://i.imgur.com/JSW6mEk.png"
   },
@@ -21,7 +22,7 @@ const content = [
     description:
       "Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.",
     button: "Discover",
-    image: "https://i.imgur.com/DCdBXcq.jpg",
+    image: Image,
     user: "Erich Behrens",
     userProfile: "https://i.imgur.com/0Clfnu7.png"
   },
@@ -49,7 +50,6 @@ const Index = () => (
           <div className="event-inner">
             <h1>{item.title}</h1>
             <p>{item.description}</p>
-            <button>{item.button}</button>
           </div>
         </div>
       ))}

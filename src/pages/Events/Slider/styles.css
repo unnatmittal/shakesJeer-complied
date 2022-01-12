@@ -209,7 +209,11 @@ button:hover {
 @media (max-width: 640px) {
   .event-slider-wrapper,
   .slide {
-    height: 400px;
+    height: 335px;
+  }
+  .event-slider-content .event-inner {
+    position: absolute;
+    top: 54%;
   }
    .event-slider-content .event-inner h1{
     font-size: 40px;
@@ -223,7 +227,11 @@ button:hover {
     height: 50px;
   } */
 }
-@media (max-width: 350px) {
+@media (max-width: 385px) {
+  .event-slider-wrapper,
+  .slide {
+    height: 335px;
+  }
    .event-slider-content .event-inner h1{
     font-size: 28px;
   }
