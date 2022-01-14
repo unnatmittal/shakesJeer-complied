@@ -173,12 +173,19 @@ span {
 
 .npath{
   text-decoration: none;
-  color: #f2f2f2;
-  font-size: 150%;
+  font-size: 200%;
   font-weight: bold;
-  margin-top: 40px;
+  margin-top: 22px;
+  font-family: 'Rubik Beastly', cursive;
   color:#fec701;
+  animation: blinker 2s step-start infinite;
 }
+@keyframes blinker {
+  50% {
+    opacity: 0.8;
+  }
+}
+
 @media only screen and (max-width:500px){
   .npath{
     display: none;
