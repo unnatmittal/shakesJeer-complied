@@ -13,8 +13,8 @@ function Navbar() {
   const [sidebar, setSidebar] = useState(false);
   let location = useLocation();
   const showSidebar = () => setSidebar(!sidebar);
-console.log(location.pathname);
-const path = location.pathname.substr(1).toUpperCase();
+  console.log(location.pathname);
+  const path = location.pathname.substr(1).toUpperCase();
   return (
     <>
       <IconContext.Provider value={{ color: "#fec701" }}>
@@ -40,12 +40,14 @@ const path = location.pathname.substr(1).toUpperCase();
           </nav>
           <div className="navbar">
             <div className="logo">
-              <img
-                src={yellowlogo_lightbg}
-                alt="logo"
-                width="110px"
-                height="75px"
-              />
+              <Link to="/">
+                <img
+                  src={yellowlogo_lightbg}
+                  alt="logo"
+                  width="110px"
+                  height="75px"
+                />
+              </Link>
             </div>
             <p className="npath">{path}</p>
             <Link to="#" className="menu-bars">

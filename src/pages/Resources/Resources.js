@@ -22,7 +22,10 @@ function Resources() {
 
   return (
     <div className="res_app">
-      <div id="res_main-container" className="res_main-container res_nav-effect-1">
+      <div
+        id="res_main-container"
+        className="res_main-container res_nav-effect-1"
+      >
         <div
           className="res_main res_clearfix"
           style={{ filter: isModalVisible ? "blur(20px)" : "blur(0px)" }}
@@ -31,12 +34,10 @@ function Resources() {
             <div>
               <p className="res_resources-heading">University Resources</p>
               <p className="res_resources-details">
-              Get stuck in your studies or don't have the proper material! No worries, we are right here to help you out. We came up with a one-stop solution for all your problems.
-Resource Hub
-Here you will find your subject Notes, Books and Lecture videos to assist your way out.
-
-If you don't find your subject here, you can mail all those subject names to the mail address given on the website.
-We will add all those subjects to the resource hub as soon as possible.
+                "ShakesJeer has volunteered to assist NSUT students by providing
+                study materials and tools to aid students with their semester
+                exams. This also helps us in forming a community of people who
+                are willing to help and care for one another"
               </p>
             </div>
             <section id="res_book_list">
@@ -67,7 +68,9 @@ We will add all those subjects to the resource hub as soon as possible.
                         </div>
                         <div className="res_item-details">
                           <h2 className="res_book-item_title">{data.course}</h2>
-                          <p className="res_book-item_content">{data.content}</p>
+                          <p className="res_book-item_content">
+                            {data.content}
+                          </p>
                           <button className="res_button" onClick={showModal}>
                             Details
                           </button>
@@ -97,6 +100,7 @@ We will add all those subjects to the resource hub as soon as possible.
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem1}
+                              target="_blank"
                               title="Sem-1"
                             >
                               1
@@ -104,6 +108,7 @@ We will add all those subjects to the resource hub as soon as possible.
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem2}
+                              target="_blank"
                               title="Sem-2"
                             >
                               2
@@ -111,6 +116,7 @@ We will add all those subjects to the resource hub as soon as possible.
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem3}
+                              target="_blank"
                               title="Sem-3"
                             >
                               3
@@ -118,6 +124,7 @@ We will add all those subjects to the resource hub as soon as possible.
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem4}
+                              target="_blank"
                               title="Sem-4"
                             >
                               4
@@ -125,6 +132,7 @@ We will add all those subjects to the resource hub as soon as possible.
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem5}
+                              target="_blank"
                               title="Sem-5"
                             >
                               5
@@ -132,6 +140,7 @@ We will add all those subjects to the resource hub as soon as possible.
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem6}
+                              target="_blank"
                               title="Sem-6"
                             >
                               6
@@ -139,6 +148,7 @@ We will add all those subjects to the resource hub as soon as possible.
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem7}
+                              target="_blank"
                               title="Sem-7"
                             >
                               7
@@ -146,6 +156,7 @@ We will add all those subjects to the resource hub as soon as possible.
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem8}
+                              target="_blank"
                               title="Sem-8"
                             >
                               8

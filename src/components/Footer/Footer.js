@@ -22,7 +22,9 @@ class Footer extends React.Component {
               </div>
             </h3>
             <p>
-              ShakesJeer is a group of exceptionally driven students who are dedicated to our mission of giving opportunities and a platform for NSUT students
+              ShakesJeer is a group of exceptionally driven students who are
+              dedicated to our mission of giving opportunities and a platform
+              for NSUT students
             </p>
           </div>
           <div className="col">
@@ -32,13 +34,12 @@ class Footer extends React.Component {
                 <span />
               </div>
             </h3>
-            <p>Sector-3,Dwarka Road</p>
-            <p>Dwarka</p>
-            <p>New Delhi</p>
+            <p>Sector-3, Dwarka Road</p>
+            <p>Dwarka, New Delhi</p>
             <p>Pincode :-110078, India</p>
             <p className="email-id">
               <i className="far fa-envelope" />
-              Email-id :- shakesjeer.nsutd@gmail.com
+              shakesjeer.nsutd@gmail.com
             </p>
             <h4 className="phone_text">
               <i class="fas fa-phone"></i> +91-9315911429
@@ -53,22 +54,28 @@ class Footer extends React.Component {
             </h3>
             <ul>
               <li className="quicklinks">
-                
-                  <i className="fas fa-home" />
-                  <Link to="/"className="quicklink_text">Home</Link>
-                
+                <i className="fas fa-home" />
+                <Link to="/" className="quicklink_text">
+                  Home
+                </Link>
               </li>
               <li className="quicklinks">
-                  <i className="fas fa-users" />
-                  <Link to="/about" className="quicklink_text">About Us</Link>
+                <i className="fas fa-users" />
+                <Link to="/about" className="quicklink_text">
+                  About Us
+                </Link>
               </li>
               <li className="quicklinks">
-                  <i className="fas fa-newspaper" />
-                  <Link to="/shakesjournal"className="quicklink_text">Journal</Link>
+                <i className="fas fa-newspaper" />
+                <Link to="/shakesjournal" className="quicklink_text">
+                  Journal
+                </Link>
               </li>
               <li className="quicklinks">
-                  <i className="fas fa-tv" />
-                  <Link to="/events"className="quicklink_text">Event</Link>
+                <i className="fas fa-tv" />
+                <Link to="/events" className="quicklink_text">
+                  Event
+                </Link>
               </li>
             </ul>
           </div>
