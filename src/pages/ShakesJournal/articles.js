@@ -1,64 +1,46 @@
+import images from './images/oscar.jpeg'
 const articles = [
   {
     key: 1,
     title: "Border-Gavaskar",
     content:
-      "lorvbbbbbbbbbowdubjsnvwvwcncq iddwudgdhv sajhcvcas yiweiebciwuc bli",
-    img: "https://source.unsplash.com/user/diegyms/300x200",
-    bgcolor: "orange",
-    h_color: "teal",
-    text_color: "white",
+      "The tale captures all of the excitement, passion, and tension as Indians lifted their 10th title when they locked horns with their age rivals Australians on the field of cricket for the Border-Gavaskar Trophy.",
+    img: images,
+    bgcolor: "#fdfdfd",
+    h_color: "rgb(30 50 56)",
+    text_color: "rgb(243 183 49)",
   },
   {
     key: 2,
-    title: "Border-Gavaskar",
+    title: "Web series in Spotlight",
     content:
-      "lorvbbbbbbbbbowdubjsnvwvwcncq iddwudgdhv sajhcvcas yiweiebciwuc bli",
-    img: "https://source.unsplash.com/user/diegyms/300x200",
-    bgcolor: "orange",
-    h_color: "teal",
-    text_color: "white",
+      `Here we talk about the Web Series in the spotlight in 2021-"Aspirants". It went viral on the internet, reflecting the personal and academic hardships that one faces while preparing for UPSC in Old Rajinder Nagar face.`,
+    img: images,
+    bgcolor: "#fdfdfd",
+    h_color: "rgb(30 50 56)",
+    text_color: "rgb(243 183 49)",
   },
   {
     key: 3,
-    title: "Border-Gavaskar",
+    title: "Music in Bollywood",
     content:
-      "lorvbbbbbbbbbowdubjsnvwvwcncq iddwudgdhv sajhcvcas yiweiebciwuc bli",
-    img: "https://source.unsplash.com/user/diegyms/300x200",
-    bgcolor: "orange",
-    h_color: "teal",
-    text_color: "white",
+      "Since the dawn of time, music and Bollywood have intertwined. This article discusses the evolution of music from its golden age around its conception to its current state of being repetitive and unoriginal.",
+    img: images,
+    bgcolor: "#fdfdfd",
+    h_color: "rgb(30 50 56)",
+    text_color: "rgb(243 183 49)",
   },
   {
     key: 4,
-    title: "Border-Gavaskar",
+    title: "Oscars and beyond",
     content:
-      "lorvbbbbbbbbbowdubjsnvwvwcncq iddwudgdhv sajhcvcas yiweiebciwuc bli",
-    img: "https://source.unsplash.com/user/diegyms/300x200",
-    bgcolor: "orange",
-    h_color: "teal",
-    text_color: "white",
+      "For years, the Oscars have been associated with excellence in film. Even a nomination for this prestigious award is a mark of quality. This article covers the Oscars from their inception through the most recent controversies.",
+    img: images,
+    bgcolor: "#fdfdfd",
+    h_color: "rgb(30 50 56)",
+    text_color: "rgb(243 183 49)",
   },
-  {
-    key: 5,
-    title: "Border-Gavaskar",
-    content:
-      "lorvbbbbbbbbbowdubjsnvwvwcncq iddwudgdhv sajhcvcas yiweiebciwuc bli",
-    img: "https://source.unsplash.com/user/diegyms/300x200",
-    bgcolor: "orange",
-    h_color: "teal",
-    text_color: "white",
-  },
-  {
-    key: 6,
-    title: "Border-Gavaskar",
-    content:
-      "lorvbbbbbbbbbowdubjsnvwvwcncq iddwudgdhv sajhcvcas yiweiebciwuc bli",
-    img: "https://source.unsplash.com/user/diegyms/300x200",
-    bgcolor: "orange",
-    h_color: "teal",
-    text_color: "white",
-  },
+  
 ];
 
 export default articles;

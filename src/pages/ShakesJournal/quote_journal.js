@@ -1,7 +1,6 @@
 import React from "react";
 import "./quote_journal.css";
 
-
 function Quote(){
     return (
         <div class="quote">

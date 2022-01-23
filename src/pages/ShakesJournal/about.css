@@ -1,23 +1,21 @@
 .j-scontainer{
     z-index: -8;
-    background-color: rgb(240, 240, 239);
+    background-color: #f0f0ef7d;
     width: 100%;
-    /* margin-top: 50px; */
-    margin-bottom: 20px;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: row;
 }
 .j-sbox1{
     padding-left: 120px;
     padding-bottom: 50px;
-    height: 100vh;
+    height: auto;
 }
 .j-sbox1, .j-sbox2{
-    width: 768px;
+    width: 785px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
 }
 .j-text2, .j-text1{
     margin-left: 0;
@@ -73,9 +71,6 @@
     -webkit-text-stroke:2px;
     -webkit-text-color:#fff; 
 }
-.j-text-2{
-    color: white;
-}
 @keyframes animate {
     0%{
         transform: translateX(-100%); 
@@ -101,7 +96,6 @@
 }
 .j-sbox2{
     height: 100vh;
-    margin-top: 1.5%;
 }
 .j-journal-img{
     position: relative;
@@ -116,7 +110,7 @@
 }
 .j-sbox2::before{
     content: '';
-    background: url("./assets/pic.jpg") no-repeat center center / cover;
+    background: url("./images/pic.jpg") no-repeat center center / cover;
     position: absolute;
     top: 0;
     left: 20%;
@@ -126,10 +120,11 @@
 }
 .j-sbox2-image{
     width: 42%;
+    height: 450px;
+    border-radius: 5px;
 }
 .j-sbox22{
     display: none;
-    height: 450px;
     width: 100%;align-items: center;
     justify-content: center;
 }
@@ -146,7 +141,7 @@
         padding-left: 0px;
     }
     .j-sbox1-content{
-        height: 40vh;
+        height: 50vh;
         font-size: 27px;
     }
 }
@@ -157,8 +152,7 @@
 }
 @media (max-width:1030px) {
     .j-scontainer{
-        padding-top: 100px;
-        height: 135vh;
+        padding-bottom: 0;
         display: inline-flex;
         justify-content: center;
     }
@@ -198,15 +192,13 @@
         padding-left: 150px;
     }
     .j-sbox1-content{
-        font-size: 27px;
+        font-size: 30px;
+        height: 80vh;
     }
 }
 @media (max-width:660px) {
     .j-text1,.j-text2{
         font-size: 3.5rem;
-    }
-    .j-scontainer{
-        height: 140vh;
     }
     .j-sbox1-title{
         padding-left:100px ;
@@ -220,10 +212,6 @@
     }
 }
 @media (max-width:570px) {
-    .j-scontainer{
-        padding-top: 45px;
-        height: 130vh;
-    }
     .j-text .j-text-1:nth-child(2){
         width: 150%;
     }
@@ -241,23 +229,21 @@
     .j-sbox1-content{
         font-size: 1.4rem;
         padding: 30px 40px;
+        height: 50vh;
     }
 }
 @media (max-width:436px) {
-    .j-scontainer{
-        height: 120vh;
-    }
     .j-text1,.j-text2{
         font-size: 2.3rem;
     }
     .j-sbox1-title{
         padding-left:80px;
     }
-    .j-scontainer{
-        padding-top: 30px;
+    .j-sbox1-content{
+        height: 60vh;
     }
     .j-sbox22{
-        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .j-sbox22 img{
         height: 300px;
@@ -265,21 +251,17 @@
         border-radius: 15px;
     }
     .j-sbox1-content{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .j-text .j-text-1:nth-child(2){
         clip-path: circle(40px at center);
         height: 125%;
     }
 }
-@media (max-width:345px) {
+@media (max-width:376px) {
     .j-scontainer{
         padding-top: 0px;
-        height: 100vh;
     } 
-    .j-sbox1{
-        padding-bottom: 100px;
-    }
     .j-sbox1-title{
         padding-left:40px;
     }
@@ -298,5 +280,54 @@
 @media (max-width:320px) {
     .j-scontainer{
         padding-top: 0px;
+    }
+    .j-sbox1-content{
+        height: 70vh;
+    }
+}
+@media screen and (min-width:910px) and (max-width:911px) {
+    .j-sbox1-content{
+        font-size:28px;
+        height: 60vh;
+    }
+}
+@media screen and (min-width: 911px) and (max-width: 912px){
+    .j-sbox1-content{
+        font-size: 35px;
+        height: 78vh;
+    }
+}
+@media screen and (min-width: 817px) and (max-width: 819px){
+    .j-sbox1-content{
+        font-size: 35px;
+        height: 80vh;
+    }
+}
+@media screen and (min-width:819px) and (max-width:820px) {
+    .j-sbox1-content{
+        font-size: 37px;
+        height: 60vh;
+    }
+}
+@media screen and (min-width:769px) and (max-width:772px) {
+    .j-sbox1-content{
+        font-size: 30px;
+        height: 70vh;
+    }
+}
+@media screen and (min-width:767px) and (max-width:768px) {
+    .j-sbox1-content{
+        font-size: 35px;
+        height: 65vh;
+    }
+}
+@media screen and (min-width:570px) and (max-width:585px){
+    .j-sbox1-content{
+        height: 72vh;
+    }
+}
+@media screen and (min-width:376px) and (max-width:409px){
+    .j-sbox1-content{
+        height: 78vh;
     }
 }

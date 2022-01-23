@@ -10,7 +10,7 @@ const Aboutsection = () => {
                 <span class="text1 ">𝓢𝓱𝓪𝓴𝓮𝓼</span>
                 <span className="text12">𝓙𝓮𝓮𝓻</span>
                 <span class="line">
-                    𝑻𝒉𝒆 𝑶𝒑𝒆𝒏 𝑴𝒊𝒄 𝑺𝒐𝒄𝒊𝒆𝒕𝒚
+                𝑻𝒉𝒆 𝑶𝒑𝒆𝒏 𝑴𝒊𝒄 𝑺𝒐𝒄𝒊𝒆𝒕𝒚
                 </span>
             </div>
             <div className="box3">

@@ -119,10 +119,10 @@
 }
 
 @media (max-width: 640px) {
-  .slider-wrapper,
+  /* .slider-wrapper,
   .slide {
     height: calc(80vh - 75px);
-  }
+  } */
 }
 
 @media (max-height: 600px) {
