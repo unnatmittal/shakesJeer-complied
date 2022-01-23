@@ -3,16 +3,13 @@
     padding: 0;
 }
 .containers{
+    overflow: hidden;
     padding: 4rem 0 0;
-    /* box-sizing: none; */
     font-size: 2rem;
     width: 100%;
-	/* position: absolute; */
 	z-index: -1;
-    /* height: 121vh; */
     color: black;
     font-family: 'Roboto', sans-serif;
-    /* background-color: rgb(240, 239, 239); */
     display: flex;
     flex-direction: column;
 }
@@ -27,10 +24,12 @@
     position: relative;
 } 
 .line{
+    margin-left: 0;
     display: block;
     font-size: 3rem;
 }
 .text1,.text12{
+    margin-left: 0;
     font-size: 4rem;
     margin-bottom: 1rem;
     position:relative;
@@ -54,7 +53,6 @@
 }
 .box3{
     display: flex;
-    padding: 2rem 0rem;
     justify-content:space-between;
 }
 .box3first{
@@ -68,7 +66,6 @@
     display: flex;
     align-items: center;
     font-size: 2rem;
-    /* font-weight: 400; */
 }
 .box3second{
     display: flex;
@@ -169,49 +166,33 @@
 		opacity: 0;
 	}
 }
-
-
-/* //land-counter */
 .land-flex-box2{
     display: flex;
-    /* justify-content: space-around; */
-    /* padding: 50px 50px; */
-    /* align-items: center; */
     flex-wrap: wrap;
     align-items: center;
-    /* justify-content: center; */
     justify-content: space-evenly;
-      padding: 10px 50px 50px;
-    /* border: solid 5px black; */
+    padding: 10px 50px 50px;
 }
-
 .land-counter{
     font-size: 3.8rem;
-    /* margin: 0px 55px;   */
-    /* border: 3px solid red; */
     display: flex;  
     align-content: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-
 }
 .land-outer-counter{
     display: flex;  
     align-content: center;
     justify-content: center;
     flex-direction: column;
-    /* border: solid green ;   */
 }
-
 .counter-title{
     font-size: 2rem;
     display: flex;  
     align-content: center;
     justify-content: center;
     flex-direction: column;
-    /* margin-top: 10px; */
-    /* margin-left: -35px; */
 }
 @media (max-width:1398px) {
     .box2{
@@ -226,7 +207,6 @@
     }
     .land-counter{
         font-size: 120%;
-        
     }
     .counter-title{
         font-size: 100%;
@@ -241,7 +221,7 @@
     }
 }
 @media (max-width:1005px) {
-    .box2,.box3{
+    .box2{
         margin: 0rem 7rem;
     }
     .box2{
@@ -268,7 +248,7 @@
     }
     .box3firstcontent{
         font-size: 80%;
-        height: 40vh;
+        height: 25vh;
         text-align: justify;
         padding: 0rem;
     }
@@ -281,18 +261,15 @@
     }
     .land-counter{
         font-size: 100%;
-        margin: 0px 25px;    
-        
+        margin: 0px 25px;       
     }
     .counter-title{
         font-size: 90%;
     }
-
 }
 @media (max-width:837px) {
     .land-counter{
-        font-size: 90%;
-        
+        font-size: 90%;       
     }
     .counter-title{
         font-size: 80%;
@@ -302,12 +279,16 @@
     .box2,.box3{
         margin: 0rem 3rem;
     }
-    .text1,.text12,.line{
-        font-size: 90%;
+    .text1,.text12{
+        font-size: 85%;
+    }
+    .line{
+        font-size: 75%;
     }
     .box3firstcontent{
         height: 38vh;
         font-size: 75%;
+        margin: 1rem 0rem;
     }
     .box3second img{
         width: 20rem;
@@ -321,20 +302,21 @@
         padding-right: 20px;
     }
 }
-@media (max-width:527px) {
-    .text1,.text12,.line{
-        font-size: 80%;
+@media (max-width:500px) {
+    .box2{
+        text-align: center;
+    }
+    .line{
+        font-size: 70%;
     }
     .box3firstcontent{
-        height: 35vh;
+        height: 30vh;
         font-size: 80%;
     }
     .box3second img{
         width: 15rem;
         height: 15rem;
     }
-}
-@media (max-width:500px){
     .land-counter{
         font-size: 80%;
     }
@@ -344,143 +326,28 @@
     .land-outer-counter{
         margin-left: 50px;
     }
-    .box3{
-        padding-bottom: 20px;
-    }
 }
-@media (max-width:485px) {
-    .text1,.text12,.line{
-        font-size: 70%;
-    }
-    .box3firstcontent{
-        height: 35vh;
+@media (max-width:455px) {
+    .line{
         font-size: 65%;
     }
-}
-@media (max-width:424px) {
-    .containers{
-        width: 100%;
-    }
-    .text1,.text12,.line{
-        font-size: 60%;
-    }
-    .box2,.box3{
-        margin: 0rem 1.5rem;
+    .box2{
+        margin: 0 1rem;
     }
     .box3firstcontent{
-        height: 30vh;
         font-size: 70%;
     }
-    .land-outer-counter{
-        margin: 0 100px;
-    }
 }
-
-@media (max-width: 372px){
-    .land-flex-box2{
-        margin-bottom: 10px;
+@media (max-width:365px) {
+    .text1,.text12{
+        font-size: 70%;
     }
-    .box3{
-        padding-bottom: 40px;
-    }
-}
-@media (max-width:321px) {
-    .containers{
-        width: 100%;
-    }
-    .text1,.text12,.line{
+    .line{
         font-size: 50%;
     }
-    .box2,.box3{
-        margin: 0rem 1rem;
-    }
-    .box3firstcontent{
-        height: 30vh;
-        font-size: 55%;
+    .box3{
+        margin: 0rem 1.5rem;
+    }.box3firstcontent{
+        height: 48vh;
     }
 }
-@media (max-width:281px) {
-    .text1,.text12,.line{
-        font-size: 52%;
-    }
-    .box2,.box3{
-        margin: 0rem 0rem;
-    }
-    .box3firstcontent{
-        height: 30vh;
-        font-size: 55%;
-    }
-}
-
-@media (max-width: 510px){
-    .land-flex-box2{
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .land-outer-counter{
-        margin: 0 50px 0;
-    }
-}
-@media (max-width: 391px){
-    .land-outer-counter{
-        margin: 0 25px 0;
-    }
-}
-
-@media (max-width: 420px){
-    .land-counter{
-        font-size: 70%;
-        
-    }
-    .counter-title{
-        font-size: 70%;
-    }
-}
-@media (max-width: 335px){
-    .land-outer-counter{
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
-    .land-counter{
-        font-size: 70%;
-        
-    }
-    .counter-title{
-        font-size: 70%;
-    }
-}
-
-/* @media (max-width:1497px) {
-    .land-counter{
-        font-size: 200%;
-        justify-content: center;
-    }
-    .land-counter-title{
-        font-size: 100%;
-    }
-    
-} */
-/* @media (max-width:1095px) {
-    .land-counter{
-        font-size: 180%;
-        justify-content: center;
-    }
-    .land-counter-title{
-        font-size: 80%;
-    }
-}
-@media (max-width:1005px) {
-    .land-counter{
-        font-size: 200%;
-        
-    }
-    .land-counter-title{
-        font-size: 100%;
-    }
-    .containers{
-        margin-bottom: -150px 0;
-    }
-} */
-
-
-

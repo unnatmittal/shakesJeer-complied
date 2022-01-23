@@ -91,15 +91,14 @@ ul li a {
 .quicklink_text:hover{
   color: #f5c656;
 }
-form {
+/* form {
   padding-bottom: 15px;
   justify-content: space-between;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #ccc;
   margin-bottom: 50px;
-}
+} */
 .far {
   font-size: 18px;
   margin-right: 10px;
@@ -247,5 +246,12 @@ hr {
 @media screen and (min-width: 701px) and (max-width: 1066px) {
   .row {
     margin-left: 10%;
+  }
+}
+@media (max-width:282px) {
+  .social-icons .fa{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
   }
 }

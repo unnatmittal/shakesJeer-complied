@@ -11,11 +11,13 @@ function Journal() {
       <div className="jr_slidercomponents">
         <NewSlider />
       </div>
+      <div className="j-css">
+        <About />
+        <Quote />
 
-      <About />
-      <Quote />
-      <div className="jr_components">
-        <Hover />
+        <div className="jr_components">
+          <Hover />
+        </div>
       </div>
     </>
   );

@@ -1,27 +1,17 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,200italic);
-/* body {
-  background: white;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
-} */
-
 .quote {
-  max-width: 900px;
-  margin: 80px auto;
+  background-color: #f0f0ef7d;
+  width: 100%;
+  padding: 80px 350px;
 }
-
 .text-center {
   text-align: center;
 }
-
 .quote-card {
-  background: black;
-  color: #222222;
   padding: 20px;
   padding-left: 50px;
   box-sizing: border-box;
-  /*  */
   position: relative;
   overflow: hidden;
   min-height: 120px;
@@ -33,13 +23,6 @@
   max-width: 80%;
   text-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
 }
-/* .quote-card cite {
-  font-size: 16px;
-  margin-top: 10px;
-  display: block;
-  font-weight: 200;
-  opacity: 0.8;
-} */
 .quote-card:before {
   font-family: Georgia, serif;
   content: "“";
@@ -61,23 +44,110 @@
   color: rgba(238, 238, 238, 0.8);
   font-weight: normal;
 }
-@media (max-width: 640px) {
-  .quote-card:after {
-    font-size: 22em;
-    right: -25px;
-  }
-}
-@media only screen and (max-width: 450px){
-    .quote-card p {
-        font-size: 25px;
-    }
-}
-
-.quote-card.red-card {
-  background: none;
-  color: black;
-  /* box-shadow: 0 1px 2px rgba(34, 34, 34, 0.12), 0 2px 4px rgba(34, 34, 34, 0.24); */
-}
 .quote-card.red-card:before, .quote-card.red-card:after {
   color: #f44336;
+}
+@media (max-width:1400px) {
+  .quote{
+    padding: 70px 300px;
+  }
+}
+@media (max-width:1300px) {
+  .quote{
+    padding: 70px 250px;
+  }
+}
+@media (max-width:1200px) {
+  .quote{
+    padding: 70px 200px;
+  }
+  .quote-card p{
+    font-size: 35px;
+  }
+}
+@media (max-width:1030px) {
+  .quote{
+    padding: 10px 150px 70px 150px;
+  }
+}
+@media (max-width:920px) {
+  .quote{
+    padding: 10px 100px 109px 100px;
+  }
+  .quote-card p{
+    font-size: 40px;
+  }
+}
+@media (max-width:743px) {
+  .quote{
+    padding: 10px 50px 70px 50px;
+  }
+  .quote-card:after {
+    font-size: 22em;
+    right: 1px;
+  }
+} 
+@media (max-width:642px) {
+  .quote-card:after {
+    font-size: 20em;
+    right: 20px;
+  }
+  .quote-card p{
+    font-size: 25px;
+  }
+}
+@media (max-width:501px) {
+  .quote-card:after {
+    font-size: 15em;
+    top:185px;
+    right: 30px;
+  }
+  .quote{
+    padding: 10px 30px 70px 30px;
+  }
+}
+@media (max-width:460px) {
+  .quote{
+    padding: 62px 10px 70px 10px;
+  }
+  .quote-card:after {
+    font-size: 13em;
+    top:180px;
+    right: 50px;
+  } 
+}
+@media (max-width:409px) {
+  .quote{
+    padding: 0px 0px 70px 0px;
+  }
+  .quote-card p{
+    font-size: 30px;
+  }
+  .quote-card:before{
+    top: -11px;
+    left: 26px;
+  }
+  .quote-card:after {
+    font-size: 13em;
+    top:120px;
+    right: 10px;
+  }
+}
+@media (max-width:336px) {
+  .quote-card{
+    padding: 20px 0 50px 52px;
+  }
+  .quote-card p{
+    font-size: 18px;
+  }
+  .quote-card:after {
+    font-size: 10em;
+    top:130px;
+    right: 10px;
+  }
+}
+@media (max-width:300px) {
+  .quote{
+    padding: 28px 0px 1px 0px;
+  }
 }

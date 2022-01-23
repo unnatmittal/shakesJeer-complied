@@ -1,16 +1,6 @@
-/* body{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-    flex-wrap: wrap;
-} */
 .jr_componentss{
-  padding: 0;
+  background-color: #f0f0ef7d;
+  padding-bottom: 60px;
   margin: 0;
   width: 100%;
   min-height: 100vh;
@@ -35,6 +25,7 @@
   height: 600px;
 }
 .jr_card img {
+  height: 400px;
   width: 100%;
   border-radius: 16px;
   transition: 0.5s;
@@ -49,10 +40,11 @@
 }
 
 .jr_card .jr_card-body h6 {
+  
+  color: #464646;
   /* margin: 0.5rem 0; */
   text-align: center;
   font-size: 1.5rem;
-  color: crimson;
   letter-spacing: 3px;  
   
 }
@@ -73,5 +65,87 @@
   text-align: right;
   width: 100%;
 }
-
-
+@media (max-width:560px) {
+  .jr_card{
+    width: 455px;
+    height: 350px;
+  }
+  .jr_card img{
+    height: 85%;
+  }
+  .jr_card:hover {
+    height: 350px;
+  }
+  .jr_card:hover {
+    height: 550px;
+  }
+  .jr_card:hover img {
+    height: 300px;
+  }
+  .jr_card .jr_card-body h6{
+    font-size: 25px;
+  }
+  .jr_card:hover h6{
+    transform: scale(1.2);
+  }
+}
+@media (max-width:430px) {
+  .jr_card{
+    width: 412px;
+    height: 320px;
+  }
+  .jr_card img{
+    height: 80%;
+  }
+  .jr_card:hover {
+    height: 570px;
+  } 
+  .jr_card:hover img {
+    height: 280px;
+  }
+  .jr_card .jr_card-body h6{
+    font-size: 20px;
+  }
+}
+@media (max-width:360px) {
+  .jr_card{
+    width: 390px;
+    height: 300px;
+  }
+  .jr_card img{
+    height: 75%;
+  }
+  .jr_card:hover {
+    height: 600px;
+  }
+  .jr_card:hover img {
+    height: 240px;
+  }
+  .jr_card .jr_card-body h6{
+    padding-top: 15px;
+    margin-bottom: 12px;
+    font-size: 18px;
+  }
+}
+@media (max-width:320px) {
+  .jr_card{
+    width: 351px;
+    height: 270px;
+  }
+  .jr_card img{
+    height: 70%;
+  }
+  .jr_card:hover {
+    height: 300px;
+  }
+  .jr_card:hover {
+    height: 610px;
+  }
+  .jr_card:hover img {
+    height: 180px;
+  }
+  .jr_card .jr_card-body h6{
+    padding-top: 20px;
+    font-size: 17px;
+  }
+}

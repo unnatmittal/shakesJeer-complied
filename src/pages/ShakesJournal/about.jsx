@@ -1,6 +1,6 @@
 import React from 'react';
 import Tilt from './vanilla-tilt';
-import pic from './assets/pic.jpg';
+import pic from './images/pic.jpg';
 import './about.css'
 
 const About = () => {
@@ -33,8 +33,7 @@ const About = () => {
                         </Tilt>
                     </div>
                     <div className="j-sbox1-content">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptate commodi esse laborum voluptatibus assumenda, molestiae quaerat vero qui nulla.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, distinctio?
+                        ShakesJeer publishes ShakesJournal, a semester-based magazine. The Journal aims to provide a creative avenue for NSUT's producers to express themselves through writing and design. It contains amusing pieces ranging from fascinating peeks into student life at NSUT to writings on a number of different issues of interest to college students.
                     </div>
                 </div>
                 <div className="j-sbox2">
