@@ -26,11 +26,10 @@ function Card() {
               </h6>
               <div className="after-info">
                 {/* <h2>Team Members</h2> */}
-                <h4>Team Head: Ankita & Naman Aggarwal</h4>
-                <p>
-                  Members : Kamesh Aggarwal, Harsh Vardhan,
-                  Shikhar Sharma, Aman Maan, Samyak Jain, Divyansh Tanwar,
-                  Chhavi Talwar, Utkarsh Gupta, Anannya Mishra, Aditya Bhalla
+                <h4>Ankita & Naman Aggarwal</h4>
+                <p>Harsh Vardhan,
+                  Shikhar Sharma, Samyak Jain, Divyansh Tanwar,
+                   Utkarsh Gupta
                 </p>
               </div>
             </div>
@@ -50,12 +49,9 @@ function Card() {
               </h6>
               <div className="after-info">
                 {/* <h2>Team Members</h2> */}
-                <h4 className="about-techhead">Team Head: Unnat Mittal</h4>
-                <p>
-                  Members : Raghvendra Singh, Satyam Sharma,
-                  Lovkesh Patel, Saksham Saini, Abhishek Singhal, Karan Kumar,
-                  Himanshi, Yash Sharma, Vansh Jain, Hardik Chhabra, Devansh
-                  khandelwal, Aditya Bhalla
+                <h4 className="about-techhead">Unnat Mittal , Raghvendra, Satyam</h4>
+                <p>Lovkesh Patel, Saksham Saini, Abhishek Singhal, Karan Kumar,
+                  Himanshi, Vansh Jain, Devansh
                 </p>
               </div>
             </div>
@@ -67,7 +63,7 @@ function Card() {
           </div>
           <div className="member-info">
             <div className="before-info">
-              <h3>Graphic Department</h3>
+              <h3>Graphic <span className="about-hideit">Department</span><span className="about-showit">Dept.</span></h3>
               <h6>
                 Graphic Design is the most exciting and imaginative field. We
                 have the opportunity to experiment with numerous softwares<span className="about-hideit">in
@@ -75,11 +71,8 @@ function Card() {
               </h6>
               <div className="after-info">
                 {/* <h2>Team Members</h2> */}
-                <h4>Team Head : Neha & Sarva Yadav</h4>
-                <p>
-                  Members : Harsh Vardhan, Harshal Arya,Aman
-                  Maan, Vedansh Arun, Chhavi Talwar, Aditya Bhalla, Aditya
-                  Gupta, Siddharth
+                <h4>Neha Singh & Sarv Yadav</h4>
+                <p>Aditya Gupta, Siddharth , Harshal Arya, Harsh Vardhan
                 </p>
               </div>
             </div>
@@ -91,7 +84,7 @@ function Card() {
           </div>
           <div className="member-info">
             <div className="before-info">
-              <h3>Content Department</h3>
+              <h3>Content <span className="about-hideit">Department</span><span className="about-showit">Dept.</span></h3>
               <h6>
                 <span className="about-hideit"> Content Department plays a vital part in the efficient</span>
                 <span className="about-firstletter"> f</span>unctioning of Shakesjeer - whether be it captions and posts on
@@ -99,11 +92,10 @@ function Card() {
               </h6>
               <div className="after-info">
                 {/* <h2>Team Members</h2> */}
-                <h4>Team Head : Maanyta, Adamya Garg & Astitva Rai</h4>
+                <h4 className="about-techhead">Maanyta, Adamya Garg & Astitva Rai</h4>
                 <p>
-                  Members : Mayank Yadav, Mohak, Preetish Bhakne,
-                  Shikhar Sharma, Aditya Gupta, Anannya Mishra,
-                  Siddharth, Kartikeya Gupta
+                  Preetish Bhakne, Shikhar Sharma, Aditya Gupta, Anannya Mishra,
+                  Siddharth, Kartikeya Gupta, Mishthi Jain
                 </p>
               </div>
             </div>
@@ -123,11 +115,10 @@ function Card() {
               </h6>
               <div className="after-info">
                 {/* <h2>Team Members</h2> */}
-                <h4>Team Head : Yash Agarwal</h4>
+                <h4>Yash Agarwal & Vivek Soni </h4>
                 <p>
-                  Members : Vivek Soni, Kumar Aditya, Deepanshu
-                  Yadav, Manav Grover, Anurag Juyal, Harshal Arya, Vidur Rajpal,
-                  Shivam Parashar
+                  Deepanshu Yadav, Manav Grover, Harshal Arya, Vidur Rajpal,
+                  Shivam Parashar, Priyanshu Pannu
                 </p>
               </div>
             </div>
@@ -142,12 +133,12 @@ function Card() {
           </div>
           <div className="member-info">
             <div className="before-info">
-              <h3>Hazel Andrea</h3>
-              <h6>Founder & CEO</h6>
+              <h3 class = "about-treasure">Logistic & Advisory</h3>
+              <h6>The backbone of the society which helps to run society smoothly.</h6>
               <div className="after-info">
-                <h2>Team Members</h2>
-                <h4>Team Head</h4>
-                <p>Members : xyz</p>
+                {/* <h2>Team Members</h2> */}
+                <h4>Akshat Gupta(Logistic & Treasurer) , Kumar Aditya(Advisory)</h4>
+                {/* <p>Members : xyz</p> */}
               </div>
             </div>
           </div>

@@ -124,15 +124,17 @@ body {
 
 .after-info p{
   padding: 0 10px;
-  font-size: .9rem;
+  font-size: 1rem;
   margin-top: -40px;
+  text-align: center;
+  margin-left: 2px;
 }
 
 .after-info h4{
   padding: 0 10px 15px;
   margin-top: 15px;
-  font-size: 1.2rem;
-  text-align: left;
+  font-size: 1.4rem;
+  text-align: center;
 }
 
 .before-info:hover h3{ 
@@ -259,7 +261,8 @@ body {
     margin-left: 0;
   }
   .after-info h4{
-    display: none;
+    font-size: 1rem;
+    margin-bottom: -20px;
   }
 
   .after-info p{

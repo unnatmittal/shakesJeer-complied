@@ -10,7 +10,8 @@ const Abbout = () => {
                 ShakesJeer
             </div>
             <div className="ab-heading ab-quote">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis aspernatur earum. 
+            Stand-up comedy is mine: it's my entity; it's my brand; I own it. I do it when I want to do it.
+            - Kevin Hart
             </div>
             <div className="ab-box">
                 <div className="ab-box1">

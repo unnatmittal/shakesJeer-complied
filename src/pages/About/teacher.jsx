@@ -1,6 +1,6 @@
 import React from 'react'
 import './teacher.css'
-import pic from './himanshi.jpg';
+import pic from './asthamaam.jpeg';
 
 const Teacher = () => {
     return (
@@ -16,15 +16,16 @@ const Teacher = () => {
                                  {/* <li><a href="www.google.com"><i className="fa fa-instagram"></i></a></li> */}
                                  <li><a href="www.google.com"><i className="fa fa-envelope"></i></a></li>
                              </ul>
-                             <h3 className="ttitle">Himanshi</h3>
-                             <span className="tpost">Director</span>
+                             <h3 className="ttitle">Ms. Astha Verma</h3>
+                             <span className="tpost">FIC</span>
                          </div>
                     </div>
                 </div>
                 <div className="tbox2">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, labore adipisci, nesciunt in nobis pariatur quaerat nam ullam magnam reiciendis, repellat assumenda? Officia?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, rerum nostrum quam asperiores quis esse sint tempora alias amet facilis, natus culpa et saepe quibusdam reiciendis. Fugiat dignissimos, autem voluptatem laborum veniam ipsam nisi.
-                        {/* Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, earum quis beatae ratione deserunt a maiores corporis consequatur amet optio expedita minima exercitationem voluptas molestias hic quia, consectetur fugit nihil alias eveniet aliquid? At. */}
+                    <p> The faculty in charge of ShakesJeer is Ms. Astha Verma from the management department.
+                     She is a dedicated and hardworking woman who strives to make us better every day.
+                      She aspires to be perfect and is always willing to lend a hand to those who require her guidance.
+                        As a part of the management department, she adds tremendous value to our society and guides us toward a brighter future.
                     </p>
                 </div>
             </div>

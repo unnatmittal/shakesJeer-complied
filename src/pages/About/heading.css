@@ -73,7 +73,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 402px) {
     .about-headingbox{
         font-size: 1.4rem;
     }
@@ -96,6 +96,15 @@
 @media screen and (max-width: 360px) {
     .about-headingbox{
         font-size: 1.1rem;
+    }
+    .about-headingcontainer{
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .about-headingbox{
+        font-size: .9rem;
     }
     .about-headingcontainer{
         height: 40px;

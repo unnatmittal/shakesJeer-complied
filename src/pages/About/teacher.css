@@ -33,7 +33,7 @@
     overflow:hidden;
     position: relative;
     /* height: 450px; */
-    width: 500px;
+    width: 400px;
     border-radius: 50%;
 
 }
@@ -54,7 +54,7 @@
     content: '';
     width: 100%;
     height: 100%;
-    background-color: #FDCC0C;
+    background-color: #FFEBCC;
     position: absolute;
     left: 0;
     right: 0;
@@ -70,11 +70,11 @@
 }
 .tbox1:hover .tbox1-content:before{
     top: 3%;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 .tbox1:hover .tbox1-content:after{
     bottom: 3%;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 .tbox1-content-cont{
     display: flex;
@@ -120,6 +120,9 @@
 }
 .tbox1 .tsocial li a:hover{
     color: blue;
+}
+.tbox1 .tsocial li i:hover{
+    background-color: none;
 }
 .ttitle{
     /* color: #fff; */
@@ -168,7 +171,7 @@
     }
 }
 @media (max-width:600px) {
-
+    
     .tbox1{
         width: 80%;
     }
@@ -179,13 +182,19 @@
         font-size: 16px;
     }
     .ttitle{
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
     }
     .tpost{
         
         font-size: 20px;
         text-align: center;
+    }
+}
+
+@media (max-width: 430px){
+    .ttitle{
+        font-size: 20px;
     }
 }
 
