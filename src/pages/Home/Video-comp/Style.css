@@ -6,9 +6,10 @@
 .Video {
   padding-top: 4rem;
   box-sizing: content-box;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   /* background-image: url("Untitleddesign.gif"); */
-  background-color: rgba(240,239,239);
+  background-color: rgba(240, 239, 239);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -26,8 +27,8 @@
 }
 .containerVideo > .boxVideo {
   position: relative;
-  width: 425px;
-  height: 70vh;
+  width: 450px;
+  height: 500px;
   margin-left: 30px;
   margin-right: 30px;
   background: #000;
@@ -52,11 +53,11 @@
   position: absolute;
   top: 120px;
   bottom: 120px;
-  right: 60px;
+  right: 40px;
   width: 100%;
   height: 60%;
   padding: 0px 0px;
-  background: rgba(0, 0, 0, 0.95);
+  background: rgba(14, 14, 14, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,7 +77,7 @@
   transition: 0.5s;
   transition-delay: 0.2s;
 
-  filter: grayscale(1);
+  filter: grayscale(0);
 }
 .containerVideo > .boxVideo:hover > .imgBox > img {
   transform: scale(1.1);
@@ -106,23 +107,27 @@
   font-weight: 300;
 }
 
-
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 1000px) {
   .containerVideo {
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
   }
   .boxVideo {
     margin-top: 50px;
-    margin-bottom : 20px;
+    margin-bottom: 20px;
   }
   .containerVideo > .boxVideo {
     position: relative;
-    width: 400px;
-    height: 80vh;
+    width: 450px;
+    height: 540px;
     background: #000;
   }
-  .containerVideo > .boxVideo > .contentBox > .content{
+
+  .containerVideo > .boxVideo > .imgBox {
+    width: 100%;
+    height: 100%;
+  }
+  .containerVideo > .boxVideo > .contentBox > .content {
     font-size: 1.8em;
   }
   .containerVideo > .boxVideo > .contentBox {
@@ -136,20 +141,20 @@
   }
 }
 
-@media (max-width:760px) {
+/* @media (max-width:760px) {
   .Video{
     margin-top: -120px;
   }
-}
+} */
 
-@media only screen and (max-width : 640px) {
-  .containerVideo {
-    /* width: 70vw; */
-  }
+@media only screen and (max-width: 680px) {
+  /* .containerVideo {
+    width: 70vw;
+  } */
   .containerVideo > .boxVideo {
     position: relative;
-    width: 200px;
-    height: 50vh;
+    width: 300px;
+    height: 380px;
     background: #000;
   }
   .containerVideo > .boxVideo > .imgBox {
@@ -167,7 +172,7 @@
     height: 100%;
     object-fit: cover;
   }
-  
+
   .containerVideo > .boxVideo > .contentBox {
     font-size: 100px;
     position: absolute;
@@ -182,28 +187,22 @@
     padding: 10px 30px;
     opacity: 0;
   }
-  .containerVideo > .boxVideo > .contentBox > .content{
+  .containerVideo > .boxVideo > .contentBox > .content {
     font-size: 10px;
   }
 }
-@media only screen and (max-width : 420px) {
-  .containerVideo{
+
+@media only screen and (max-width: 450px) {
+  /* .containerVideo{
     width: 20rem;
     height: calc(60vh*2) ;
     margin-left: 200px;
     margin-right: 200px;
-  }
-  .containerVideo > .boxVideo >.imgBox >img{
+  } */
+  /* .containerVideo > .boxVideo >.imgBox >img{
     height: 50vh;
-  }
-}
-@media only screen  and (max-width : 420px) {
-  .containerVideo{
-    width: calc(50% * 2);
-    margin-left: 400px;
-    margin-right: 400px;
-  }
-  .Video{
+  } */
+  .Video {
     /* padding-left: 60px;
     padding-right: 60px; */
     width: 100%;
@@ -214,8 +213,23 @@
     position: absolute;
     top: 60px;
     bottom: 120px;
-    right: 60px;
+    right: 30px;
     width: 105%;
     height: 60%;
+    /* margin-left: 50px; */
+  }
+
+  .containerVideo > .boxVideo {
+    position: relative;
+    width: 250px;
+    height: 320px;
+    background: #000;
+  }
+  .containerVideo > .boxVideo > .imgBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 }

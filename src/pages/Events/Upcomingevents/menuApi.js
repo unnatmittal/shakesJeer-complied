@@ -1,5 +1,5 @@
-import First from './Cover.png';
-import Second from './9.png';
+import First from './images/event-1.png';
+import Second from './images/event-2.png';
 const Menu = [
     {
         id: 1,

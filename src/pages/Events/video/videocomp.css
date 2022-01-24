@@ -8,12 +8,13 @@
   background-color: #f6f6f6;
   /* margin: 0 auto; */
 }
-/* h1,h2{
-        color: #acacac;
-    } */
+h1,
+h2 {
+  color: #acacac;
+}
 iframe {
-  width: 100%;
-  height: calc(100ew / eval("width/height"));
+  width: 95%;
+  height: calc(110ew / eval("width/height"));
   display: flex;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 20px,
