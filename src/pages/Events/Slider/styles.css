@@ -1,15 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
 
-.slider-wrapper {
+.journal-slider-wrapper {
   position: relative;
   height: 70vh;
   overflow: hidden;
 }
 
 .slide {
-  height: 100vh;
-  background-size: cover !important;
+  /* height: h;
+  background-size: cover !important; */
 }
+
 .jr-sliderMain{
   padding-top: 65px;
 }
@@ -112,25 +113,22 @@
 }
 
 @media (max-height: 500px) {
-  .slider-wrapper,
+  .journal-slider-wrapper,
   .slide {
     height: calc(100vh - 75px);
   }
 }
 
 @media (max-width: 640px) {
-  .slider-wrapper,
+  /* .slider-wrapper,
   .slide {
     height: calc(80vh - 75px);
-  }
+  } */
 }
 
 @media (max-height: 600px) {
   .slider-content .inner h1 {
     font-size: 32px;
-  }
-  .slider-content{
-    background-size: cover;
   }
 }
 
@@ -139,3 +137,64 @@
     font-size: 32px;
   }
 }
+@media (max-width:1200px) {
+  .journal-slider-wrapper{
+    height: calc(70vh - (1200px - var(--variable-width)) * 0.38);
+  }
+}
+
+
+@media (max-height: 1400px) {
+  .journal-slider-wrapper{
+    height: calc(70vh - ((1200px - var(--variable-width)) * 2.26 ));
+  }
+}
+@media (max-height: 1200px) {
+  .journal-slider-wrapper{
+    height: calc(70vh - ((1200px - var(--variable-width)) * 1.45 ));
+  }
+}
+@media (max-height: 1100px) {
+  .journal-slider-wrapper{
+    height: calc(70vh - ((1200px - var(--variable-width)) * 1.05 ));
+  }
+}
+@media (max-height: 950px) {
+  .journal-slider-wrapper{
+    height: calc(70vh - ((1200px - var(--variable-width)) * .645 ));
+  }
+} 
+@media (max-height: 900px) {
+  .journal-slider-wrapper{
+    height: calc(70vh - ((1200px - var(--variable-width)) * .615 ));
+  }
+} 
+@media (max-height: 860px) {
+  .journal-slider-wrapper{
+    height: calc(70vh - ((1200px - var(--variable-width)) * .565 ));
+  }
+} 
+
+@media (max-height: 800px) {
+  .journal-slider-wrapper{
+    height: calc(70vh - ((1200px - var(--variable-width)) * .465 ));
+  }
+} 
+
+@media (max-height: 700px) {
+  .journal-slider-wrapper{
+    height: calc(70vh - ((1200px - var(--variable-width)) * .425 ));
+  }
+} 
+
+@media (max-height: 640px) {
+  .journal-slider-wrapper{
+    height: calc(70vh - ((1200px - var(--variable-width)) * .4 ));
+  }
+} 
+
+@media (min-width: 1200px) {
+  .journal-slider-wrapper{
+    height: calc((70vh - ((1200px - var(--variable-width)) * .4 )) - 20vh);
+  }
+} 

@@ -1,15 +1,30 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
 
+
+:root{
+  --variable-width: 100vw;
+  --variable-height: 100vh;
+  --temp : var(--variable-height /)
+}
+
 .land-slider-wrapper {
   position: relative;
   top: 65px;
-  height: 93vh;
+  /* width: 50%; */
+  /* height: 626px; */
+  /* height: calc(629px-(1100px-100vw)*.56); */
+  height: 92vh;
   overflow: hidden;
 }
 
 .slide {
-  height: 100vh;
-  background-size: cover !important;
+  /* height: 100vh; */
+  /* background-size: cover !important; */
+}
+
+.slider-content img{
+  width: 100%;
+  height: auto;
 }
 
 .slide::before {
@@ -132,5 +147,69 @@
 @media (max-width: 640px) {
   .slider-content .inner h1 {
     font-size: 32px;
+  }
+}
+
+/* slider media queries  */
+
+@media (max-width: 1100px) {
+  .land-slider-wrapper{
+    height: calc(92vh - ((1100px - var(--variable-width)) * .55  ));
+  }
+}
+ @media(max-height: 1400px){
+  .land-slider-wrapper{
+    height: calc(92vh - ((1100px - var(--variable-width)) * 4.5 ));
+  }
+}
+@media(max-height: 1200px){
+  .land-slider-wrapper{
+    height: calc(92vh - ((1100px - var(--variable-width)) * 2.5 ));
+  }
+}
+@media(max-height: 1100px){
+  .land-slider-wrapper{
+    height: calc(92vh - ((1100px - var(--variable-width)) * 1.7 ));
+  }
+}
+@media(max-height: 1000px){
+  .land-slider-wrapper{
+    height: calc(92vh - ((1100px - var(--variable-width)) * .95 ));
+  }
+}
+@media (max-height: 900px) {
+  .land-slider-wrapper{
+    height: calc(92vh - ((1100px - var(--variable-width)) * .9 ));
+  }
+} 
+
+@media(max-height: 860px){
+  .land-slider-wrapper{
+    height: calc(92vh - ((1100px - var(--variable-width)) * .84 ));
+  }
+}
+
+@media (max-height: 800px) {
+  .land-slider-wrapper{
+    height: calc(92vh - ((1100px - var(--variable-width)) * .65 ));
+  }
+}
+@media (max-height: 750px) {
+  .land-slider-wrapper{
+    height: calc(92vh - ((1100px - var(--variable-width)) * .7 ));
+  }
+} 
+
+
+
+@media (max-height: 700px) {
+  .land-slider-wrapper{
+    height: calc(92vh - ((1100px - var(--variable-width)) * .6 ));
+  }
+} 
+
+@media (min-width: 1100px){
+  .land-slider-wrapper{
+    height: calc((92vh - ((1100px - var(--variable-width)) * .55  )) - 25vh);
   }
 }

@@ -5,9 +5,10 @@ import "react-animated-slider/build/horizontal.css";
 import "normalize.css/normalize.css";
 import "./slider-animations.css";
 import "./styles.css";
-import xyz from "./xyz2.gif";
-import xyz2 from "./xyz3.png";
-import xyz3 from "./xyz4.png";
+// import xyz from "./xyz2.png";
+import xyz from "./Cover.png";
+import xyz2 from "./Cover02.jpeg";
+import xyz3 from "./1.png";
 
 const content = [
   {
@@ -15,7 +16,7 @@ const content = [
     description:
       "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.",
     button: "Read More",
-    image: xyz,
+    image:xyz,
     user: "Luan Gjokaj",
     userProfile: "https://i.imgur.com/JSW6mEk.png"
   },
@@ -47,15 +48,15 @@ const content = [
 ];
 
 const NewSlider = () => (
-  <div className="dimag-kharab2">
-    <Slider className="land-slider-wrapper" >
+  <div className="jr-sliderMain">
+    <Slider className="journal-slider-wrapper">
       {content.map((item, index) => (
         <div
           key={index}
           className="slider-content"
-          // style={{ background: `url('${item.image}') no-repeat center center`, width:"100%", height:"100vh" }}
+          // style={{ background: `url('${item.image}') no-repeat center center`, width:"100%", height:"70vh" }}
         >
-        <img src={item.image} alt=" "/>
+        <img src = {item.image} alt=  " "/>
           {/* <div className="inner">
             <h1>{item.title}</h1>
             <p>{item.description}</p>

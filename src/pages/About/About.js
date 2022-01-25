@@ -83,14 +83,16 @@ const About = () => {
           </div>
           {/* <!--col div--> */}
           <div className="comb_3">
-            <HoneyBlock name="Raghavendra" position="Webd Head" image={rv} />
             <HoneyBlock name="Yash" position="Open Mic Head" image={yash} />
-            <HoneyBlock name="Satyam" position="Webd Head" image={satyam} />
+
+            <HoneyBlock name="Raghavendra" position="Webd Head" image={rv} />
             <HoneyBlock
-              name="Akshat"
-              position="Logistic Head + Treasurer"
-              image={akshat}
+              name="Ankita"
+              position="PR & EM Manager"
+              image={ankita}
             />
+            <HoneyBlock name="Satyam" position="Webd Head" image={satyam} />
+
             <HoneyBlock
               name="Adamya"
               position="Editor in Chief"
@@ -101,9 +103,9 @@ const About = () => {
           {/* <!--col div--> */}
           <div className="comb_2">
             <HoneyBlock
-              name="Ankita"
-              position="PR & EM Manager"
-              image={ankita}
+              name="Akshat"
+              position="Logistic Head + Treasurer"
+              image={akshat}
             />
             <HoneyBlock name="Vivek" position="Open Mic Head" image={vivek} />
             <HoneyBlock name="Naman" position="PR & EM Manager" image={naman} />

@@ -3,17 +3,17 @@ import card from "./Upcomingevents/card";
 // import EventSlider from "./Slider/EventSlider";
 import Photo from "./photo/photo";
 import Video from "./video/videocomp";
-import Slider from "./Slider/slider";
+import NewSlider from "./Slider/Index";
 import "./Events.css";
 function Events() {
   return (
-      <div className="EventOuter">
+    <div className="EventOuter">
       {/* <Index /> */}
-        <Slider/>
-        <Main />
-        <Photo />
-        <Video />
-      </div>
+      <NewSlider />
+      <Main />
+      <Photo />
+      <Video />
+    </div>
   );
 }
 

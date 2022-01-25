@@ -1,111 +1,124 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.ab-container{
-    /* height: 100vh; */
-    background-color: rgb(250, 248, 246);
-    padding-top: 4rem ;
-    margin-bottom: 2rem;
+.ab-container {
+  /* height: 100vh; */
+  background-color: rgb(250, 248, 246);
+  padding-top: 4rem;
+  margin-bottom: 2rem;
 }
-.ab-image{
-    background: url("./assets/about.jpg") ;
+.ab-image {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ab-image img {
+  /* background: url("./assets/top.gif") ;
+    background-color: transparent;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 60vh;
+    background-size: cover; */
+
+  width: 50%;
+  height: auto;
 }
-.ab-heading{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 1rem 0;
-    text-align: center;
-    font-weight: 600;
-    font-size: 4rem;
+.ab-heading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 4rem;
 }
-.ab-quote{
-    padding: 0rem 20rem 1.2rem;
-    font-size: 1.8rem;
-    font-weight: 400;
+.ab-quote {
+  padding: 0rem 20rem 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 400;
 }
-.ab-box{
-    display: flex;
-    padding: 0 7rem;
+.ab-box {
+  display: flex;
+  padding: 0 7rem;
 }
-.ab-box1{
-    text-align: justify;
+.ab-box1 {
+  text-align: justify;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+}
+@media (max-width: 1235px) {
+  .ab-heading {
+    font-size: 3.8rem;
+  }
+  .ab-quote {
+    padding: 0rem 16rem 1.2rem;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 1000px) {
+  .ab-heading {
+    font-size: 3.5rem;
+  }
+  .ab-quote {
+    padding: 0rem 9rem 1.2rem;
+    font-size: 1.5rem;
+  }
+  .ab-box {
+    padding: 0 5rem;
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  .ab-box {
+    padding: 0 3rem;
+  }
+  .ab-quote {
+    padding: 0rem 8rem 1.2rem;
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 750px) {
+  .ab-image img {
+    width: 100%;
+  }
+}
+@media (max-width: 645px) {
+  .ab-heading {
+    font-size: 3rem;
+  }
+  .ab-quote {
+    padding: 0rem 6rem 1.2rem;
+    font-size: 1.4rem;
+  }
+  .ab-box {
+    padding: 0 1.5rem;
+  }
+  .ab-box1 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 505px) {
+  .ab-heading {
+    font-size: 2rem;
+  }
+  .ab-quote {
+    padding: 0rem 4rem 1.2rem;
+    font-size: 1.4rem;
+  }
+  .ab-box {
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 380px) {
+  .ab-quote {
+    padding: 0rem 2rem 1.2rem;
     font-size: 1.2rem;
-    padding: 1rem 2rem;
+  }
+  .ab-box {
+    padding: 0rem;
+  }
+  .ab-box1 {
+    font-size: 1rem;
+  }
 }
-@media (max-width:1235px) {
-    .ab-heading{
-        font-size: 3.8rem;
-    }
-    .ab-quote{
-        padding: 0rem 16rem 1.2rem;
-        font-size: 1.5rem;
-    }
-}
-@media (max-width:1000px) {
-    .ab-heading{
-        font-size: 3.5rem;
-    }
-    .ab-quote{
-        padding: 0rem 9rem 1.2rem;
-        font-size: 1.5rem;
-    }
-    .ab-box{
-        padding: 0 5rem;
-        flex-direction: column;
-    }
-}
-@media (max-width:800px) {
-    .ab-box{
-        padding: 0 3rem;
-    }
-    .ab-quote{
-        padding: 0rem 8rem 1.2rem;
-        font-size: 1.4rem;
-    }
-}
-@media (max-width:645px) {
-    .ab-heading{
-        font-size: 3rem;
-    }
-    .ab-quote{
-        padding: 0rem 6rem 1.2rem;
-        font-size: 1.4rem;
-    }
-    .ab-box{
-        padding: 0 1.5rem;
-    }
-    .ab-box1{
-        font-size: 1rem;
-    }
-}
-@media (max-width:505px) {
-    .ab-heading{
-        font-size: 2rem;
-    }
-    .ab-quote{
-        padding: 0rem 4rem 1.2rem;
-        font-size: 1.4rem;
-    }
-    .ab-box{
-        padding: 0 1rem;
-    }
-}
-@media (max-width:380px) {
-    .ab-quote{
-        padding: 0rem 2rem 1.2rem;
-        font-size: 1.2rem;
-    }
-    .ab-box{
-        padding: 0rem;
-    }
-    .ab-box1{
-        font-size: 1rem;
-    }
-}
-@media (max-width:330px) {
-    
+@media (max-width: 330px) {
 }
