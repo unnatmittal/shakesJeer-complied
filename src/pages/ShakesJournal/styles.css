@@ -33,7 +33,7 @@
   left: 0;
 }
 
-.previousButton,
+/* .previousButton,
 .nextButton {
   position: absolute;
   top: 50%;
@@ -55,7 +55,7 @@
     center center / 18px;
   background-color: #ffffff;
   border-radius: 54px;
-}
+} */
 
 .previousButton {
   left: 0;

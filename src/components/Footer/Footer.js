@@ -8,6 +8,8 @@ const mapStyles = {
   height: "100%",
   boxSizing: `border-box`,
 };
+var date = new Date();
+var yr = date.getFullYear();
 class Footer extends React.Component {
   render() {
     return (
@@ -77,6 +79,12 @@ class Footer extends React.Component {
                   Event
                 </Link>
               </li>
+              <li className="quicklinks">
+                <i className="fas fa-book" />
+                <Link to="/resources" className="quicklink_text">
+                  Resources
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="col">
@@ -129,9 +137,7 @@ class Footer extends React.Component {
           </div>
         </div>
         <hr />
-        <p className="copyright">
-          Shakesjeer Website © 2021- All Rights Reserved{" "}
-        </p>
+        <p className="copyright">ShakesJeer {yr} - Made with 😂😁😜</p>
       </footer>
     );
   }

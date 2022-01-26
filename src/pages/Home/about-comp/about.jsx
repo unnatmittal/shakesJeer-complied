@@ -14,10 +14,10 @@ const Aboutsection = () => {
       <div className="box3">
         <div className="box3first">
           <div className="box3firstcontent">
-            Shakesjeer provides platform to the emerging talent that is
-            concealed within the students in abundance! The open mic covers
-            Stand Ups, Raps and Poetry with a special limelight on the art of
-            comedy and wit.
+            ShakesJeer is a group of exceptionally driven students who are
+            dedicated to our mission of giving opportunities and a platform for
+            NSUT students to express themselves creatively through various open
+            mics, allowing them to showcase their humor and wit.
           </div>
         </div>
         <div className="box3second">
@@ -38,7 +38,10 @@ const Aboutsection = () => {
         <Counter start="0" end="6" dura="2" title="Open Mic" />
         <Counter start="0" end="3" dura="2" title="Venue" />
         <Counter start="0" end="53" dura="2" title="Members" />
-        <Counter start="0" end="52" dura="2" title="Vlogs" />
+        {/* <Counter start="0" end="52" dura="2" title="Vlogs" /> */}
+        <div className="land-counter-set">
+          <Counter start="0" end="6" dura="2" title="Vlogs" />
+        </div>
       </div>
     </div>
   );

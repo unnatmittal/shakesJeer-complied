@@ -27,7 +27,7 @@ import akshat from "./assets/members_photo/akshat.jpeg";
 import adamya from "./assets/members_photo/adamya.jpeg";
 import sarv from "./assets/members_photo/sarv.jpeg";
 import ankita from "./assets/members_photo/ankita.jpeg";
-import yash from "./assets/members_photo/yash.PNG";
+import yash from "./assets/members_photo/yash.jpeg";
 import astitva from "./assets/members_photo/astitva.jpeg";
 import satyam from "./assets/members_photo/satyam.jpg";
 import rv from "./assets/members_photo/rv.jpg";
@@ -52,11 +52,7 @@ const About = () => {
 
           {/* <!--col div--> */}
           <div className="comb_1">
-            <HoneyBlock
-              name="Pragati"
-              position="Director Of Operations"
-              image={pragati}
-            />
+            <HoneyBlock name="Pragati" position="Director" image={pragati} />
             <HoneyBlock name="Aman" position="President" image={aman} />
           </div>
           {/* <!--col div--> */}
@@ -71,7 +67,7 @@ const About = () => {
 
             <HoneyBlock
               name="Maanyta"
-              position="Editor in Chief"
+              position="Content Head"
               image={maanyta}
             />
 
@@ -85,40 +81,24 @@ const About = () => {
           <div className="comb_3">
             <HoneyBlock name="Yash" position="Open Mic Head" image={yash} />
 
-            <HoneyBlock name="Raghavendra" position="Webd Head" image={rv} />
-            <HoneyBlock
-              name="Ankita"
-              position="PR & EM Manager"
-              image={ankita}
-            />
-            <HoneyBlock name="Satyam" position="Webd Head" image={satyam} />
+            <HoneyBlock name="Raghavendra" position="Tech Head" image={rv} />
+            <HoneyBlock name="Ankita" position="PR Head" image={ankita} />
+            <HoneyBlock name="Satyam" position="Tech Head" image={satyam} />
 
-            <HoneyBlock
-              name="Adamya"
-              position="Editor in Chief"
-              image={adamya}
-            />
+            <HoneyBlock name="Adamya" position="Content Head" image={adamya} />
             <HoneyBlock name="Sarv" position="Graphics Head" image={sarv} />
           </div>
           {/* <!--col div--> */}
           <div className="comb_2">
-            <HoneyBlock
-              name="Akshat"
-              position="Logistic Head + Treasurer"
-              image={akshat}
-            />
+            <HoneyBlock name="Akshat" position="Treasurer" image={akshat} />
             <HoneyBlock name="Vivek" position="Open Mic Head" image={vivek} />
-            <HoneyBlock name="Naman" position="PR & EM Manager" image={naman} />
+            <HoneyBlock name="Naman" position="PR Head" image={naman} />
             <HoneyBlock
               name="Astitva"
-              position="Editor in Chief"
+              position="Content Head"
               image={astitva}
             />
-            <HoneyBlock
-              name="Aditya"
-              position="Advisory Board Head"
-              image={kumar}
-            />
+            <HoneyBlock name="Aditya" position="PR Head" image={kumar} />
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@
   background-size: cover !important; */
 }
 
-.jr-sliderMain{
+.jr-sliderMain {
   padding-top: 65px;
 }
 
@@ -39,22 +39,25 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 15;
-  background: url("https://www.svgrepo.com/show/1024/right-arrow.svg") no-repeat
-    center center / 16px;
+  background: url("./arrow.png") no-repeat center center / 25px;
   width: 35px;
   height: 35px;
   text-indent: -9999px;
   cursor: pointer;
-  background-color: #ffffff;
-  border-radius: 20px;
+  background-color: black;
+  opacity: 0.5;
+  padding: 50px 20px;
+  /* margin: 0 20px; */
+  /* border-radius: 20px; */
+  transition: 0.2s;
 }
 
 .previousButton:hover,
 .nextButton:hover {
-  background: url("https://www.svgrepo.com/show/1024/right-arrow.svg") no-repeat
-    center center / 18px;
-  background-color: #ffffff;
-  border-radius: 54px;
+  background: url("./arrow.png") no-repeat center center / 25px;
+  background-color: black;
+  opacity: 1;
+  /* border-radius: 54px; */
 }
 
 .previousButton {
@@ -137,64 +140,109 @@
     font-size: 32px;
   }
 }
-@media (max-width:1200px) {
-  .journal-slider-wrapper{
+@media (max-width: 1200px) {
+  .journal-slider-wrapper {
     height: calc(70vh - (1200px - var(--variable-width)) * 0.38);
   }
 }
 
-
 @media (max-height: 1400px) {
-  .journal-slider-wrapper{
-    height: calc(70vh - ((1200px - var(--variable-width)) * 2.26 ));
+  .journal-slider-wrapper {
+    height: calc(70vh - ((1200px - var(--variable-width)) * 2.26));
   }
 }
 @media (max-height: 1200px) {
-  .journal-slider-wrapper{
-    height: calc(70vh - ((1200px - var(--variable-width)) * 1.45 ));
+  .journal-slider-wrapper {
+    height: calc(70vh - ((1200px - var(--variable-width)) * 1.45));
   }
 }
 @media (max-height: 1100px) {
-  .journal-slider-wrapper{
-    height: calc(70vh - ((1200px - var(--variable-width)) * 1.05 ));
+  .journal-slider-wrapper {
+    height: calc(70vh - ((1200px - var(--variable-width)) * 1.05));
   }
 }
 @media (max-height: 950px) {
-  .journal-slider-wrapper{
-    height: calc(70vh - ((1200px - var(--variable-width)) * .645 ));
+  .journal-slider-wrapper {
+    height: calc(70vh - ((1200px - var(--variable-width)) * 0.645));
   }
-} 
+}
 @media (max-height: 900px) {
-  .journal-slider-wrapper{
-    height: calc(70vh - ((1200px - var(--variable-width)) * .615 ));
+  .journal-slider-wrapper {
+    height: calc(70vh - ((1200px - var(--variable-width)) * 0.615));
   }
-} 
+}
 @media (max-height: 860px) {
-  .journal-slider-wrapper{
-    height: calc(70vh - ((1200px - var(--variable-width)) * .565 ));
+  .journal-slider-wrapper {
+    height: calc(70vh - ((1200px - var(--variable-width)) * 0.565));
   }
-} 
+}
 
 @media (max-height: 800px) {
-  .journal-slider-wrapper{
-    height: calc(70vh - ((1200px - var(--variable-width)) * .465 ));
+  .journal-slider-wrapper {
+    height: calc(70vh - ((1200px - var(--variable-width)) * 0.465));
   }
-} 
+}
 
 @media (max-height: 700px) {
-  .journal-slider-wrapper{
-    height: calc(70vh - ((1200px - var(--variable-width)) * .425 ));
+  .journal-slider-wrapper {
+    height: calc(70vh - ((1200px - var(--variable-width)) * 0.425));
   }
-} 
+}
 
 @media (max-height: 640px) {
-  .journal-slider-wrapper{
-    height: calc(70vh - ((1200px - var(--variable-width)) * .4 ));
+  .journal-slider-wrapper {
+    height: calc(70vh - ((1200px - var(--variable-width)) * 0.4));
   }
-} 
+}
 
 @media (min-width: 1200px) {
-  .journal-slider-wrapper{
-    height: calc((70vh - ((1200px - var(--variable-width)) * .4 )) - 20vh);
+  .journal-slider-wrapper {
+    height: calc((70vh - ((1200px - var(--variable-width)) * 0.4)) - 20vh);
   }
-} 
+}
+
+@media (max-width: 800px) {
+  .previousButton,
+  .nextButton {
+    background: url("./arrow.png") no-repeat center center / 15px;
+    width: 30px;
+    height: 35px;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.5;
+    padding: 35px 12px;
+    transition: 0.2s;
+  }
+
+  .previousButton:hover,
+  .nextButton:hover {
+    background: url("./arrow.png") no-repeat center center / 15px;
+    background-color: black;
+    opacity: 1;
+    /* border-radius: 54px; */
+  }
+}
+
+@media (max-width: 500px) {
+  .previousButton,
+  .nextButton {
+    background: url("./arrow.png") no-repeat center center / 10px;
+    width: 20px;
+    height: 35px;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.5;
+    padding: 25px 4px;
+    transition: 0.2s;
+  }
+
+  .previousButton:hover,
+  .nextButton:hover {
+    background: url("./arrow.png") no-repeat center center / 10px;
+    background-color: black;
+    opacity: 1;
+    /* border-radius: 54px; */
+  }
+}

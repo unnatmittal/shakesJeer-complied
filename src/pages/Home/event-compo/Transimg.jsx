@@ -1,19 +1,16 @@
 import React from "react";
-import openmic from "./image/openmic.jpg";
-import fresher from "./image/fresher2.jpg";
+import openmic from "./image/openmic.png";
+import fresher from "./image/s2.png";
 
 class Trans2 extends React.Component {
   constructor(props) {
     super(props);
 
-    const images = [
-      fresher,
-      openmic
-    ];
+    const images = [fresher, openmic];
 
     this.state = {
       images,
-      currentImg: 0
+      currentImg: 0,
     };
   }
 
@@ -44,11 +41,7 @@ class Trans2 extends React.Component {
     const urlString = `url('${images[currentImg]}')`;
 
     return (
-      
-        <div
-          className="land-left" 
-          style={{ backgroundImage: urlString }}
-        ></div>
+      <div className="land-left" style={{ backgroundImage: urlString }}></div>
     );
   }
 }
