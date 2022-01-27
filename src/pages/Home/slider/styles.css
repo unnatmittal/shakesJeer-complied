@@ -123,7 +123,7 @@
   max-width: 640px;
 }
 
-@media (max-height: 500px) {
+/* @media (max-height: 500px) {
   .land-slider-wrapper,
   .slide {
     height: calc(100vh - 75px);
@@ -147,7 +147,7 @@
   .slider-content .inner h1 {
     font-size: 32px;
   }
-}
+} */
 
 /* slider media queries  */
 
@@ -156,6 +156,7 @@
     height: calc(92vh - ((1100px - var(--variable-width)) * 0.55));
   }
 }
+
 @media (max-height: 1400px) {
   .land-slider-wrapper {
     height: calc(92vh - ((1100px - var(--variable-width)) * 4.5));

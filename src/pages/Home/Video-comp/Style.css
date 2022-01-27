@@ -4,7 +4,7 @@
   box-sizing: border-box;
 } */
 .Video {
-  padding-top: 4rem;
+  padding-top: 2rem;
   box-sizing: content-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -108,6 +108,9 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .video {
+    padding-top: 0;
+  }
   .containerVideo {
     flex-direction: column;
     justify-content: space-between;
