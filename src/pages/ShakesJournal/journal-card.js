@@ -19,7 +19,7 @@ function JournalCard() {
   return (
     <div className="jc-container">
       <div className="jc-heading">ShakesJournal</div>
-      <div className="jc-heading-edition">Etd-1</div>
+      <div className="jc-heading-edition">Edition - 1</div>
       <div className="jc-release">
         <hr />
         <div className="jc-release-date">released on 26th Jan 2022</div>

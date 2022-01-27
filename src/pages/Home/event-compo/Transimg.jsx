@@ -1,12 +1,14 @@
 import React from "react";
 import openmic from "./image/openmic.png";
 import fresher from "./image/s2.png";
+import e2 from "./image/e2.jpg";
+import e3 from "./image/e3.jpg";
 
 class Trans2 extends React.Component {
   constructor(props) {
     super(props);
 
-    const images = [fresher, openmic];
+    const images = [e3, e2, openmic];
 
     this.state = {
       images,

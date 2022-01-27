@@ -14,7 +14,10 @@ function Journal() {
       </div>
       <div className="j-css">
         <About />
-        <Quote />
+        <div className="ab-quote">
+          Stand-up comedy is mine: it's my entity; it's my brand; I own it. I do
+          it when I want to do it. <br />- Kevin Hart
+        </div>
 
         <div className="jr_components">
           <Hover />

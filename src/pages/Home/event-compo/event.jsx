@@ -11,21 +11,28 @@ function Event() {
       <img className="vari" src={graphic} alt=""></img>
       </div> */}
       <div>
-      <section className = "land-overlay">
-        <div className="land-container">
-          <Trans2/>
-          <div className="land-right">
-            <div className="land-content">
-              <h1 id="heading10" ><Trans/></h1>
-              <p><Trans3/></p>
-              
-              <a href="#null" className="btn">Click Me</a>
+        <section className="land-overlay">
+          <div className="land-container">
+            <Trans2 />
+            <div className="land-right">
+              <div className="land-content">
+                <h1 id="heading10">
+                  <Trans />
+                </h1>
+                <p>
+                  <Trans3 />
+                </p>
+
+                <div className="land-button-set">
+                  <a href="/events" className="btn">
+                    To Events
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
       </div>
-      
     </div>
   );
 }

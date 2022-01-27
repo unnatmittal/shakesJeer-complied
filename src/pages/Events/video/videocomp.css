@@ -8,10 +8,10 @@
   background-color: #f6f6f6;
   /* margin: 0 auto; */
 }
-h1,
+/*h1,
 h2 {
   color: #acacac;
-}
+} */
 iframe {
   width: 95%;
   height: calc(110ew / eval("width/height"));

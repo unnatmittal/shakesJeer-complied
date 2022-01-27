@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,200italic);
+
+/* qoute */
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Parisienne&family=Sail&display=swap");
+
 .quote {
   background-color: #f0f0ef7d;
   width: 100%;
@@ -44,110 +48,111 @@
   color: rgba(238, 238, 238, 0.8);
   font-weight: normal;
 }
-.quote-card.red-card:before, .quote-card.red-card:after {
+.quote-card.red-card:before,
+.red-card:after {
   color: #f44336;
 }
-@media (max-width:1400px) {
-  .quote{
+@media (max-width: 1400px) {
+  .quote {
     padding: 70px 300px;
   }
 }
-@media (max-width:1300px) {
-  .quote{
+@media (max-width: 1300px) {
+  .quote {
     padding: 70px 250px;
   }
 }
-@media (max-width:1200px) {
-  .quote{
+@media (max-width: 1200px) {
+  .quote {
     padding: 70px 200px;
   }
-  .quote-card p{
+  .quote-card p {
     font-size: 35px;
   }
 }
-@media (max-width:1030px) {
-  .quote{
+@media (max-width: 1030px) {
+  .quote {
     padding: 10px 150px 70px 150px;
   }
 }
-@media (max-width:920px) {
-  .quote{
+@media (max-width: 920px) {
+  .quote {
     padding: 10px 100px 109px 100px;
   }
-  .quote-card p{
+  .quote-card p {
     font-size: 40px;
   }
 }
-@media (max-width:743px) {
-  .quote{
+@media (max-width: 743px) {
+  .quote {
     padding: 10px 50px 70px 50px;
   }
   .quote-card:after {
     font-size: 22em;
     right: 1px;
   }
-} 
-@media (max-width:642px) {
+}
+@media (max-width: 642px) {
   .quote-card:after {
     font-size: 20em;
     right: 20px;
   }
-  .quote-card p{
+  .quote-card p {
     font-size: 25px;
   }
 }
-@media (max-width:501px) {
+@media (max-width: 501px) {
   .quote-card:after {
     font-size: 15em;
-    top:185px;
+    top: 185px;
     right: 30px;
   }
-  .quote{
+  .quote {
     padding: 10px 30px 70px 30px;
   }
 }
-@media (max-width:460px) {
-  .quote{
+@media (max-width: 460px) {
+  .quote {
     padding: 62px 10px 70px 10px;
   }
   .quote-card:after {
     font-size: 13em;
-    top:180px;
+    top: 180px;
     right: 50px;
-  } 
+  }
 }
-@media (max-width:409px) {
-  .quote{
+@media (max-width: 409px) {
+  .quote {
     padding: 0px 0px 70px 0px;
   }
-  .quote-card p{
+  .quote-card p {
     font-size: 30px;
   }
-  .quote-card:before{
+  .quote-card:before {
     top: -11px;
     left: 26px;
   }
   .quote-card:after {
     font-size: 13em;
-    top:120px;
+    top: 120px;
     right: 10px;
   }
 }
-@media (max-width:336px) {
-  .quote-card{
+@media (max-width: 336px) {
+  .quote-card {
     padding: 20px 0 50px 52px;
   }
-  .quote-card p{
+  .quote-card p {
     font-size: 18px;
   }
   .quote-card:after {
     font-size: 10em;
-    top:130px;
+    top: 130px;
     right: 10px;
   }
 }
-@media (max-width:300px) {
-  .quote{
+@media (max-width: 300px) {
+  .quote {
     padding: 28px 0px 1px 0px;
   }
 }

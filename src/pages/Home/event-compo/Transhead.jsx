@@ -2,7 +2,7 @@ import React from "react";
 import "./Event.css";
 import TextTransition, { presets } from "react-text-transition";
 
-const TEXTS = ["Fresher's Video", "Open Mic"];
+const TEXTS = ["ComicVerse", "Fresher's Video", "Open Mic"];
 
 const Trans = () => {
   const [index, setIndex] = React.useState(0);

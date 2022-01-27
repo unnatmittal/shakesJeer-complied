@@ -11,7 +11,7 @@ const Abbout = () => {
       {/* <div className="ab-heading">ShakesJeer</div> */}
       <div className="ab-heading ab-quote">
         Stand-up comedy is mine: it's my entity; it's my brand; I own it. I do
-        it when I want to do it. - Kevin Hart
+        it when I want to do it. <br />- Kevin Hart
       </div>
       <div className="ab-box">
         <div className="ab-box1">
