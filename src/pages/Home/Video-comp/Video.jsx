@@ -9,7 +9,7 @@ const Video = () => {
 
   return (
     <>
-      <Heading name="Our Contribution" />
+      <Heading name="Our Imprints" />
       <Videocard menuData={menuData} />
     </>
   );

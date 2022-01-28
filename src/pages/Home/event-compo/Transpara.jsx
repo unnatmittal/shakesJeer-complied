@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
 const textArray = [
-  "This video also promoted shakesjeer within the campus as we are a relatively new society and people didn't knew much about us before the video. The video has over 13k views on YouTube. It also helped us to gain instagram followers.",
+  "Shakesjeer was delighted to conduct our flagship event “Comic Verse” for NSUT'Thon to keep all the freshers  filled with the maximum exuberance during the Fresher’s week. The event witnessed a grand success with participation of more than 150 teams.",
+  "ShakesJeer brings to you its debut vlog, which was shot at After-hours Café, City Centre Mall, Dwarka.It shows how our superfun Open Mics operate and also includes the backstage preparations and the radiating laughter that warmed up the venue.",
   "The event was a great success with an audience of over 300 students. We gave opportunity to budding artists to perform in front of live audience. The event gave college students a break from there hectic schedule. The event also helped us build connections with DU colleges.",
-  "icbwivbwknlknojbcibdcivlllllcbdjlcncoicifuckkkkkoffff",
 ];
 
 class Trans3 extends Component {

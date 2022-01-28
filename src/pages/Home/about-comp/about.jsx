@@ -14,10 +14,14 @@ const Aboutsection = () => {
       <div className="box3">
         <div className="box3first">
           <div className="box3firstcontent">
-            ShakesJeer is a group of exceptionally driven students who are
+            As Bonaparte striked like Ignis through Italia, we too mean to
+            conquer the ' Organising Events' circuit of Delhi in a similar
+            style. Our initiative follows the legacy of the great François de La
+            Rochefoucauld in intending to establish a society of wit and satire.
+            {/* ShakesJeer is a group of exceptionally driven students who are
             dedicated to our mission of giving opportunities and a platform for
             NSUT students to express themselves creatively through various open
-            mics, allowing them to showcase their humor and wit.
+            mics, allowing them to showcase their humor and wit. */}
           </div>
         </div>
         <div className="box3second">

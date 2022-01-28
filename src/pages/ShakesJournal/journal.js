@@ -15,8 +15,9 @@ function Journal() {
       <div className="j-css">
         <About />
         <div className="ab-quote">
-          Stand-up comedy is mine: it's my entity; it's my brand; I own it. I do
-          it when I want to do it. <br />- Kevin Hart
+          At the height of laughter, the universe is flung into a kaleidoscope
+          of new possibilities
+          <br /> - Louis L' Amour{" "}
         </div>
 
         <div className="jr_components">

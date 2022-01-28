@@ -11,6 +11,7 @@ function Hover() {
           <div
             style={{
               backgroundColor: item.bgcolor,
+              backgroundImage: item.bgimg,
             }}
             className="jr_card"
           >

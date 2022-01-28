@@ -122,6 +122,26 @@ table .date {
   border-radius: 2px;
   text-decoration: none;
 }
+
+.eventsection-seemore {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin-left: -10px;
+  font-size: 2em;
+  color: antiquewhite;
+  background-color: black;
+  opacity: 0.8;
+  z-index: 500;
+  /* text-decoration: underline; */
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media only screen and (max-width: 1035px) {
   .event-container {
     /* width: 1035px;
@@ -154,6 +174,9 @@ table .date {
     margin: 30px 0px;
     padding: 10px 30px;
     display: inline-block;
+  }
+  .eventsection-seemore {
+    margin-left: -30px;
   }
 }
 @media only screen and (max-width: 800px) {
@@ -203,6 +226,9 @@ table .date {
   .event-quote {
     font-size: 14px;
     width: 100%;
+  }
+  .eventsection-seemore {
+    margin-left: -20px;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -272,23 +298,4 @@ table .date {
     font-size: 24px;
     width: 260px;
   }
-}
-
-.eventsection-seemore {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  margin-left: -10px;
-  font-size: 2em;
-  color: antiquewhite;
-  background-color: black;
-  opacity: 0.8;
-  z-index: 500;
-  /* text-decoration: underline; */
-  cursor: pointer;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
