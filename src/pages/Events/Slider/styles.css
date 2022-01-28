@@ -140,7 +140,7 @@
     font-size: 32px;
   }
 }
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .journal-slider-wrapper {
     height: calc(70vh - (1200px - var(--variable-width)) * 0.38);
   }
@@ -199,7 +199,7 @@
   .journal-slider-wrapper {
     height: calc((70vh - ((1200px - var(--variable-width)) * 0.4)) - 20vh);
   }
-}
+} */
 
 @media (max-width: 800px) {
   .previousButton,

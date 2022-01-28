@@ -3,14 +3,14 @@ import "./contact.css";
 import Lottie from "react-lottie-player";
 import loading from "../../components/loading.json";
 import emailjs from "emailjs-com";
-import { FaFacebookSquare } from 'react-icons/fa'
-import { FaYoutube } from 'react-icons/fa'
-import { FaLinkedin } from 'react-icons/fa'
-import { FaTwitter } from 'react-icons/fa'
-import { FaInstagram } from 'react-icons/fa'
-import { FaEnvelopeOpenText } from 'react-icons/fa'
-import { FaPhoneAlt } from 'react-icons/fa'
-import { FaMapMarkerAlt } from 'react-icons/fa'
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaEnvelopeOpenText } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaMapMarkerAlt } from "react-icons/fa";
 export default function Contact() {
   // const form = useRef();
   const [status, setStatus] = useState("");
@@ -21,16 +21,18 @@ export default function Contact() {
     e.preventDefault();
     emailjs
       .sendForm(
-        'service_sjccwgk',
-        'template_izp2wqd',
+        "service_sjccwgk",
+        "template_izp2wqd",
         e.target,
-        'user_Ct89gE08IjzpjZ6myTyXm'
+        "user_Ct89gE08IjzpjZ6myTyXm"
       )
       .then(
         (result) => {
-          console.log(result.text);
-          setShowLoad(false);
-          setStatus("SUCCESS");
+          setInterval(() => {
+            console.log(result.text);
+            setShowLoad(false);
+            setStatus("SUCCESS");
+          }, 4000);
         },
         (error) => {
           console.log(error.text);
@@ -56,7 +58,9 @@ export default function Contact() {
                 <ul className="c-info">
                   <li>
                     <span>
-                      <div className="fas"><FaMapMarkerAlt /></div>
+                      <div className="fas">
+                        <FaMapMarkerAlt />
+                      </div>
                     </span>
                     <span>
                       Sector-3,Dwarka Road.
@@ -66,24 +70,64 @@ export default function Contact() {
                   </li>
                   <li>
                     <span>
-                      <div className="fas"><FaEnvelopeOpenText /></div>
+                      <div className="fas">
+                        <FaEnvelopeOpenText />
+                      </div>
                     </span>
                     <span>shakesjeer.nsutd@gmail.com</span>
                   </li>
                   <li>
                     <span>
-                      <div className="fas"><FaPhoneAlt /></div>
+                      <div className="fas">
+                        <FaPhoneAlt />
+                      </div>
                     </span>
                     <span>+91 9315911429</span>
                   </li>
                 </ul>
               </div>
               <ul className="c-sci">
-                <li ><a href="" target="_blank" className="fab c-twitter"><FaTwitter /></a></li>
-                <li ><a href="https://www.facebook.com/ShakesJeer/" target="_blank" className="fab c-fb"><FaFacebookSquare /></a></li>
-                <li ><a href="https://in.linkedin.com/company/shakesjeer" target="_blank" className="fab c-link"><FaLinkedin /></a></li>
-                <li ><a href="https://www.youtube.com/channel/UCxjRIS5xt8nvBTT7naTxe7Q" target="_blank" className="fab c-pin"><FaYoutube /></a></li>
-                <li ><a href="https://www.instagram.com/shakesjeer.nsut/" target="_blank" className="fab c-insta"><FaInstagram /></a></li>
+                <li>
+                  <a href="" target="_blank" className="fab c-twitter">
+                    <FaTwitter />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/ShakesJeer/"
+                    target="_blank"
+                    className="fab c-fb"
+                  >
+                    <FaFacebookSquare />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://in.linkedin.com/company/shakesjeer"
+                    target="_blank"
+                    className="fab c-link"
+                  >
+                    <FaLinkedin />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/channel/UCxjRIS5xt8nvBTT7naTxe7Q"
+                    target="_blank"
+                    className="fab c-pin"
+                  >
+                    <FaYoutube />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/shakesjeer.nsut/"
+                    target="_blank"
+                    className="fab c-insta"
+                  >
+                    <FaInstagram />
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="c-contactform">

@@ -81,7 +81,7 @@ const About = () => {
           <div className="comb_3">
             <HoneyBlock name="Yash" position="Open Mic Head" image={yash} />
 
-            <HoneyBlock name="Raghavendra" position="Tech Head" image={rv} />
+            <HoneyBlock name="Raghvendra" position="Tech Head" image={rv} />
             <HoneyBlock name="Ankita" position="PR Head" image={ankita} />
             <HoneyBlock name="Satyam" position="Tech Head" image={satyam} />
 

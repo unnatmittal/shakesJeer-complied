@@ -53,7 +53,7 @@ const NewSlider = () => (
       {content.map((item, index) => (
         <div
           key={index}
-          className="slider-content"
+          className="journal-slider-content"
           // style={{ background: `url('${item.image}') no-repeat center center`, width:"100%", height:"70vh" }}
         >
           <img src={item.image} alt=" " />

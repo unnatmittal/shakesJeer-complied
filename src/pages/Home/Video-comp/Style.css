@@ -108,7 +108,7 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  .video {
+  .Video {
     padding-top: 0;
   }
   .containerVideo {

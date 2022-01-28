@@ -56,7 +56,6 @@
 }
 .jc-release hr {
   width: 80%;
-  margin: 0;
   margin: 0 12px;
 }
 .jc-release-date {
@@ -350,6 +349,18 @@ html {
         margin: 0 -50px;
     }
 } */
+@media screen and (max-width: 850px) {
+  .jc-release hr {
+    width: 40%;
+    margin: 0 -30px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .jc-release hr {
+    width: 30%;
+    margin: 0 -80px;
+  }
+}
 
 @media screen and (max-width: 525px) {
   .jc-container {

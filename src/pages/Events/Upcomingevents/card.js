@@ -37,6 +37,20 @@ const card = ({ menuData }) => {
                 Book Your Tickets
               </a>
             </div>
+            <div className="eventsection-seemore">
+              <p>
+                <div target="_blank" rel="noopener noreferrer">
+                  {" "}
+                  <i
+                    class="fas fa-lock"
+                    style={{
+                      color: "grey",
+                      transform: "scale(2)",
+                    }}
+                  ></i>
+                </div>
+              </p>
+            </div>
           </div>
         );
       })}
