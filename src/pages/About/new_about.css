@@ -35,12 +35,14 @@
   font-size: 4rem;
 }
 .ab-quote {
-  padding: 1.8rem 16rem 1.2rem;
+  padding: 1.8rem 180px 1.2rem;
   font-size: 40px;
   color: #484848;
   font-family: "Parisienne", cursive;
   letter-spacing: 2px;
   text-align: right;
+  font-weight: 700;
+  background-color: rgb(250, 248, 246);
 }
 .ab-box {
   display: flex;
@@ -51,13 +53,14 @@
   font-size: 1.2rem;
   padding: 1rem 2rem;
 }
+
 @media (max-width: 1235px) {
   .ab-heading {
     font-size: 3.8rem;
   }
   .ab-quote {
-    padding: 2rem 16rem 1.2rem;
-    font-size: 1.5rem;
+    padding: 2rem 150px 1.2rem;
+    font-size: 35px;
   }
 }
 @media (max-width: 1000px) {
@@ -65,8 +68,8 @@
     font-size: 3.5rem;
   }
   .ab-quote {
-    padding: 2rem 9rem 1.2rem;
-    font-size: 1.5rem;
+    padding: 2rem 110px 1.2rem;
+    font-size: 27px;
   }
   .ab-box {
     padding: 0 5rem;
@@ -78,8 +81,8 @@
     padding: 0 3rem;
   }
   .ab-quote {
-    padding: 2rem 8rem 1.2rem;
-    font-size: 1.4rem;
+    padding: 2rem 80px 1.2rem;
+    font-size: 25px;
   }
 }
 @media (max-width: 750px) {
@@ -92,8 +95,8 @@
     font-size: 3rem;
   }
   .ab-quote {
-    padding: 2rem 6rem 1.2rem;
-    font-size: 1.4rem;
+    padding: 2rem 60px 1.2rem 20px;
+    font-size: 25px;
   }
   .ab-box {
     padding: 0 1.5rem;
@@ -107,11 +110,17 @@
     font-size: 2rem;
   }
   .ab-quote {
-    padding: 2rem 4rem 1.2rem;
-    font-size: 1.4rem;
+    padding: 2rem 40px 1.2rem 10px;
+    font-size: 25px;
   }
   .ab-box {
     padding: 0 1rem;
+  }
+}
+@media (max-width: 420px) {
+  .ab-quote {
+    /* padding: 1.8rem 50px 1.2rem; */
+    font-size: 20px;
   }
 }
 @media (max-width: 380px) {
