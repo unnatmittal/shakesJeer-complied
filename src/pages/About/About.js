@@ -1,8 +1,8 @@
 import React from "react";
 import "./style/about.css";
 import "./style/bubble.css";
-import logo from "./assets/logo.png";
-import logo2 from "./assets/logo2.png";
+// import logo from "./assets/logo.png";
+// import logo2 from "./assets/logo2.png";
 import Teacher from "./teacher";
 import Heading from "./heading";
 import Abbout from "./new_about";

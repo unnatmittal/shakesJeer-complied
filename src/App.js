@@ -43,7 +43,7 @@ function App() {
         <Navbar />
         <main>
           <Switch>
-            <Route exact path="/" exact component={Home} />
+            <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/events" component={Events} />
             <Route path="/resources" component={Resources} />

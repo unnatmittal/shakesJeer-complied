@@ -5,15 +5,15 @@ import { Link, useLocation } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
 import "./Navbar.css";
 import { IconContext } from "react-icons";
-import logo from "./logo.png";
-import lightblue_darkbg from "./lightblue_darkbg.png";
+// import logo from "./logo.png";
+// import lightblue_darkbg from "./lightblue_darkbg.png";
 import yellowlogo_lightbg from "./yellowlogo_lightbg.png";
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
   let location = useLocation();
   const showSidebar = () => setSidebar(!sidebar);
-  console.log(location.pathname);
+
   const path = location.pathname.substr(1).toUpperCase();
   return (
     <>
@@ -50,9 +50,13 @@ function Navbar() {
               </Link>
             </div>
             <p className="npath">{path}</p>
-            <Link to="#" className="menu-bars">
+            {!sidebar?<Link to="#" className="menu-bars">
               <FaIcons.FaBars onClick={showSidebar} />
-            </Link>
+            </Link>:<Link to="#" className="menu-bars">
+                  <AiIcons.AiOutlineClose onClick={showSidebar}/>
+                </Link>}
+            
+            
           </div>
         </div>
       </IconContext.Provider>

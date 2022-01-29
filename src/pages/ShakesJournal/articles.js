@@ -1,4 +1,4 @@
-import images from "./images/oscar.jpeg";
+// import images from "./images/oscar.jpeg";
 import a1 from "./images/art_1.jpg";
 import a2 from "./images/art_2.jpg";
 import a3 from "./images/art_3.jpg";

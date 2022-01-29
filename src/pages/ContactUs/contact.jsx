@@ -88,14 +88,14 @@ export default function Contact() {
               </div>
               <ul className="c-sci">
                 <li>
-                  <a href="" target="_blank" className="fab c-twitter">
+                  <a href="//"  className="fab c-twitter">
                     <FaTwitter />
                   </a>
                 </li>
                 <li>
                   <a
                     href="https://www.facebook.com/ShakesJeer/"
-                    target="_blank"
+                    
                     className="fab c-fb"
                   >
                     <FaFacebookSquare />
@@ -104,7 +104,7 @@ export default function Contact() {
                 <li>
                   <a
                     href="https://in.linkedin.com/company/shakesjeer"
-                    target="_blank"
+                    
                     className="fab c-link"
                   >
                     <FaLinkedin />
@@ -113,7 +113,7 @@ export default function Contact() {
                 <li>
                   <a
                     href="https://www.youtube.com/channel/UCxjRIS5xt8nvBTT7naTxe7Q"
-                    target="_blank"
+                    
                     className="fab c-pin"
                   >
                     <FaYoutube />
@@ -122,7 +122,7 @@ export default function Contact() {
                 <li>
                   <a
                     href="https://www.instagram.com/shakesjeer.nsut/"
-                    target="_blank"
+                    
                     className="fab c-insta"
                   >
                     <FaInstagram />

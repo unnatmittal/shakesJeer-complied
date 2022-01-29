@@ -1,6 +1,4 @@
 import Main from "./Upcomingevents/Main";
-import card from "./Upcomingevents/card";
-// import EventSlider from "./Slider/EventSlider";
 import Photo from "./photo/photo";
 import Video from "./video/videocomp";
 import NewSlider from "./Slider/Index";

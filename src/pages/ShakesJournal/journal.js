@@ -3,7 +3,7 @@ import "./journal.css";
 import Hover from "./hover.js";
 import NewSlider from "./slider.js";
 import About from "./about.jsx";
-import Quote from "./quote_journal";
+// import Quote from "./quote_journal";
 import JournalCard from "./journal-card";
 
 function Journal() {

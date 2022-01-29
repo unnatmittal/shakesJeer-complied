@@ -8,8 +8,8 @@ import p5 from "./5.jpeg";
 import p6 from "./6.jpeg";
 import p7 from "./7.jpeg";
 import p8 from "./8.jpeg";
-import p9 from "./9.jpeg";
-import p10 from "./10.jpeg";
+// import p9 from "./9.jpeg";
+// import p10 from "./10.jpeg";
 import p11 from "./11.jpeg";
 import Heading from "../photo/heading.js";
 const Photo = () => {
@@ -17,7 +17,7 @@ const Photo = () => {
     <>
       <Heading name="Glimpse of Past" />
       <div class="event-image-grid">
-        <a class="event-image-grid-col-2 event-image-grid-row-2">
+        <a class="event-image-grid-col-2 event-image-grid-row-2" href="//">
           <img
             src={p11}
             alt="architecture"
@@ -33,7 +33,7 @@ const Photo = () => {
         <img src={p6} alt="architecture" />
         <div className="photo-seemore">
           <img src={p7} alt="architecture" />
-          <a href="https://www.instagram.com/shakesjeer.nsut/" target="_blank">
+          <a href="https://www.instagram.com/shakesjeer.nsut/" >
             <div className="seemore">
               <p>See More</p>
             </div>

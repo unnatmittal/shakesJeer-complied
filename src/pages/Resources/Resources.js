@@ -20,7 +20,6 @@ function Resources() {
     setIsModalVisible(false);
   };
 
-  const [hover, setHover] = useState(false);
 
   return (
     <div className="res_app">
@@ -46,12 +45,12 @@ function Resources() {
               <div className="res_grid-shuffle">
                 <ul id="res_grid" className="res_column">
                   {StreamData.map((data, index) => {
-                    const buttonStyle = ({ hover }) => ({
-                      // borderRadius: '6px',
-                      // border: '1px solid',
-                      // borderColor: hover ? 'black' : 'red',
-                      backgroundColor: hover ? data.color : "black",
-                    });
+                    // const buttonStyle = ({ hover }) => ({
+                    //   // borderRadius: '6px',
+                    //   // border: '1px solid',
+                    //   // borderColor: hover ? 'black' : 'red',
+                    //   backgroundColor: !hover ? data.color : "black",
+                    // });
                     return (
                       <li
                         className="res_book-item small-12 medium-6 columns"
@@ -82,9 +81,9 @@ function Resources() {
                           <button
                             className="res_button"
                             onClick={showModal}
-                            style={buttonStyle({ hover })}
-                            onPointerOver={() => setHover(true)}
-                            onPointerOut={() => setHover(false)}
+                            style={{backgroundColor: data.color}}
+                            // onPointerOver={() => setHover(true)}
+                            // onPointerOut={() => setHover(false)}
                           >
                             {" "}
                             Details
@@ -115,7 +114,6 @@ function Resources() {
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem1}
-                              target="_blank"
                               title="Sem-1"
                             >
                               1
@@ -123,7 +121,6 @@ function Resources() {
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem2}
-                              target="_blank"
                               title="Sem-2"
                             >
                               2
@@ -131,7 +128,7 @@ function Resources() {
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem3}
-                              target="_blank"
+                              
                               title="Sem-3"
                             >
                               3
@@ -139,7 +136,7 @@ function Resources() {
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem4}
-                              target="_blank"
+                              
                               title="Sem-4"
                             >
                               4
@@ -147,7 +144,7 @@ function Resources() {
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem5}
-                              target="_blank"
+                              
                               title="Sem-5"
                             >
                               5
@@ -155,7 +152,7 @@ function Resources() {
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem6}
-                              target="_blank"
+                              
                               title="Sem-6"
                             >
                               6
@@ -163,7 +160,7 @@ function Resources() {
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem7}
-                              target="_blank"
+                              
                               title="Sem-7"
                             >
                               7
@@ -171,7 +168,7 @@ function Resources() {
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem8}
-                              target="_blank"
+                              
                               title="Sem-8"
                             >
                               8

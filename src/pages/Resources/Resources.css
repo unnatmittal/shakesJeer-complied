@@ -28,20 +28,21 @@
 }
 
 .res_button {
-  background-color: rgb(3, 2, 2);
+  /* background-color: rgb(3, 2, 2); */
   border: none;
-  font-weight: 700;
-  color: rgb(217, 229, 240);
+  color: rgb(0, 0, 0);
   padding: 5px 20px;
   border-radius: 10px;
+  font-weight: 800;
 }
 
 .res_button:hover {
   /* background-color: #f6be00; */
   /* background-color: #fec701; */
   /* color: black; */
-  color: white;
-  font-weight: 800;
+  background-color: black !important;
+  color: rgb(255, 255, 255);
+  
 }
 
 .res_main-container {

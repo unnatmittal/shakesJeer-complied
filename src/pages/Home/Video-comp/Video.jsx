@@ -5,7 +5,7 @@ import Videocard from "./Videocard.jsx";
 import Heading from "../sponsor-comp/heading";
 
 const Video = () => {
-  const [menuData, setMenuData] = React.useState(Menu);
+  const [menuData] = React.useState(Menu);
 
   return (
     <>

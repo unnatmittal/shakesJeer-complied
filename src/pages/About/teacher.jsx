@@ -1,7 +1,7 @@
 import React from "react";
 import "./teacher.css";
 import pic from "./asthamaam.jpeg";
-import { FaFacebook } from "react-icons/fa";
+// import { FaFacebook } from "react-icons/fa";
 
 const Teacher = () => {
   return (
