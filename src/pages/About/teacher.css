@@ -26,6 +26,9 @@
   text-align: left;
   /* border: 2px solid red; */
 }
+.tbox2 p {
+  font-family: "PT Serif", serif;
+}
 .tbox1 {
   margin: 50px 0;
   /* border: 2px solid red; */
@@ -130,11 +133,14 @@
   /* color: #fff; */
   font-size: 35px;
   margin-bottom: 7px;
+  font-family: "PT Serif", serif;
+  font-weight: 600;
 }
 .tpost {
   margin-right: 18px;
   /* color: #fff; */
   font-size: 25px;
+  font-family: "PT Serif", serif;
 }
 .tbox2 p {
   font-size: 20px;

@@ -20,6 +20,8 @@ function Resources() {
     setIsModalVisible(false);
   };
 
+  const [hover, setHover] = useState(false);
+
   return (
     <div className="res_app">
       <div
@@ -44,6 +46,12 @@ function Resources() {
               <div className="res_grid-shuffle">
                 <ul id="res_grid" className="res_column">
                   {StreamData.map((data, index) => {
+                    const buttonStyle = ({ hover }) => ({
+                      // borderRadius: '6px',
+                      // border: '1px solid',
+                      // borderColor: hover ? 'black' : 'red',
+                      backgroundColor: hover ? data.color : "black",
+                    });
                     return (
                       <li
                         className="res_book-item small-12 medium-6 columns"
@@ -71,7 +79,14 @@ function Resources() {
                           <p className="res_book-item_content">
                             {data.content}
                           </p>
-                          <button className="res_button" onClick={showModal}>
+                          <button
+                            className="res_button"
+                            onClick={showModal}
+                            style={buttonStyle({ hover })}
+                            onPointerOver={() => setHover(true)}
+                            onPointerOut={() => setHover(false)}
+                          >
+                            {" "}
                             Details
                           </button>
                         </div>

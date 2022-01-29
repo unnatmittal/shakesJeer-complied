@@ -9,7 +9,7 @@ import "./styles.css";
 import s1 from "./images/slider_1.png";
 import s2 from "./images/slider_2.png";
 import s3 from "./images/slider_3.png";
-import s4 from "./images/slider_4.jpeg";
+import s4 from "./images/slider_4.png";
 
 const content = [
   {

@@ -12,7 +12,7 @@ body {
   background: linear-gradient(#cddc39, #009688);
 } */
 
-.main1{
+.main1 {
   background-color: #fff;
   padding: 1px 0 1px 0;
 }
@@ -22,10 +22,9 @@ body {
   margin-bottom: 0;
 }
 
-
 /* style member component */
 .list-members {
-  background: #fffdde;;
+  background: #fffdde;
   width: 90%;
   margin: 4% auto;
   display: flex;
@@ -60,15 +59,17 @@ body {
 .member-info {
   width: 50%;
   text-align: center;
+  font-family: "PT Serif", serif;
 }
 
 .member-info h6 {
   margin: 20px 0;
   padding: 0 10px;
   font-weight: lighter;
+  font-family: "PT Serif", serif;
 }
 
-.before-info{
+.before-info {
   height: 100%;
   width: 100%;
   position: relative;
@@ -77,33 +78,40 @@ body {
   align-items: center;
   flex-direction: column;
   text-align: left;
+  font-family: "PT Serif", serif;
 }
 
-.before-info h3{
+.before-info h3 {
   font-size: 1.5rem;
-  padding-top: 10px ;
-  transition: all .5s;
+  padding-top: 10px;
+  transition: all 0.5s;
   text-align: center;
   margin-bottom: -10px;
+  font-family: "PT Serif", serif;
+  font-weight: 600;
 }
 
-.before-info h6{
+.before-info h6 {
   font-size: 1rem;
-  transition: all .5s;
+  transition: all 0.5s;
+  font-family: "PT Serif", serif;
 }
 
-.about-showit{
+.about-showit {
   display: none;
   margin-left: 0;
+  font-family: "PT Serif", serif;
 }
 
-.about-hideit{
+.about-hideit {
   margin-left: 0;
+  font-family: "PT Serif", serif;
 }
-.about-firstletter{
+.about-firstletter {
   margin-left: 0;
+  font-family: "PT Serif", serif;
 }
-.after-info{
+.after-info {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -114,43 +122,52 @@ body {
   align-items: center;
   flex-direction: column;
   transform: translateY(-20px);
-  transition: all .1s;
+  transition: all 0.1s;
   opacity: 0;
+  font-family: "PT Serif", serif;
 }
 
-.about-techhead{
+.about-techhead {
   margin-bottom: 50px;
+  font-family: "PT Serif", serif;
 }
 
-.after-info p{
+.after-info p {
   padding: 0 10px;
   font-size: 1rem;
   margin-top: -40px;
   text-align: center;
   margin-left: 2px;
+  font-family: "PT Serif", serif;
 }
 
-.after-info h4{
+.after-info h4 {
   padding: 0 10px 15px;
   margin-top: 15px;
   font-size: 1.4rem;
   text-align: center;
+  font-family: "PT Serif", serif;
+  font-weight: 600;
 }
 
-.before-info:hover h3{ 
+.before-info:hover h3 {
   transform: rotateX(720deg) scale(0);
   opacity: 0;
+  font-family: "PT Serif", serif;
+  font-weight: 600;
 }
 
-.before-info:hover h6{ 
+.before-info:hover h6 {
   transform: rotateX(720deg) scale(0);
   opacity: 0;
+  font-family: "PT Serif", serif;
 }
 
-.before-info:hover .after-info{
+.before-info:hover .after-info {
   transform: translateY(0);
-  transition-delay: .6s;
+  transition-delay: 0.6s;
   opacity: 1;
+  font-family: "PT Serif", serif;
 }
 
 /* .before-info:hover .after-info{
@@ -158,7 +175,6 @@ body {
   transition-delay: .7s;
   opacity: 1;
 } */
-
 
 /* style social link */
 .social-link .fab {
@@ -168,7 +184,7 @@ body {
   border: 1px solid #000;
   margin: 0 7px;
   cursor: pointer;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
 .social-link .fab:hover {
@@ -179,37 +195,35 @@ body {
 
 /* Membuat segitiga */
 .member-image::after {
-  content: '';
+  content: "";
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
-  border-right: 15px solid #FFE652;
+  border-right: 15px solid #ffe652;
   position: absolute;
   top: 50%;
   right: 0;
   transform: translateY(-50%);
 }
 
-
 /* Merubah posisi member-image dengan member-info */
 @media screen and (min-width: 950px) {
-  .member:nth-child(4n+3) .member-info,
-  .member:nth-child(4n+4) .member-info {
+  .member:nth-child(4n + 3) .member-info,
+  .member:nth-child(4n + 4) .member-info {
     order: 1;
   }
-  .member:nth-child(4n+3) .member-image,
-  .member:nth-child(4n+4) .member-image {
+  .member:nth-child(4n + 3) .member-image,
+  .member:nth-child(4n + 4) .member-image {
     order: 2;
   }
 
   /* Merubah posisi sigitiga pada baris genap */
-  .member:nth-child(4n+3) .member-image::after,
-  .member:nth-child(4n+4) .member-image::after {
+  .member:nth-child(4n + 3) .member-image::after,
+  .member:nth-child(4n + 4) .member-image::after {
     left: 0;
     right: auto;
     transform: translateY(-50%) rotateZ(180deg);
   }
 }
-
 
 /* Mobile Styles */
 @media screen and (max-width: 950px) {
@@ -232,7 +246,7 @@ body {
   .member:nth-child(even) .member-image {
     order: 2;
   }
-  
+
   /* Merubah posisi sigitiga elemen genap */
   .member:nth-child(even) .member-image::after {
     left: 0;
@@ -241,32 +255,32 @@ body {
   }
 }
 
-@media (max-width: 500px){
-  .about-hideit{
+@media (max-width: 500px) {
+  .about-hideit {
     display: none;
   }
-  .about-firstletter{
+  .about-firstletter {
     text-transform: uppercase;
     margin-left: 0;
   }
-  .before-info h3{
+  .before-info h3 {
     font-size: 1rem;
     margin-bottom: -10px;
   }
-  .before-info h6{
-    font-size: .8rem;
+  .before-info h6 {
+    font-size: 0.8rem;
   }
-  .about-showit{
+  .about-showit {
     display: inline;
     margin-left: 0;
   }
-  .after-info h4{
+  .after-info h4 {
     font-size: 1rem;
     margin-bottom: -20px;
   }
 
-  .after-info p{
+  .after-info p {
     margin-top: 10px;
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 }

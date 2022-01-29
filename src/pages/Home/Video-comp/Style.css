@@ -101,10 +101,13 @@
   color: #fff;
   font-weight: 500;
   margin-bottom: 10px;
+  font-family: "PT Serif", serif;
+  font-weight: 600;
 }
 .containerVideo > .boxVideo > .contentBox > .content > p {
   color: #fff;
   font-weight: 300;
+  font-family: "PT Serif", serif;
 }
 
 @media only screen and (max-width: 1000px) {

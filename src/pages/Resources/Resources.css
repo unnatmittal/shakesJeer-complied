@@ -8,7 +8,6 @@
   max-width: 1024px;
 }
 
-
 .res_resources-heading {
   margin-top: 70px;
   margin-bottom: -5px;
@@ -16,7 +15,7 @@
   font-weight: 800;
   font-size: 55px;
   text-align: center;
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 .res_resources-details {
@@ -25,6 +24,7 @@
   text-align: center;
   font-size: 20px;
   font-weight: 700;
+  font-family: "PT Serif", serif;
 }
 
 .res_button {
@@ -37,7 +37,11 @@
 }
 
 .res_button:hover {
-  background-color: #f6be00;
+  /* background-color: #f6be00; */
+  /* background-color: #fec701; */
+  /* color: black; */
+  color: white;
+  font-weight: 800;
 }
 
 .res_main-container {
@@ -65,6 +69,9 @@
   padding: 15px;
   list-style-type: none;
 }
+.res_book-item_content {
+  font-family: "PT Serif", serif;
+}
 .res_book-item:after {
   content: "";
   position: absolute;
@@ -82,7 +89,7 @@
   box-shadow: 0px 1px 1px 1px rgba(210, 214, 213, 0.5);
   background-color: blue;
 } */
-.res_book-item:hover{
+.res_book-item:hover {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -95,7 +102,7 @@
 
 .res_book-item h2 {
   font-weight: 800 !important;
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 .res_book-item p:not(.author) {

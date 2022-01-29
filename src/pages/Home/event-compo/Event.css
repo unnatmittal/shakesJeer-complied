@@ -237,6 +237,8 @@
 
 .dimag-kharab {
   margin-left: 0;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 560px) {

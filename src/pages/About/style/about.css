@@ -441,6 +441,7 @@ h1 {
   font-size: 17px;
   text-align: center;
   /* font-weight: 400; */
+  font-family: "PT Serif", serif;
 }
 
 @media (max-width: 650px) {
