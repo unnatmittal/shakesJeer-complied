@@ -17,7 +17,7 @@ const articles = [
   },
   {
     key: 2,
-    title: "Web series in Spotlight",
+    title: "Web series",
     content: `Here we talk about the Web Series in the spotlight in 2021-"Aspirants". It went viral on the internet, reflecting the personal and academic hardships that one faces while preparing for UPSC in Old Rajinder Nagar face.`,
     img: a2,
     bgcolor: "#104f4f",

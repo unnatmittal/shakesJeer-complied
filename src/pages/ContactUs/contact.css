@@ -73,7 +73,8 @@
   list-style: none;
   display: flex;
   margin: 20px 0;
-  cursor: pointer;
+  /* cursor: pointer; */
+  /* pointer-events: none; */
   align-items: flex-start;
 }
 .c-container .c-contactinfo ul.c-info li span:nth-child(1) {
@@ -84,6 +85,7 @@
 .c-container .c-contactinfo ul.c-info li span:nth-child(1) div {
   color: #3c4043;
   max-width: 100%;
+  /* cursor: pointer; */
   /* filter: invert(1); */
 }
 .fas {

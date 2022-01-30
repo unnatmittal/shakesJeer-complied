@@ -39,8 +39,8 @@ function App() {
   return (
     <>
       <Router>
-        <ScrollToTop />
         <Navbar />
+        <ScrollToTop />
         <main>
           <Switch>
             <Route exact path="/" component={Home} />
