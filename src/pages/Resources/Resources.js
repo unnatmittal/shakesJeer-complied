@@ -20,17 +20,14 @@ function Resources() {
     setIsModalVisible(false);
   };
 
-
   return (
     <div className="res_app">
       <div
         id="res_main-container"
         className="res_main-container res_nav-effect-1"
+        style={{ filter: isModalVisible ? "blur(20px)" : "blur(0px)" }}
       >
-        <div
-          className="res_main res_clearfix"
-          style={{ filter: isModalVisible ? "blur(20px)" : "blur(0px)" }}
-        >
+        <div className="res_main res_clearfix">
           <div className="res_page-container">
             <div>
               <p className="res_resources-heading">University Resources</p>
@@ -81,7 +78,7 @@ function Resources() {
                           <button
                             className="res_button"
                             onClick={showModal}
-                            style={{backgroundColor: data.color}}
+                            style={{ backgroundColor: data.color }}
                             // onPointerOver={() => setHover(true)}
                             // onPointerOut={() => setHover(false)}
                           >
@@ -128,7 +125,6 @@ function Resources() {
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem3}
-                              
                               title="Sem-3"
                             >
                               3
@@ -136,7 +132,6 @@ function Resources() {
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem4}
-                              
                               title="Sem-4"
                             >
                               4
@@ -144,7 +139,6 @@ function Resources() {
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem5}
-                              
                               title="Sem-5"
                             >
                               5
@@ -152,7 +146,6 @@ function Resources() {
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem6}
-                              
                               title="Sem-6"
                             >
                               6
@@ -160,7 +153,6 @@ function Resources() {
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem7}
-                              
                               title="Sem-7"
                             >
                               7
@@ -168,7 +160,6 @@ function Resources() {
                             <a
                               className="res_effect res_effect-1 "
                               href={data.links.sem8}
-                              
                               title="Sem-8"
                             >
                               8

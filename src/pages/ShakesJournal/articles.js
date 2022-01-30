@@ -8,7 +8,7 @@ const articles = [
     key: 1,
     title: "Border-Gavaskar",
     content:
-      "The tale captures all of the excitement, passion, and tension as Indians lifted their 10th title when they locked horns with their age rivals Australians on the field of cricket for the Border-Gavaskar Trophy.",
+      "The tale captures all of the excitement, passion, and tension as Indians lifted their 10th title when they locked horns with their age rivals Australians on the field of cricket for the Border-Gavaskar Trophy (BGT).",
     img: a1,
     bgcolor: "#d99058",
     bgimg: "linear-gradient(30deg, #9b6a0f 10%, #7b7b7b 74%)",
