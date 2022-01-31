@@ -5,7 +5,13 @@
   border-bottom: 7px solid rgba(0, 0, 0, 0.623);
   /* margin: 35px 0 20px; */
   height: 100px;
-  background-color: #fdca1294;
+  background: rgb(60, 64, 67);
+  background: linear-gradient(
+    90deg,
+    rgba(60, 64, 67, 1) 0%,
+    rgba(252, 153, 24, 1) 56%,
+    rgba(60, 64, 67, 1) 100%
+  );
   margin-top: 30px;
 }
 .land-headingbox {

@@ -171,13 +171,13 @@ span {
   }
 }
 
-.npath{
+.npath {
   text-decoration: none;
   font-size: 200%;
   font-weight: bold;
   margin-top: 22px;
-  font-family: 'Rubik Beastly', cursive;
-  color:#fec701;
+  font-family: "Rubik Beastly", cursive;
+  color: #fec701;
   animation: blinker 2s step-start infinite;
 }
 @keyframes blinker {
@@ -186,8 +186,8 @@ span {
   }
 }
 
-@media only screen and (max-width:500px){
-  .npath{
+@media only screen and (max-width: 500px) {
+  .npath {
     display: none;
   }
 }

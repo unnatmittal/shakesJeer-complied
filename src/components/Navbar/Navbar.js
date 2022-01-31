@@ -44,19 +44,21 @@ function Navbar() {
                 <img
                   src={yellowlogo_lightbg}
                   alt="logo"
-                  width="110px"
+                  width="108px"
                   height="75px"
                 />
               </Link>
             </div>
             <p className="npath">{path}</p>
-            {!sidebar?<Link to="#" className="menu-bars">
-              <FaIcons.FaBars onClick={showSidebar} />
-            </Link>:<Link to="#" className="menu-bars">
-                  <AiIcons.AiOutlineClose onClick={showSidebar}/>
-                </Link>}
-            
-            
+            {!sidebar ? (
+              <Link to="#" className="menu-bars">
+                <FaIcons.FaBars onClick={showSidebar} />
+              </Link>
+            ) : (
+              <Link to="#" className="menu-bars">
+                <AiIcons.AiOutlineClose onClick={showSidebar} />
+              </Link>
+            )}
           </div>
         </div>
       </IconContext.Provider>

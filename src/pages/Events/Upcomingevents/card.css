@@ -36,7 +36,9 @@ td:nth-child(1) {
   /* background-color: #212121 !important; */
   font-family: "Varela Round", sans-serif;
   color: black;
-  background: linear-gradient(135deg, #f76b1c 0%, #fad961 100%);
+  /* background: linear-gradient(90deg, #fdbb2d 0%, #22c1c3 100%); */
+  /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
+  background-color: #dadd98;
   border-radius: 8px;
   box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.2);
 }

@@ -29,7 +29,7 @@
 }
 
 .land-flex-box {
-  background-color: rgb(240, 239, 239);
+  background-color: #e1ebee;
   display: flex;
   justify-content: space-evenly;
   padding: 10px 50px 10px;

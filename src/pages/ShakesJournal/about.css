@@ -147,7 +147,7 @@
     padding-left: 0px;
   }
   .j-sbox1-content {
-    height: 50vh;
+    /* height: 50vh; */
     font-size: 27px;
   }
 }
@@ -200,9 +200,11 @@
   }
   .j-sbox1-content {
     font-size: 25px;
-    height: 60vh;
+    /* height: 60vh; */
+    padding-bottom: 20px;
   }
 }
+
 @media (max-width: 660px) {
   .j-text1,
   .j-text2 {
@@ -217,6 +219,8 @@
   }
   .j-sbox1-content {
     font-size: 20px;
+    /* height: 220px; */
+    /* margin-bottom: 40px; */
   }
 }
 @media (max-width: 570px) {
@@ -232,13 +236,14 @@
   }
   .j-sbox22 img {
     height: 300px;
-    width: 180px;
+    width: 210px;
     border-radius: 15px;
   }
   .j-sbox1-content {
-    font-size: 1.4rem;
-    padding: 30px 40px;
-    height: 50vh;
+    font-size: 16px;
+    /* padding: 30px 40px; */
+    /* height: 50vh; */
+    margin-bottom: 0;
   }
 }
 @media (max-width: 436px) {
@@ -250,19 +255,21 @@
     padding-left: 80px;
   }
   .j-sbox1-content {
-    height: 60vh;
+    /* height: 60vh; */
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   .j-sbox22 {
     padding-bottom: 20px;
   }
   .j-sbox22 img {
-    height: 300px;
+    height: 270px;
     width: 180px;
     border-radius: 15px;
   }
-  .j-sbox1-content {
-    font-size: 1.5rem;
-  }
+
   .j-text .j-text-1:nth-child(2) {
     clip-path: circle(40px at center);
     height: 125%;
@@ -277,11 +284,11 @@
   }
   .j-sbox22 img {
     height: 180px;
-    width: 100px;
+    width: 120px;
   }
   .j-sbox1-content {
-    padding: 30px 30px;
-    font-size: 1.2rem;
+    /* padding: 30px 30px; */
+    font-size: 14px;
   }
   .j-sbox22 {
     height: 180px;
@@ -291,11 +298,11 @@
   .j-scontainer {
     padding-top: 0px;
   }
-  .j-sbox1-content {
+  /* .j-sbox1-content {
     height: 70vh;
-  }
+  } */
 }
-@media screen and (min-width: 910px) and (max-width: 911px) {
+/* @media screen and (min-width: 910px) and (max-width: 911px) {
   .j-sbox1-content {
     font-size: 28px;
     height: 60vh;
@@ -340,4 +347,4 @@
   .j-sbox1-content {
     height: 78vh;
   }
-}
+} */

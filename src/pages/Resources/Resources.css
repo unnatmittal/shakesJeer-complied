@@ -4,6 +4,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 @import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css);
 
+.res_app {
+  background-color: #e1ebee;
+}
+
 .res_row {
   max-width: 1024px;
 }
@@ -42,7 +46,6 @@
   /* color: black; */
   background-color: black !important;
   color: rgb(255, 255, 255);
-  
 }
 
 .res_main-container {

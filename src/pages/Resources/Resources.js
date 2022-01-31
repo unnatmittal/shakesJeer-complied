@@ -93,15 +93,15 @@ function Resources() {
                           visible={isModalVisible}
                           onOk={handleOk}
                           onCancel={handleCancel}
-                          maskStyle={{
-                            // background: "rgba(255, 255, 255, 0.3)",
-                            backdropFilter: "blur(4px)",
-                          }}
-                          bodyStyle={{
-                            width: "100%",
-                            height: "100%",
-                            marginTop: "100px",
-                          }}
+                          // maskStyle={{
+                          //   // background: "rgba(255, 255, 255, 0.3)",
+                          //   backdropFilter: "blur(4px)",
+                          // }}
+                          // bodyStyle={{
+                          //   width: "100%",
+                          //   height: "100%",
+                          //   marginTop: "100px",
+                          // }}
                           style={{
                             borderRadius: "5px",
                           }}
@@ -112,57 +112,125 @@ function Resources() {
                               className="res_effect res_effect-1 "
                               href={data.links.sem1}
                               title="Sem-1"
+                              target="_blank"
                             >
                               1
                             </a>
                             <a
-                              className="res_effect res_effect-1 "
+                              className="res_effect res_effect-1"
                               href={data.links.sem2}
                               title="Sem-2"
+                              target="_blank"
                             >
                               2
                             </a>
                             <a
-                              className="res_effect res_effect-1 "
+                              className="res_effect res_effect-1 lock"
                               href={data.links.sem3}
                               title="Sem-3"
+                              target="_blank"
                             >
                               3
+                              <div className="res_lock">
+                                <i
+                                  class="fas fa-lock"
+                                  style={{
+                                    color: "grey",
+                                    transform: "scale(1)",
+                                    marginTop: "13px",
+                                  }}
+                                ></i>
+                              </div>
                             </a>
                             <a
-                              className="res_effect res_effect-1 "
+                              className="res_effect res_effect-1 lock"
                               href={data.links.sem4}
                               title="Sem-4"
+                              target="_blank"
                             >
                               4
+                              <div className="res_lock">
+                                <i
+                                  class="fas fa-lock"
+                                  style={{
+                                    color: "grey",
+                                    transform: "scale(1)",
+                                    marginTop: "13px",
+                                  }}
+                                ></i>
+                              </div>
                             </a>
                             <a
-                              className="res_effect res_effect-1 "
+                              className="res_effect res_effect-1 lock"
                               href={data.links.sem5}
                               title="Sem-5"
+                              target="_blank"
                             >
                               5
+                              <div className="res_lock">
+                                <i
+                                  class="fas fa-lock"
+                                  style={{
+                                    color: "grey",
+                                    transform: "scale(1)",
+                                    marginTop: "13px",
+                                  }}
+                                ></i>
+                              </div>
                             </a>
                             <a
-                              className="res_effect res_effect-1 "
+                              className="res_effect res_effect-1 lock"
                               href={data.links.sem6}
                               title="Sem-6"
+                              target="_blank"
                             >
                               6
+                              <div className="res_lock">
+                                <i
+                                  class="fas fa-lock"
+                                  style={{
+                                    color: "grey",
+                                    transform: "scale(1)",
+                                    marginTop: "13px",
+                                  }}
+                                ></i>
+                              </div>
                             </a>
                             <a
-                              className="res_effect res_effect-1 "
+                              className="res_effect res_effect-1 lock"
                               href={data.links.sem7}
                               title="Sem-7"
+                              target="_blank"
                             >
                               7
+                              <div className="res_lock">
+                                <i
+                                  class="fas fa-lock"
+                                  style={{
+                                    color: "grey",
+                                    transform: "scale(1)",
+                                    marginTop: "13px",
+                                  }}
+                                ></i>
+                              </div>
                             </a>
                             <a
-                              className="res_effect res_effect-1 "
+                              className="res_effect res_effect-1 lock"
                               href={data.links.sem8}
                               title="Sem-8"
+                              target="_blank"
                             >
                               8
+                              <div className="res_lock">
+                                <i
+                                  class="fas fa-lock"
+                                  style={{
+                                    color: "grey",
+                                    transform: "scale(1)",
+                                    marginTop: "13px",
+                                  }}
+                                ></i>
+                              </div>
                             </a>
                           </div>
                         </Modal>
