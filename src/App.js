@@ -44,11 +44,11 @@ function App() {
         <main>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/events" component={Events} />
-            <Route path="/resources" component={Resources} />
-            <Route path="/shakesjournal" component={Journal} />
-            <Route path="/contact-us" component={ContactUs} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/events" component={Events} />
+            <Route exact path="/resources" component={Resources} />
+            <Route exact path="/shakesjournal" component={Journal} />
+            <Route exact path="/contact-us" component={ContactUs} />
           </Switch>
         </main>
         <Footer />

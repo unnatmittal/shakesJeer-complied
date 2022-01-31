@@ -61,7 +61,7 @@ function Card() {
               <div className="after-info">
                 {/* <h2>Team Members</h2> */}
                 <h4 className="about-techhead">
-                  Unnat Mittal , Raghvendra, Satyam
+                  Unnat Mittal , Raghvendra & Satyam
                 </h4>
                 <p>
                   Lovkesh Patel, Saksham Saini, Abhishek Singhal, Karan Kumar,

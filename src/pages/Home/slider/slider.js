@@ -5,9 +5,9 @@ import "react-animated-slider/build/horizontal.css";
 import "normalize.css/normalize.css";
 import "./slider-animations.css";
 import "./styles.css";
-import xyz from "./images/xyz2.gif";
-import xyz2 from "./images/xyz3.png";
-import xyz3 from "./images/xyz4.png";
+import xyz from "./images/s1.gif";
+import xyz2 from "./images/s2.gif";
+import xyz3 from "./images/s3.png";
 import jl from "./images/jl.gif";
 
 const content = [
