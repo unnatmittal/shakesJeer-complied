@@ -24,7 +24,12 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Events from "./pages/Events/Events";
@@ -49,6 +54,7 @@ function App() {
             <Route exact path="/resources" component={Resources} />
             <Route exact path="/shakesjournal" component={Journal} />
             <Route exact path="/contact-us" component={ContactUs} />
+            <Redirect to="/" />
           </Switch>
         </main>
         <Footer />
