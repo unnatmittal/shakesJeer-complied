@@ -4,14 +4,6 @@
   font-family: sans-serif;
 }
 
-/* html, body {
-  min-height: 100%;
-}
-
-body {
-  background: linear-gradient(#cddc39, #009688);
-} */
-
 .main1 {
   background-color: #fff;
   padding: 1px 0 1px 0;
@@ -169,12 +161,6 @@ body {
   opacity: 1;
   font-family: "PT Serif", serif;
 }
-
-/* .before-info:hover .after-info{
-  transform: rotateX(720deg) scale();
-  transition-delay: .7s;
-  opacity: 1;
-} */
 
 /* style social link */
 .social-link .fab {

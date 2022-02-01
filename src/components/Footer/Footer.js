@@ -26,9 +26,6 @@ class Footer extends React.Component {
             <p>
               ShakesJeer commences this trip with the sole intention of leaving
               the world a happier place than it would have been without us.
-              {/* ShakesJeer is a group of exceptionally driven students who are
-              dedicated to our mission of giving opportunities and a platform
-              for NSUT students */}
             </p>
           </div>
           <div className="col">

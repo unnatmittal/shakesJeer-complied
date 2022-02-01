@@ -18,12 +18,6 @@
   justify-content: center;
 }
 .ab-image img {
-  /* background: url("./assets/top.gif") ;
-    background-color: transparent;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-
   width: 50%;
   height: auto;
 }

@@ -171,7 +171,6 @@ function Card() {
                 <h4>
                   Akshat Gupta(Logistic & Treasurer) , Kumar Aditya(Advisory)
                 </h4>
-                {/* <p>Members : xyz</p> */}
               </div>
             </div>
           </div>

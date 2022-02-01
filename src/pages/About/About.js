@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import "./style/about.css";
 import "./style/bubble.css";
 import { useHistory } from "react-router-dom";
@@ -33,36 +33,31 @@ import astitva from "./assets/members_photo/astitva.jpeg";
 import satyam from "./assets/members_photo/satyam.jpg";
 import rv from "./assets/members_photo/rv.jpg";
 
-import {
-  BrowserRouter,
-  Switch,
-  Route,
-  Redirect,
-} from "react-router-dom";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
 // import amol from '../assets/members_photo/amol.jpeg'
- 
+
 const About = () => {
   // import { useHistory } from "react-router-dom";
 
   // export default function App() {
-    const history = useHistory();
-  
+  const history = useHistory();
+
   //   function navigateToHome() {
   //     history.push("/");
   //   }
-  useEffect(()=>{
+  useEffect(() => {
     console.log("refreshhhhhhhhhh");
     // history.push("/about");
-    return(
+    return (
       <BrowserRouter>
-      <Switch>
-        <Route render={() => <Redirect to={"/about"} />} />
-      </Switch>
-    </BrowserRouter>
+        <Switch>
+          <Route render={() => <Redirect to={"/about"} />} />
+        </Switch>
+      </BrowserRouter>
     );
     // eslint-disable-next-line
-  },[])
+  }, []);
 
   return (
     <div data-aos="fade-up" data-aos-offset="20" className="about-full">
@@ -136,130 +131,3 @@ const About = () => {
 };
 
 export default About;
-
-/* <div id="section_logo" style={{ width: "100%" }}> */
-/* <div className="drop"> */
-/* <img src={logo2} alt="" /> */
-/* style={{ width: "450px", height: "450px",backgroundColor:"red", borderRadius:"50%" }} */
-/* </div> */
-/* <div
-          className="about-box"
-          data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-duration="800"
-        >
-          <span></span>
-          <p>
-            We're a highly motivated team of talented undergrads of NSUT who are
-            all commited to the cause : proliferate more involvement of students
-            in the open mics as we provide a platform for the talent that is
-            concealed within the students in abundance! The open mic covers
-            Stand Ups, Raps and Poetry with a special limelight on the art of
-            comedy and wit. ShakesJeer is not confined to the aforementioned
-            performances as we believe in augmentation by inculcating new ideas
-            and activities pertaining to open mics. ShakesJeer also specialises
-            in serving palatable content to avid readers, curators or anyone
-            who's just looking for a light hearted read as we release our
-            magazine Shakesjournal annually, starting from the year 2021. We
-            envision success and a stage full of opportunities not only for the
-            students of NSUT but for any person, student or not, across the
-            country with the right passion and the will to participate.
-          </p>
-        </div> */
-/* </div> */
-
-/* <div id="department" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
-            <DepartMentBook
-               department ="Tech Team"
-               image={tech}
-               teamMember="Unnat Mittal, Raghvendra Singh, Satyam Sharma, Lovkesh Patel, Saksham Saini, Abhishek Singhal, Karan Kumar, Himanshi, Yash Sharma, Vansh Jain, Hardik Chhabra, Devansh khandelwal, Aditya Bhalla   "
-               head="Unnat Mittalt"
-               description="Department of the Shakesjeer society enables and assists the people to explore in the field of web, UX, UI designing and a lot more. In this Tech- friendly world"
-            />
-            <DepartMentBook
-               department="PR/EM Team"
-               image={pr}
-               teamMember="Manasvi Jain, Ankita, Kamesh Aggarwal, Naman Agarwal, Harsh Vardhan, Atishai Sharma, Hirdanshu Yadav, Shikhar Sharma, Aman Maan, Samyak Jain, Divyansh Tanwar, Chhavi Talwar, Utkarsh Gupta, Anannya Mishra, Aditya Bhalla    "
-               head="Manasvi Jain & Naman Agarwal & Ankita"
-               description="As a society whose motive is to give a platform for the creative minds of NSUT, it is essential to have a team that promotes the effortless functioning of society and provides a platform for its members."
-            />
-         </div>
-         <div className="dept"> */
-/* <DepartMentBook
-               department="Graphic Design"
-               image={gra}
-               teamMember="Neha, Sarva Yadav, Harsh Vardhan, Harshal Arya,Aman Maan, Vedansh Arun, Chhavi Talwar, Aditya Bhalla, Aditya Gupta, Siddharth      "
-               head="Neha & Sarva Yadav"
-               description="Graphic Design is the most exciting and imaginative field. We have the opportunity to experiment with numerous softwares in order to appeal to various tastes and audiences."
-            />
-         </div> */
-/* <div id="department" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
-         <DepartMentBook
-               department="Content Department"
-               image={cont}
-               teamMember="Adamya Garg, Mayank Yadav, Mohak, Preetish Bhakne, Shikhar Sharma, Chhavi Talwar, Aditya Gupta, Anannya Mishra, Siddharth, Kartikeya Gupta, Maanyta         "
-               head="Maanyta & Adamya Garg & Astitva Rai "
-               description="Content Department plays a vital part in the efficient functioning of Shakesjeer - whether be it captions and posts on Social Media handles, Invitations to artists and performers"
-            />
-            <DepartMentBook
-               // style={{marginLeft:"200px"}}
-               department="Performers"
-               image={performer}
-               teamMember="Yash Agarwal, Vivek Soni, Kumar Aditya, Deepanshu Yadav, Manav Grover, Anurag Juyal, Harshal Arya, Vidur Rajpal, Shivam Parashar    "
-               head="Yash Agarwal"
-               description="The Very Core of an open-mic Society is based on the fact that it's performers are able to put forward their views openly along with exceptional Wit and Satire, so that the audience"
-            />
-            </div> */
-
-/* <div className="bubbles">
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-      </div> */

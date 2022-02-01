@@ -5,8 +5,6 @@ import { Link, useLocation } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
 import "./Navbar.css";
 import { IconContext } from "react-icons";
-// import logo from "./logo.png";
-// import lightblue_darkbg from "./lightblue_darkbg.png";
 import yellowlogo_lightbg from "./yellowlogo_lightbg.png";
 
 function Navbar() {

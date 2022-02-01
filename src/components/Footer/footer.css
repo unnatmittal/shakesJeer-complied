@@ -4,14 +4,11 @@
   font-family: "poppins", sans-serif;
   box-sizing: border-box;
 }
-/* body {
-  background: #eef8ff;
-} */
+
 footer {
   width: 100%;
   position: relative;
   bottom: 0;
-  /* background-image: linear-gradient(to right,#00093c,#2d0b00); */
   background: #161616;
   color: #fff;
   padding: 30px 0 10px;
@@ -42,9 +39,6 @@ footer {
   width: 160px;
   margin-bottom: 30px;
 }
-/* .col p{
-  width: 50%;
-} */
 .col h3 {
   width: fit-content;
   margin-bottom: 20px;
@@ -91,14 +85,6 @@ ul li a {
 .quicklink_text:hover {
   color: #f5c656;
 }
-/* form {
-  padding-bottom: 15px;
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 50px;
-} */
 .far {
   font-size: 18px;
   margin-right: 10px;
@@ -122,7 +108,6 @@ ul li a {
 }
 .social-icons {
   margin-top: 20px;
-  /* z-index:1000; */
 }
 .social-icons .fa {
   width: 40px;
