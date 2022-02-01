@@ -1,6 +1,7 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./style/about.css";
 import "./style/bubble.css";
+import { useHistory } from "react-router-dom";
 // import logo from "./assets/logo.png";
 // import logo2 from "./assets/logo2.png";
 import Teacher from "./teacher";
@@ -33,8 +34,21 @@ import satyam from "./assets/members_photo/satyam.jpg";
 import rv from "./assets/members_photo/rv.jpg";
 
 // import amol from '../assets/members_photo/amol.jpeg'
-
+ 
 const About = () => {
+  // import { useHistory } from "react-router-dom";
+
+  // export default function App() {
+    const history = useHistory();
+  
+  //   function navigateToHome() {
+  //     history.push("/");
+  //   }
+  useEffect(()=>{
+    history.push("/about");
+    // eslint-disable-next-line
+  },[])
+
   return (
     <div data-aos="fade-up" data-aos-offset="20" className="about-full">
       <Abbout />

@@ -54,7 +54,7 @@ function App() {
             <Route exact path="/resources" component={Resources} />
             <Route exact path="/shakesjournal" component={Journal} />
             <Route exact path="/contact-us" component={ContactUs} />
-            <Redirect to="/" />
+            {/* <Redirect to="/" /> */}
           </Switch>
         </main>
         <Footer />
