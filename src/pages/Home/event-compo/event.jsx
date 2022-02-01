@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Event.css";
 import Trans from "./Transhead";
 import Trans2 from "./Transimg";
@@ -24,9 +25,9 @@ function Event() {
                 </p>
 
                 <div className="land-button-set">
-                  <a href="/events" className="btn">
+                <Link to="/event" className="btn">
                     To Events
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
