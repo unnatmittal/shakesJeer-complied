@@ -25,7 +25,7 @@ function Event() {
                 </p>
 
                 <div className="land-button-set">
-                <Link to="/event" className="btn">
+                <Link to="/events" className="btn">
                     To Events
                   </Link>
                 </div>

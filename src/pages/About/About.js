@@ -33,6 +33,13 @@ import astitva from "./assets/members_photo/astitva.jpeg";
 import satyam from "./assets/members_photo/satyam.jpg";
 import rv from "./assets/members_photo/rv.jpg";
 
+import {
+  BrowserRouter,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
+
 // import amol from '../assets/members_photo/amol.jpeg'
  
 const About = () => {
@@ -45,7 +52,15 @@ const About = () => {
   //     history.push("/");
   //   }
   useEffect(()=>{
-    history.push("/about");
+    console.log("refreshhhhhhhhhh");
+    // history.push("/about");
+    return(
+      <BrowserRouter>
+      <Switch>
+        <Route render={() => <Redirect to={"/about"} />} />
+      </Switch>
+    </BrowserRouter>
+    );
     // eslint-disable-next-line
   },[])
 
