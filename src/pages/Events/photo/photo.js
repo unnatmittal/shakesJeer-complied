@@ -17,7 +17,7 @@ const Photo = () => {
     <>
       <Heading name="Glimpse of Past" />
       <div class="event-image-grid">
-        <a class="event-image-grid-col-2 event-image-grid-row-2" href="//">
+        <a  class="event-image-grid-col-2 event-image-grid-row-2" style={{pointerEvents: "none"}} href="//">
           <img
             src={p11}
             alt="architecture"
