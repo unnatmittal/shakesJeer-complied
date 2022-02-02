@@ -7,18 +7,31 @@ import "antd/dist/antd.css";
 import { StreamData } from "./StreamData";
 
 function Resources() {
+  console.log(StreamData);
   const [isModalVisible, setIsModalVisible] = useState(false);
+  const [stream, setStream] = useState(0);
 
-  const showModal = () => {
+  const showModal = (index) => {
     setIsModalVisible(true);
+    setStream(index);
+    console.log(stream);
+    console.log(index);
   };
+  console.log(stream);
+
   const handleOk = () => {
     setIsModalVisible(false);
+    setStream(0);
+    console.log(stream);
   };
 
   const handleCancel = () => {
     setIsModalVisible(false);
+    setStream(0);
+    console.log(stream);
   };
+
+  const data = StreamData;
 
   return (
     <div className="res_app">
@@ -77,7 +90,9 @@ function Resources() {
                           </p>
                           <button
                             className="res_button"
-                            onClick={showModal}
+                            onClick={() => {
+                              showModal(data.id);
+                            }}
                             style={{ backgroundColor: data.color }}
                             // onPointerOver={() => setHover(true)}
                             // onPointerOut={() => setHover(false)}
@@ -110,7 +125,7 @@ function Resources() {
                             <h2>Choose Your Semester!</h2>
                             <a
                               className="res_effect res_effect-1 "
-                              href={data.links.sem1}
+                              href={StreamData[data.id].links.sem1}
                               title="Sem-1"
                               target="_blank"
                             >
