@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
+import useClickOutside from '../../useClickOutside';
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import { Link, useLocation } from "react-router-dom";
@@ -12,11 +13,14 @@ function Navbar() {
   let location = useLocation();
   const showSidebar = () => setSidebar(!sidebar);
 
+  const ref = useRef(null);
+  useClickOutside(ref, () => setSidebar(false));
+
   const path = location.pathname.substr(1).toUpperCase();
   return (
-    <>
+    <div>
       <IconContext.Provider value={{ color: "#fec701" }}>
-        <div className="full">
+        <div ref={ref} className="full">
           <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
             <ul className="nav-menu-items" onClick={showSidebar}>
               <li className="navbar-toggle">
@@ -60,7 +64,7 @@ function Navbar() {
           </div>
         </div>
       </IconContext.Provider>
-    </>
+    </div>
   );
 }
 
