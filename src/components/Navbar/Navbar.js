@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import useClickOutside from '../../useClickOutside';
+import useClickOutside from "../../useClickOutside";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import { Link, useLocation } from "react-router-dom";
@@ -7,6 +7,8 @@ import { SidebarData } from "./SidebarData";
 import "./Navbar.css";
 import { IconContext } from "react-icons";
 import yellowlogo_lightbg from "./yellowlogo_lightbg.png";
+import UseAnimations from "react-useanimations";
+import menu2 from "react-useanimations/lib/menu2";
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
@@ -61,6 +63,16 @@ function Navbar() {
                 <AiIcons.AiOutlineClose onClick={showSidebar} />
               </Link>
             )}
+            {/* <div  className="cursor">
+              <UseAnimations ref={ref}
+                animation={menu2}
+                size={50}
+                strokeColor={"#fec701"}
+                style={{ marginTop: "5px" }}
+                speed={2}
+                onClick={showSidebar}               
+              />
+            </div> */}
           </div>
         </div>
       </IconContext.Provider>

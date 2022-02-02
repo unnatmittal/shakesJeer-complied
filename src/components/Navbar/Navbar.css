@@ -191,3 +191,7 @@ span {
     display: none;
   }
 }
+
+.cursor{
+  cursor:pointer !important; 
+}
