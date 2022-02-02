@@ -2,7 +2,7 @@ export const StreamData = [
   {
     course: "Biotechnology",
     color: "#B4AA91",
-    id: 1,
+    id: 0,
     content:
       "Aims in the areas of healthcare & environment bridging Science & Engineering in Biology.",
     links: {
@@ -19,11 +19,11 @@ export const StreamData = [
   {
     course: "Civil Engineering",
     color: "#7A4930",
-    id: 2,
+    id: 1,
     content:
       "Deals with the design, construction, and maintenance of the physical and naturally built environment.",
     links: {
-      sem1: "https://drive.google.com/drive/folders/1lg4Fez7CP3aFv-F64d5M6sZOoFp7g_dl?usp=sharing",
+      sem1: "https://leetcode.com",
       sem2: "#",
       sem3: "#",
       sem4: "#",
@@ -36,7 +36,7 @@ export const StreamData = [
   {
     course: "Computer Engineering",
     color: "#603060",
-    id: 3,
+    id: 2,
     content:
       "In-depth knowledge of computation, programming languages & integrates fields of CS.",
     links: {
@@ -53,7 +53,7 @@ export const StreamData = [
   {
     course: "CSAI",
     color: "#658539",
-    id: 4,
+    id: 3,
     content:
       "Understanding of foundational topics in Computer Science, Artificial Intelligence, & ML.",
     links: {
@@ -70,7 +70,7 @@ export const StreamData = [
   {
     course: "CSDS",
     color: "#705E1E",
-    id: 5,
+    id: 4,
     content:
       "Understanding of foundations, limits, and capabilities of computing.",
     links: {
@@ -87,7 +87,7 @@ export const StreamData = [
   {
     course: "ECE",
     color: "#725D64",
-    id: 6,
+    id: 5,
     content:
       "Provides a perspective of the field of electronics and allows students to decide future directions.",
     links: {
@@ -104,7 +104,7 @@ export const StreamData = [
   {
     course: "ECAM",
     color: "#939894",
-    id: 7,
+    id: 6,
     content: "Branch includes ECE with edge knowledge of AI-ML techniques.",
     links: {
       sem1: "https://drive.google.com/drive/folders/1lg4Fez7CP3aFv-F64d5M6sZOoFp7g_dl?usp=sharing",
@@ -120,7 +120,7 @@ export const StreamData = [
   {
     course: "Electrical Engineering",
     color: "#009C8B",
-    id: 8,
+    id: 7,
     content:
       "Practical applications of electricity in all its forms, including those of the field of electronics.",
     links: {
@@ -137,7 +137,7 @@ export const StreamData = [
   {
     course: "EIOT",
     color: "#a52a2a",
-    id: 7,
+    id: 8,
     content:
       "Develops innovative services that help users to receive, control & manage information.",
     links: {
@@ -154,7 +154,7 @@ export const StreamData = [
   {
     course: "Geoinformatics",
     color: "#B06010",
-    id: 8,
+    id: 9,
     content:
       "Combines fields of geography, geosciences & related branches of science & engineering.",
     links: {
@@ -171,7 +171,7 @@ export const StreamData = [
   {
     course: "Instrument & Control Engineering",
     color: "#2C63A0",
-    id: 8,
+    id: 10,
     content:
       "Study of measurement, control & implementation of process variables in systems.",
     links: {
@@ -188,7 +188,7 @@ export const StreamData = [
   {
     course: "Information Technology",
     color: "#9A9C43",
-    id: 8,
+    id: 11,
     content: "In-depth knowledge of DSA, databases, networks, IoT, ML.",
     links: {
       sem1: "https://drive.google.com/drive/folders/1DVMrK8cBtkgAZyy-58cy9YIC8WA2TUYY?usp=sharing",
@@ -204,7 +204,7 @@ export const StreamData = [
   {
     course: "Mathematics & Computing",
     color: "#3a485f",
-    id: 8,
+    id: 12,
     content:
       "Study & analysis of abstract concepts, such as numbers & patterns.",
     links: {
@@ -221,7 +221,7 @@ export const StreamData = [
   {
     course: "Mechanical Engineering",
     color: "#4e3e5b",
-    id: 8,
+    id: 13,
     content:
       "Combines engineering physics & mathematics principles with materials science",
     links: {
@@ -238,7 +238,7 @@ export const StreamData = [
   {
     course: "MPAE",
     color: "#0b575b",
-    id: 8,
+    id: 14,
     content:
       "Deals with the concepts & processes involved in the design & development of machines.",
     links: {
