@@ -1,18 +1,9 @@
-* {
-  box-sizing: inherit;
-}
-*:before,
-*:after {
-  box-sizing: inherit;
-}
 .jc-container {
   width: 80vw;
   height: 35vh;
   margin: 0 auto;
   border-radius: 2em;
   font-family: Roboto, Arial;
-  color: #adafb6;
-  /* background: #2286f6; */
   display: flex;
   flex-direction: column;
   justify-content: center;

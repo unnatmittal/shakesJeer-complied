@@ -8,7 +8,7 @@ import JournalCard from "./journal-card";
 
 function Journal() {
   return (
-    <>
+    <div className="jr">
       <div className="jr_slidercomponents">
         <NewSlider />
       </div>
@@ -25,7 +25,7 @@ function Journal() {
         </div>
         <JournalCard />
       </div>
-    </>
+    </div>
   );
 }
 

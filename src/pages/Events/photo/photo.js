@@ -9,7 +9,7 @@ import p6 from "./6.jpeg";
 import p7 from "./7.jpeg";
 import p8 from "./8.jpeg";
 import p11 from "./11.jpeg";
-import Heading from "../../../components/Heading/heading";
+import Heading from "../../../components/Heading/heading.js";
 
 const Photo = () => {
   return (
