@@ -8,9 +8,6 @@ import Trans3 from "./Transpara";
 function Event() {
   return (
     <div className="land-top">
-      {/* <div className="set">
-      <img className="vari" src={graphic} alt=""></img>
-      </div> */}
       <div>
         <section className="land-overlay">
           <div className="land-container">
@@ -25,7 +22,7 @@ function Event() {
                 </p>
 
                 <div className="land-button-set">
-                <Link to="/events" className="btn">
+                  <Link to="/events" className="btn">
                     To Events
                   </Link>
                 </div>

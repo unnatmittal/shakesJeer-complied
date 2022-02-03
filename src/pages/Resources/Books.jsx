@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import "./Resources.css";
 import "./sem.css";
 import "./reso.css";
@@ -7,22 +7,21 @@ import "antd/dist/antd.css";
 import { StreamData } from "./StreamData";
 
 const Books = (props) => {
-    const [isModalVisible, setIsModalVisible] = useState(false);
-    const [stream, setStream] = useState(0);
-  
-    const showModal = (index) => {
-      setIsModalVisible(true);
-    };
-  
-    const handleOk = () => {
-      setIsModalVisible(false);
-    };
-  
-    const handleCancel = () => {
-      setIsModalVisible(false);
-    };
-    console.log({props});
-    const data= props.data;
+  const [isModalVisible, setIsModalVisible] = useState(false);
+
+  const showModal = () => {
+    setIsModalVisible(true);
+  };
+
+  const handleOk = () => {
+    setIsModalVisible(false);
+  };
+
+  const handleCancel = () => {
+    setIsModalVisible(false);
+  };
+  console.log({ props });
+  const data = props.data;
 
   return (
     <>
@@ -60,7 +59,7 @@ const Books = (props) => {
             // onPointerOut={() => setHover(false)}
           >
             {" "}
-            Details{data.id}
+            Details
           </button>
         </div>
         <Modal

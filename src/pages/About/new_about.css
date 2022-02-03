@@ -1,13 +1,7 @@
 /* qoute */
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Parisienne&family=Sail&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-}
 .ab-container {
-  /* height: 100vh; */
-  background-color: rgb(250, 248, 246);
   padding-top: 4rem;
   margin-bottom: 2rem;
 }
@@ -36,7 +30,6 @@
   letter-spacing: 2px;
   text-align: right;
   font-weight: 700;
-  background-color: rgb(250, 248, 246);
 }
 .ab-box {
   display: flex;

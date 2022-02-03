@@ -1,10 +1,11 @@
 import React from "react";
+import Heading from "../../../components/Heading/heading";
 import "./videocomp.css";
-import Heading from "../photo/heading";
+
 const Video = () => {
   return (
     <>
-      <Heading name="Video Section" />
+      <Heading name="Glimpse of Past" />
       <div className="event-video-container">
         <div class="event-video">
           <div class="event-video1">
@@ -56,7 +57,14 @@ const Video = () => {
             ></iframe>
             <div className="videosection-seemore">
               <p>
-                <a href="https://www.youtube.com/channel/UCxjRIS5xt8nvBTT7naTxe7Q" target="_blank" rel="noopener noreferrer"> See More</a>
+                <a
+                  href="https://www.youtube.com/channel/UCxjRIS5xt8nvBTT7naTxe7Q"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  See More
+                </a>
               </p>
             </div>
           </div>

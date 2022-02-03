@@ -10,7 +10,6 @@
   grid-auto-rows: var(--row-height);
   gap: var(--gap);
   margin-bottom: 10px;
-  background-color: white;
 }
 .event-image-grid img {
   width: 100%;
@@ -60,7 +59,7 @@
 .seemore p {
   margin: 0;
 }
-.photo-modal{
+.photo-modal {
   width: 500px;
   height: 500px;
 }

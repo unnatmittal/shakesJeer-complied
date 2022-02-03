@@ -1,17 +1,11 @@
 import React from "react";
-import "./style/about.css";
-import "./style/bubble.css";
+import "./about.css";
 
-// import logo from "./assets/logo.png";
-// import logo2 from "./assets/logo2.png";
 import Teacher from "./teacher";
-import Heading from "./heading";
 import Abbout from "./new_about";
-
 import HoneyBlock from "./HoneyBlock";
-// import DepartMentBook from "./DepartMentBook";
 import Card from "./Card";
-// import Description from "./description";
+import Heading from "../../components/Heading/heading";
 
 import vivek from "./assets/members_photo/vivek.jpg";
 import amol from "./assets/members_photo/amol.jpg";
@@ -33,11 +27,7 @@ import astitva from "./assets/members_photo/astitva.jpeg";
 import satyam from "./assets/members_photo/satyam.jpg";
 import rv from "./assets/members_photo/rv.jpg";
 
-// import amol from '../assets/members_photo/amol.jpeg'
-
 const About = () => {
- 
-
   return (
     <div data-aos="fade-up" data-aos-offset="20" className="about-full">
       <Abbout />

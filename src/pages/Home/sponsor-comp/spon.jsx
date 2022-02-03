@@ -5,8 +5,8 @@ import cn from "./image/cn.png";
 import fm from "./image/fm.png";
 import pp from "./image/pp.png";
 import ved from "./image/ved.jpg";
-import Heading from "./heading";
 import "./spon.css";
+import Heading from "../../../components/Heading/heading.js";
 
 function Spon() {
   return (

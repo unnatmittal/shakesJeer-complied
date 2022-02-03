@@ -1,13 +1,12 @@
 import React from "react";
-import Video from "./video";
-import "./main.css";
 import Card from "./card";
 import Menu from "./menuApi";
+// import Heading from "../../../components/Heading/heading";
 const Main = () => {
   const [menuData] = React.useState(Menu);
   return (
     <div className="event-main">
-      <Video />
+      {/* <Heading name="Upcoming Events" /> */}
       <Card menuData={menuData} />
     </div>
   );

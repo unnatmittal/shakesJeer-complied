@@ -89,10 +89,6 @@
   z-index: -1;
   transition: all 250ms ease-out;
 }
-/* .res_book-item:hover:after {
-  box-shadow: 0px 1px 1px 1px rgba(210, 214, 213, 0.5);
-  background-color: blue;
-} */
 .res_book-item:hover {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }

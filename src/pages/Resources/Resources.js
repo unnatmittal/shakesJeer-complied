@@ -2,7 +2,7 @@ import "./Resources.css";
 import "./sem.css";
 import "./reso.css";
 import React, { useState } from "react";
-import { Modal } from "antd";
+
 import "antd/dist/antd.css";
 import { StreamData } from "./StreamData";
 import Books from "./Books";
@@ -10,29 +10,6 @@ import Books from "./Books";
 function Resources() {
   console.log(StreamData);
   const [isModalVisible, setIsModalVisible] = useState(false);
-  const [stream, setStream] = useState(0);
-
-  const showModal = (index) => {
-    setIsModalVisible(true);
-    // setStream(index);
-    // console.log(stream);
-    // console.log(index);
-  };
-  console.log(stream);
-
-  const handleOk = () => {
-    setIsModalVisible(false);
-    // setStream(0);
-    // console.log(stream);
-  };
-
-  const handleCancel = () => {
-    setIsModalVisible(false);
-    // setStream(0);
-    // console.log(stream);
-  };
-
-  // const data = StreamData;
 
   return (
     <div className="res_app">
@@ -55,9 +32,9 @@ function Resources() {
             <section id="res_book_list">
               <div className="res_grid-shuffle">
                 <div id="res_grid" className="res_column">
-                  {StreamData.map((data)=>
-                    <Books index={data.index} data={data}/>
-                  )}
+                  {StreamData.map((data) => (
+                    <Books index={data.index} data={data} />
+                  ))}
                 </div>
               </div>
             </section>

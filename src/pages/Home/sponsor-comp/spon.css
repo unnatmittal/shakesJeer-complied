@@ -1,25 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-}
-
 .land-box {
-  /* land-box-shadow:
-    0 2.8px 2.2px rgba(245, 217, 59, 0.151),
-    0 6.7px 5.3px rgba(153, 133, 17, 0.137),
-    0 12.5px 10px rgba(247, 235, 75, 0.13),
-    0 22.3px 17.9px rgba(224, 221, 15, 0.103),
-    0 41.8px 33.4px rgba(240, 236, 9, 0.089),
-    0 100px 80px rgba(213, 228, 5, 0.096)
-  ; */
-
-  /* border: 5px solid yellow ;  */
   margin: 15px 35px;
   height: 8%;
   width: 15%;
-  background: rgb(240, 239, 239);
   border-radius: 5px;
   /* padding-bottom: 30px; */
 }
@@ -29,7 +11,6 @@
 }
 
 .land-flex-box {
-  background-color: #e1ebee;
   display: flex;
   justify-content: space-evenly;
   padding: 10px 50px 10px;
@@ -44,7 +25,6 @@
 }
 
 .land-sponhead {
-  background-color: rgb(240, 239, 239);
   text-align: center;
   font-size: 3rem;
   padding-top: 80px;

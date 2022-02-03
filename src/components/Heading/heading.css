@@ -1,0 +1,118 @@
+.land-headingcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 7px solid rgba(0, 0, 0, 0.623);
+  /* margin: 35px 0 20px; */
+  height: 100px;
+  background: rgb(46, 34, 27);
+  background: linear-gradient(
+    70deg,
+    rgba(46, 34, 27, 1) 0%,
+    rgba(241, 222, 139, 1) 30%,
+    rgba(241, 222, 139, 1) 70%,
+    rgba(46, 34, 27, 1) 100%
+  );
+  margin-top: 30px;
+}
+.land-headingbox {
+  text-align: center;
+  width: 50%;
+  font-family: "Telefon Black";
+  font-size: 60px;
+  font-weight: 900;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  text-decoration: double;
+  margin: 0;
+  margin-bottom: -5px;
+  text-shadow: 2px 2px 8px #fdcc0c;
+}
+
+@media screen and (max-width: 1035px) {
+  .land-headingcontainer {
+    width: 100%;
+    max-width: 1035px;
+  }
+}
+
+@media screen and (max-width: 895px) {
+  .land-headingbox {
+    font-size: 2.5rem;
+  }
+  .land-headingcontainer {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .land-headingbox {
+    font-size: 2.5rem;
+  }
+  .land-headingcontainer {
+    height: 1.5%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .land-headingbox {
+    font-size: 2rem;
+  }
+  .land-headingcontainer {
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .land-headingbox {
+    font-size: 1.7rem;
+  }
+  .land-headingcontainer {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .land-headingbox {
+    font-size: 1.5rem;
+  }
+  .land-headingcontainer {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 402px) {
+  .land-headingbox {
+    font-size: 1.4rem;
+  }
+  .land-headingcontainer {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .land-headingbox {
+    font-size: 1.3rem;
+  }
+  .land-headingcontainer {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .land-headingbox {
+    font-size: 1.1rem;
+  }
+  .land-headingcontainer {
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .land-headingbox {
+    font-size: 0.9rem;
+  }
+  .land-headingcontainer {
+    height: 40px;
+  }
+}

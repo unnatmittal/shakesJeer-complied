@@ -5,7 +5,6 @@
 .event-video-container {
   width: 100%;
   margin: 6px 0 0 0;
-  background-color: #f6f6f6;
 }
 
 iframe {
@@ -23,7 +22,6 @@ iframe {
   font-weight: bold;
 
   letter-spacing: -1px;
-  color: whitesmoke;
   justify-content: center;
   flex-wrap: wrap;
 }

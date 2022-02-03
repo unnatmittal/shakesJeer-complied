@@ -10,9 +10,6 @@ import NewSlider from "./slider/slider.js";
 function App() {
   return (
     <div className="home10">
-      {/* <Slider /> */}
-
-      {/* <div style={{height: "1000px"}}></div> */}
       <NewSlider />
       <Aboutsection />
       <Event />

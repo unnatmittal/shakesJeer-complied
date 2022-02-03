@@ -1,15 +1,8 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
 .Video {
   padding-top: 2rem;
   box-sizing: content-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  /* background-image: url("Untitleddesign.gif"); */
-  background-color: rgba(240, 239, 239);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -146,17 +139,7 @@
     height: 60%;
   }
 }
-
-/* @media (max-width:760px) {
-  .Video{
-    margin-top: -120px;
-  }
-} */
-
 @media only screen and (max-width: 680px) {
-  /* .containerVideo {
-    width: 70vw;
-  } */
   .containerVideo > .boxVideo {
     position: relative;
     width: 300px;
@@ -199,15 +182,6 @@
 }
 
 @media only screen and (max-width: 450px) {
-  /* .containerVideo{
-    width: 20rem;
-    height: calc(60vh*2) ;
-    margin-left: 200px;
-    margin-right: 200px;
-  } */
-  /* .containerVideo > .boxVideo >.imgBox >img{
-    height: 50vh;
-  } */
   .Video {
     /* padding-left: 60px;
     padding-right: 60px; */

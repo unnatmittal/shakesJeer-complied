@@ -50,16 +50,8 @@ const NewSlider = () => (
   <div className="dimag-kharab2">
     <Slider className="land-slider-wrapper" autoplay={4000}>
       {content.map((item, index) => (
-        <div
-          key={index}
-          className="slider-content"
-          // style={{ background: `url('${item.image}') no-repeat center center`, width:"100%", height:"100vh" }}
-        >
+        <div key={index} className="slider-content">
           <img src={item.image} alt=" " />
-          {/* <div className="inner">
-            <h1>{item.title}</h1>
-            <p>{item.description}</p>
-          </div> */}
         </div>
       ))}
     </Slider>
