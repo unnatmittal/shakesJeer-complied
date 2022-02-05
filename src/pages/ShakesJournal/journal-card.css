@@ -1,3 +1,7 @@
+.jc-outerdiv {
+  padding-bottom: 70px;
+}
+
 .jc-container {
   width: 80vw;
   height: 35vh;
@@ -8,8 +12,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin: 20px  auto; */
-  margin-bottom: 70px;
   background: linear-gradient(
     -45deg,
     #405de6,

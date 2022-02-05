@@ -29,9 +29,9 @@ import rv from "./assets/members_photo/rv.jpg";
 
 const About = () => {
   return (
-    <div data-aos="fade-up" data-aos-offset="20" className="about-full">
+    <div className="about-full">
       <Abbout />
-      <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+      <div>
         <Heading name="Faculty Incharge" />
         <Teacher />
         <Heading name="Departments" />
@@ -82,10 +82,12 @@ const About = () => {
             <HoneyBlock name="Sarv" position="Graphics Head" image={sarv} />
           </div>
           {/* <!--col div--> */}
-          <div className="comb_2">
+          <div className="comb_4">
             <HoneyBlock name="Akshat" position="Treasurer" image={akshat} />
-            <HoneyBlock name="Vivek" position="Open Mic Head" image={vivek} />
+            {/* <HoneyBlock name="Vivek" position="Open Mic Head" image={naman} /> */}
             <HoneyBlock name="Naman" position="PR Head" image={naman} />
+          </div>
+          <div className="comb_5">
             <HoneyBlock
               name="Astitva"
               position="Content Head"

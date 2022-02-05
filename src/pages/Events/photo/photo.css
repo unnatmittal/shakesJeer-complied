@@ -10,12 +10,13 @@
   grid-auto-rows: var(--row-height);
   gap: var(--gap);
   margin-bottom: 10px;
+  background-color: white;
 }
 .event-image-grid img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* transition: 0.2s ease-in-out; */
+  transition: 0.4s ease-in-out;
   cursor: pointer;
 }
 
@@ -30,9 +31,7 @@
 .event-image-grid-row-2 {
   grid-row: span 2;
 }
-.photo-seemore {
-  /* opacity: 0.4; */
-}
+
 .photo-seemore:hover {
   opacity: 1;
   transform: rotate3d(45deg);
@@ -46,7 +45,6 @@
   color: antiquewhite;
   background-color: black;
   opacity: 0.5;
-  /* text-decoration: underline; */
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -59,33 +57,86 @@
 .seemore p {
   margin: 0;
 }
-.photo-modal {
+.photo-modal{
   width: 500px;
   height: 500px;
 }
-/* ---------------------------------------------- */
-@media screen and (max-width: 1035px) {
-  .event-image-grid {
-    /* width: 1035px;
-      max-width: 1035px; */
+.modal {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 65px;
+  left: 0;
+  background-color:rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+  color: #fff;
+  z-index: 1000;
+  overflow: auto;
+  opacity: 0;
+  pointer-events: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modalImg {
+  width: 80%;
+  max-width: 700px;
+  max-height: 80vh;
+}
+.modalTxt {
+  margin-top: 1em;
+}
+.close {
+  position: relative;
+  top: 1em;
+  right:45%;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.modal.appear { 
+  opacity: 1;
+  pointer-events: all;
+}
+.modal.appear .modalImg,
+.modal.appear .modalTxt {
+  animation: zoom 0.3s linear;
+}
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
   }
 }
-/* Anything udner 1024px */
+
 @media screen and (max-width: 1024px) {
   .event-image-grid {
     --num-cols: 2;
     --row-height: 200px;
-    /* width: 1024px;
-        max-width: 1024px; */
-    /* display: inline-block; */
   }
 }
 @media screen and (max-width: 600px) {
   .event-image-grid {
     --num-cols: 2;
     --row-height: 100px;
-    /* width: 1024px;
-        max-width: 1024px; */
-    /* display: inline-block; */
+  }
+}
+@media screen and (max-width: 300px) {
+  .modalContent{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    position: relative;
+    top: 20%;
   }
 }

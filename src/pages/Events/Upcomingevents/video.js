@@ -7,10 +7,6 @@ const video = () => {
             <div className="event-cover">
                 <div className="event-heading">events</div>
             </div>
-            {/* <div class="upcoming-sec">
-                <div class="heading-1">Upcoming Events</div>
-                <hr />
-            </div> */}
         </div>
     )
 }

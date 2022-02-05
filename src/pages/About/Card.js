@@ -122,7 +122,7 @@ function Card() {
                 </h4>
                 <p>
                   Preetish Bhakne, Shikhar Sharma, Aditya Gupta, Anannya Mishra,
-                  Siddharth, Kartikeya Gupta, Mishthi Jain
+                  Kartikeya Gupta, Mishthi Jain
                 </p>
               </div>
             </div>
@@ -147,7 +147,7 @@ function Card() {
               </h6>
               <div className="after-info">
                 {/* <h2>Team Members</h2> */}
-                <h4>Yash Agarwal & Vivek Soni </h4>
+                <h4>Yash Agarwal</h4>
                 <p>
                   Deepanshu Yadav, Manav Grover, Harshal Arya, Vidur Rajpal,
                   Shivam Parashar, Priyanshu Pannu
