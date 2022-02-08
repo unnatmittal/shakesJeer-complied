@@ -162,15 +162,13 @@ function Card() {
           </div>
           <div className="member-info">
             <div className="before-info">
-              <h3 class="about-treasure">Logistic & Advisory</h3>
+              <h3 class="about-treasure">Management</h3>
               <h6>
                 The backbone of the society which helps to run society smoothly.
               </h6>
               <div className="after-info">
                 {/* <h2>Team Members</h2> */}
-                <h4>
-                  Akshat Gupta(Logistic & Treasurer) , Kumar Aditya(Advisory)
-                </h4>
+                <h4>Akshat Gupta, Kumar Aditya</h4>
               </div>
             </div>
           </div>

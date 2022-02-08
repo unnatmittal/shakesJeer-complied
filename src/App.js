@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Redirect,
+  // Redirect,
 } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
@@ -15,9 +15,20 @@ import Journal from "./pages/ShakesJournal/journal";
 import Footer from "./components/Footer/Footer";
 import ContactUs from "./pages/ContactUs/contact";
 import ScrollToTop from "./components/ScrollToTop";
-//import Hover from "./pages/ShakesJournal/hover";
+import Loader from "./components/Preloader/loader";
+import Hover from "./pages/ShakesJournal/hover";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, []);
+  if (loading) {
+    return <Loader />;
+  }
   return (
     <>
       <Router>
@@ -35,10 +46,10 @@ function App() {
           </Switch>
         </main>
         <Footer />
-        
       </Router>
     </>
   );
+  // return <Loader />;
 }
 
 export default App;

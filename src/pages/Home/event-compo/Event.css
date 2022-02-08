@@ -36,7 +36,8 @@
   min-height: 400px;
   /* background-color: #fee440; */
   /* background: linear-gradient(30deg, yellow, red); */
-  background: linear-gradient(135deg, #fdbb2d 0%, #22c1c3 100%);
+  /* background: linear-gradient(135deg, #fdbb2d 0%, #22c1c3 100%); */
+  background: linear-gradient(135deg, #93ca9c 0%, #76cff3 100%);
   display: flex;
   align-items: center;
   justify-content: center;

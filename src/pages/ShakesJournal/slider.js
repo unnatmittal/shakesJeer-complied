@@ -49,7 +49,7 @@ const content = [
 
 const NewSlider = () => (
   <div className="jr-sliderMain">
-    <Slider className="journal-slider-wrapper">
+    <Slider className="journal-slider-wrapper" autoplay={3000}>
       {content.map((item, index) => (
         <div
           key={index}

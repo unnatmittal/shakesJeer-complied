@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import "./photo.css";
 import p1 from "./1.jpeg";
 import p2 from "./2.jpeg";
@@ -26,18 +26,66 @@ const Photo = () => {
     <>
       <Heading name="Our Gallery" />
       <div class="event-image-grid">
-          <img src={p11} alt="architecture" className="event-image-grid-col-2 event-image-grid-row-2" onClick={() => { ModalOpen(p11) }}
-          />
-        <img src={p1} alt="architecture" onClick={()=>{ModalOpen(p1)}} />
-        <img src={p2} alt="architecture" onClick={()=>{ModalOpen(p2)}} />
-        <img src={p5} alt="architecture" onClick={()=>{ModalOpen(p5)}}/>
-        <img src={p4} alt="architecture" onClick={()=>{ModalOpen(p4)}}/>
-        <img src={p3} alt="architecture" onClick={()=>{ModalOpen(p3)}}/>
-        <img src={p8} alt="architecture" onClick={()=>{ModalOpen(p8)}}/>
-        <img src={p6} alt="architecture" onClick={()=>{ModalOpen(p6)}}/>
+        <img
+          src={p11}
+          alt="architecture"
+          className="event-image-grid-col-2 event-image-grid-row-2"
+          onClick={() => {
+            ModalOpen(p11);
+          }}
+        />
+        <img
+          src={p1}
+          alt="architecture"
+          onClick={() => {
+            ModalOpen(p1);
+          }}
+        />
+        <img
+          src={p2}
+          alt="architecture"
+          onClick={() => {
+            ModalOpen(p2);
+          }}
+        />
+        <img
+          src={p5}
+          alt="architecture"
+          onClick={() => {
+            ModalOpen(p5);
+          }}
+        />
+        <img
+          src={p4}
+          alt="architecture"
+          onClick={() => {
+            ModalOpen(p4);
+          }}
+        />
+        <img
+          src={p3}
+          alt="architecture"
+          onClick={() => {
+            ModalOpen(p3);
+          }}
+        />
+        <img
+          src={p8}
+          alt="architecture"
+          onClick={() => {
+            ModalOpen(p8);
+          }}
+        />
+        <img
+          src={p6}
+          alt="architecture"
+          onClick={() => {
+            ModalOpen(p6);
+          }}
+        />
         <div className="photo-seemore">
           <img src={p7} alt="architecture" />
-          <a href="https://www.instagram.com/shakesjeer.nsut/" >
+          <a href="https://www.instagram.com/shakesjeer.nsut/" target="_blank">
             <div className="seemore">
               <p>See More</p>
             </div>
@@ -47,11 +95,13 @@ const Photo = () => {
       <div class={isModalopen ? "modal appear" : "modal"}>
         <div className="ModalSection">
           <div className="modalContent">
-            <span className="close"><i className="fas fa-times" onClick={ModalClose}></i></span>
-            <img src={Imagetoshow} alt = "Photo of modal"className="modalImg"/>
+            <span className="close">
+              <i className="fas fa-times" onClick={ModalClose}></i>
+            </span>
+            <img src={Imagetoshow} alt="Photo of modal" className="modalImg" />
           </div>
         </div>
-    </div>
+      </div>
     </>
   );
 };

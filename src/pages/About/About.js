@@ -7,7 +7,6 @@ import HoneyBlock from "./HoneyBlock";
 import Card from "./Card";
 import Heading from "../../components/Heading/heading";
 
-import vivek from "./assets/members_photo/vivek.jpg";
 import amol from "./assets/members_photo/amol.jpg";
 import naman from "./assets/members_photo/naman.jpeg";
 import shreyash from "./assets/members_photo/shreyash.jpeg";

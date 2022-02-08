@@ -77,16 +77,16 @@
     height: 85%;
   }
   .jr_card:hover {
-    height: 350px;
-  }
-  .jr_card:hover {
-    height: 550px;
+    height: 500px;
   }
   .jr_card:hover img {
     height: 300px;
   }
   .jr_card .jr_card-body h6 {
     font-size: 25px;
+  }
+  .jr_card .jr_card-body p {
+    font-size: 16px;
   }
   .jr_card:hover h6 {
     transform: scale(1.2);
@@ -101,7 +101,7 @@
     height: 80%;
   }
   .jr_card:hover {
-    height: 570px;
+    height: 500px;
   }
   .jr_card:hover img {
     height: 280px;
@@ -119,7 +119,7 @@
     height: 75%;
   }
   .jr_card:hover {
-    height: 600px;
+    height: 530px;
   }
   .jr_card:hover img {
     height: 240px;
@@ -139,10 +139,7 @@
     height: 70%;
   }
   .jr_card:hover {
-    height: 300px;
-  }
-  .jr_card:hover {
-    height: 610px;
+    height: 530px;
   }
   .jr_card:hover img {
     height: 180px;

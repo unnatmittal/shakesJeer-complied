@@ -1,5 +1,7 @@
 /* qoute */
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Parisienne&family=Sail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 
 .ab-container {
   padding-top: 4rem;
@@ -24,9 +26,9 @@
 }
 .ab-quote {
   padding: 1.8rem 180px 1.2rem;
-  font-size: 40px;
+  font-size: 45px;
   color: #484848;
-  font-family: "Parisienne", cursive;
+  font-family: "Dancing Script", cursive;
   letter-spacing: 2px;
   text-align: right;
   font-weight: 700;

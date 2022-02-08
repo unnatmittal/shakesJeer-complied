@@ -7,7 +7,7 @@ const Main = () => {
   const [menuData] = React.useState(Menu);
   return (
     <div className="event-main">
-      <Video />
+      {/* <Video /> */}
       <Card menuData={menuData} />
     </div>
   );
