@@ -173,7 +173,8 @@
 .c-fb,
 .c-insta,
 .c-link,
-.c-pin {
+.c-pin,
+.c-discord {
   padding-top: 5px;
   color: #3c4043;
 }
@@ -190,7 +191,10 @@
   color: #0e76a8;
 }
 .c-insta:hover {
-  color: #8a3ab9;
+  color: #c13584;
+}
+.c-discord:hover {
+  color: #738adb;
 }
 .fab {
   padding-top: 5px;

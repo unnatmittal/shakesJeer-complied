@@ -40,7 +40,9 @@ class Footer extends React.Component {
             <p>Pincode :-110078, India</p>
             <p className="email-id">
               <i className="far fa-envelope" />
-              shakesjeer.nsutd@gmail.com
+              <a href="mailto:shakesjeer.nsutd@gmail.com">
+                shakesjeer.nsutd@gmail.com
+              </a>
             </p>
             <h4 className="phone_text">
               <i class="fas fa-phone"></i> +91-9315911429
@@ -96,23 +98,50 @@ class Footer extends React.Component {
             <div className="social-icons">
               <ul>
                 <li>
-                  <a href="https://www.facebook.com/ShakesJeer/">
+                  <a
+                    href="https://www.facebook.com/ShakesJeer/"
+                    target="_blank"
+                  >
                     <i className="fa fa-facebook" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/shakesjeer.nsut/?hl=en">
+                  <a
+                    href="https://www.instagram.com/shakesjeer.nsut/?hl=en"
+                    target="_blank"
+                  >
                     <i className="fa fa-instagram"> </i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.youtube.com/channel/UCxjRIS5xt8nvBTT7naTxe7Q">
+                  <a
+                    href="https://www.youtube.com/channel/UCxjRIS5xt8nvBTT7naTxe7Q"
+                    target="_blank"
+                  >
                     <i className="fa fa-youtube"> </i>
                   </a>
                 </li>
+                <br />
                 <li>
-                  <a href="https://www.linkedin.com/company/shakesjeer/?originalSubdomain=in">
+                  <a
+                    href="https://www.linkedin.com/company/shakesjeer/?originalSubdomain=in"
+                    target="_blank"
+                  >
                     <i className="fa fa-linkedin" />
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://twitter.com/shakesjeer?s=20&t=XmKHsCGm9AzJ8K91zxkYcQ"
+                    target="_blank"
+                  >
+                    <i className="fa fa-twitter" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://discord.com/invite/AgjMh6CR" target="_blank">
+                    <i className="fa fa-discord" />
                   </a>
                 </li>
               </ul>

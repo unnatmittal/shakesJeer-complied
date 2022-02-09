@@ -23,10 +23,10 @@ function JournalCard() {
         <div className="jc-heading-edition">Edition - 1</div>
         <div className="jc-release">
           <hr />
-          <div className="jc-release-date">released on 26th Jan 2022</div>
+          <div className="jc-release-date">Releasing Soon ... </div>
           <hr />
         </div>
-        <a href={Journal} download="Journal.pdf">
+        {/* <a href={Journal} download="Journal.pdf">
           <div
             className={isClicked ? "upload loading" : "upload"}
             onClick={effect}
@@ -56,7 +56,7 @@ function JournalCard() {
           <symbol viewBox="0 0 116 6" id="wave">
             <path d="M58,0 C70.6086957,0 79.3822464,6 87,6 L58,6 L29,6 C36.6177536,6 45.3913043,0 58,0 Z M0,0 C12.6086957,0 21.3822464,6 29,6 L0,6 L0,0 Z M116,0 L116,6 L87,6 C94.6177536,6 103.391304,0 116,0 Z" />
           </symbol>
-        </svg>
+        </svg> */}
       </div>
     </div>
   );

@@ -142,7 +142,7 @@ function Card() {
                 The Very Core of an open-mic Society is based on the fact that
                 it's performers are able to put forward their views openly
                 <span className="about-hideit">
-                  along with exceptional Wit and Satire, so that the audience
+                  along with exceptional Wit and Satire.
                 </span>
               </h6>
               <div className="after-info">

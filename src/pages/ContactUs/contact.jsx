@@ -10,6 +10,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaEnvelopeOpenText } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 export default function Contact() {
   // const form = useRef();
@@ -88,14 +89,18 @@ export default function Contact() {
               </div>
               <ul className="c-sci">
                 <li>
-                  <a href="//"  className="fab c-twitter">
+                  <a
+                    href="https://twitter.com/shakesjeer?s=20&t=XmKHsCGm9AzJ8K91zxkYcQ"
+                    className="fab c-twitter"
+                    target="_blank"
+                  >
                     <FaTwitter />
                   </a>
                 </li>
                 <li>
                   <a
                     href="https://www.facebook.com/ShakesJeer/"
-                    
+                    target="_blank"
                     className="fab c-fb"
                   >
                     <FaFacebookSquare />
@@ -104,7 +109,7 @@ export default function Contact() {
                 <li>
                   <a
                     href="https://in.linkedin.com/company/shakesjeer"
-                    
+                    target="_blank"
                     className="fab c-link"
                   >
                     <FaLinkedin />
@@ -113,7 +118,7 @@ export default function Contact() {
                 <li>
                   <a
                     href="https://www.youtube.com/channel/UCxjRIS5xt8nvBTT7naTxe7Q"
-                    
+                    target="_blank"
                     className="fab c-pin"
                   >
                     <FaYoutube />
@@ -122,10 +127,19 @@ export default function Contact() {
                 <li>
                   <a
                     href="https://www.instagram.com/shakesjeer.nsut/"
-                    
+                    target="_blank"
                     className="fab c-insta"
                   >
                     <FaInstagram />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://discord.com/invite/AgjMh6CR"
+                    target="_blank"
+                    className="fab c-discord"
+                  >
+                    <FaDiscord />
                   </a>
                 </li>
               </ul>

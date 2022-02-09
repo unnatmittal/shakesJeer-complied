@@ -124,6 +124,8 @@ ul li a {
 
 .social-icons li {
   display: inline-block;
+  margin: 6px 6px;
+  margin-left: 0;
 }
 hr {
   width: 90%;
@@ -214,6 +216,17 @@ hr {
   background-color: #0073a4;
   color: white;
 }
+.fa-twitter:hover {
+  background-color: #00acee;
+  color: white;
+}
+.fa-discord:hover {
+  background-color: #738adb;
+  color: white;
+}
+.email-id a {
+  color: #fff;
+}
 @media screen and (max-width: 850px) and (min-width: 701px) {
   .col {
     flex-basis: 50%;
@@ -240,5 +253,16 @@ hr {
     width: 35px;
     height: 35px;
     line-height: 35px;
+  }
+}
+@media (max-width: 960px) {
+  .social-icons br {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  .social-icons br {
+    display: block;
   }
 }
