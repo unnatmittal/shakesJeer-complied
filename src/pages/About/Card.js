@@ -52,10 +52,10 @@ function Card() {
                 </span>{" "}
                 <span className="about-firstletter">e</span>nables and assists
                 the people to explore in the field of web, UX, UI designing and
-                a lot more.
+                a lot more<span className="about-showit">.</span>
                 <span className="about-hideit">
                   {" "}
-                  In this Tech- friendly world
+                  in this Tech- friendly world.
                 </span>
               </h6>
               <div className="after-info">
@@ -84,6 +84,7 @@ function Card() {
               <h6>
                 Graphic Design is the most exciting and imaginative field. We
                 have the opportunity to experiment with numerous softwares
+                <span className="about-showit">.</span>
                 <span className="about-hideit">
                   in order to appeal to various tastes and audiences.
                 </span>
@@ -113,7 +114,7 @@ function Card() {
                 </span>
                 <span className="about-firstletter"> f</span>unctioning of
                 Shakesjeer - whether be it captions and posts on Social Media
-                handles, Invitations to artists and performers
+                handles, Invitations to artists and performers.
               </h6>
               <div className="after-info">
                 {/* <h2>Team Members</h2> */}
@@ -141,7 +142,9 @@ function Card() {
               <h6>
                 The Very Core of an open-mic Society is based on the fact that
                 it's performers are able to put forward their views openly
+                <span className="about-showit">.</span>
                 <span className="about-hideit">
+                  {" "}
                   along with exceptional Wit and Satire.
                 </span>
               </h6>
