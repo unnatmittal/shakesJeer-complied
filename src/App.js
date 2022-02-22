@@ -15,7 +15,7 @@ import Journal from "./pages/ShakesJournal/journal";
 import Footer from "./components/Footer/Footer";
 import ContactUs from "./pages/ContactUs/contact";
 import ScrollToTop from "./components/ScrollToTop";
-import Loader from "./components/Preloader/loader";
+import Loader from "./components/loader/loader";
 import Hover from "./pages/ShakesJournal/hover";
 
 function App() {

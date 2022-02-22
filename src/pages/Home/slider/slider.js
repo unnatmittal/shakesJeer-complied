@@ -8,6 +8,7 @@ import "./styles.css";
 import xyz from "./images/s1.gif";
 import xyz2 from "./images/s2.gif";
 import xyz3 from "./images/s3.png";
+import xyz4 from "./images/revent.png";
 import jl from "./images/jl.gif";
 
 const content = [
@@ -17,6 +18,15 @@ const content = [
       "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.",
     button: "Read More",
     image: xyz,
+    user: "Luan Gjokaj",
+    userProfile: "https://i.imgur.com/JSW6mEk.png",
+  },
+  {
+    title: "Vulputate Mollis Ultricies Fermentum Parturient",
+    description:
+      "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.",
+    button: "Read More",
+    image: xyz4,
     user: "Luan Gjokaj",
     userProfile: "https://i.imgur.com/JSW6mEk.png",
   },

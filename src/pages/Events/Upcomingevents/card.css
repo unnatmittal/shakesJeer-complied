@@ -27,6 +27,29 @@ td:nth-child(1) {
   align-items: center;
 }
 
+.event-button{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.event-button a{
+  padding: 5px 15px;
+  background-color: #a81f6a;
+  color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+  transition: .5s;
+}
+
+.event-button a:hover{
+  color: black;
+  font-weight: 700;
+  background-color: #a85784
+}
+
 .event-card1 {
   position: relative;
   width: 43vw;
@@ -71,6 +94,7 @@ table .date {
   text-shadow: 6px 4px 4px rgb(59, 59, 59);
 }
 .event-thumbnail {
+  border-radius: 5px;
   padding-right: 0;
   width: 100%;
 }
@@ -78,19 +102,25 @@ table .date {
   font-size: 25px;
   font-weight: 800;
   text-align: center;
+  padding-top: 10px;
 }
 .event-id {
   text-align: center;
 }
 .event-location,
 .event-time {
-  display: inline-block;
+  display: block;
+}
+.event-time{
   text-decoration: underline;
+  font-size: 15px;
+}
+.event-location{
+  font-size: 20px;
 }
 
 .event-time,
 .event-location {
-  font-size: 20px;
   font-weight: 600;
   color: rgba(20, 20, 20, 0.822);
 }
@@ -176,7 +206,7 @@ table .date {
   }
   .event-location,
   table .month {
-    font-size: 24px;
+    font-size: 18px;
   }
   table .date {
     font-size: 40px;
@@ -199,6 +229,7 @@ table .date {
     position: relative;
     left: -5%;
   }
+  
   .event-card1 {
     padding: 10px 20px;
   }
@@ -218,7 +249,7 @@ table .date {
     font-size: 24px;
   }
   table .date {
-    font-size: 28px;
+    font-size: 30px;
     margin-left: 2.5vw;
     margin-right: 2vw;
   }
@@ -232,6 +263,14 @@ table .date {
     margin-top: 3vh;
   }
 }
+@media (max-width: 400px) {
+  table .date {
+    font-size: 25px;
+  }
+  .event-thumbnail{
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 335px) {
   .event-title {
     margin-top: 3vh;
@@ -241,7 +280,7 @@ table .date {
     margin: 0;
   }
   table .date {
-    font-size: 22px;
+    font-size: 18px;
     margin: 0;
   }
   table .month-date-devider {
@@ -264,7 +303,7 @@ table .date {
   .event-location,
   .event-time,
   .event-quote {
-    font-size: 24px;
+    font-size: 18px;
     width: auto;
     margin: 0;
     padding: 0;
