@@ -33,6 +33,16 @@
   font-weight: 600;
   color: #161616;
   /* border: 2px solid black; */
+  /* color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa; */
 }
 .jc-heading-edition {
   text-align: right;
@@ -180,10 +190,7 @@
   margin-bottom: -1px;
   animation: backward 0.825s infinite linear;
 }
-.loading {
-  /* font-size: 55px; */
-  /* background-color: white; */
-}
+
 .upload.loading .path {
   animation: movePath 0.4s linear forwards;
 }
