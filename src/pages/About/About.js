@@ -6,25 +6,27 @@ import Abbout from "./new_about";
 import HoneyBlock from "./HoneyBlock";
 import Card from "./Card";
 import Heading from "../../components/Heading/heading";
-
-import amol from "./assets/members_photo/amol.jpg";
-import naman from "./assets/members_photo/naman.jpeg";
-import shreyash from "./assets/members_photo/shreyash.jpeg";
-import pragati from "./assets/members_photo/pragati.jpg";
-import kumar from "./assets/members_photo/kumar.jpg";
 import maanyta from "./assets/members_photo/maanyta.jpeg";
-import aman from "./assets/members_photo/aman.jpeg";
 import unnat from "./assets/members_photo/unnat.jpg";
 import neha from "./assets/members_photo/neha.jpeg";
-import divyanshu from "./assets/members_photo/divyanshu.jpeg";
 import akshat from "./assets/members_photo/akshat.jpeg";
 import adamya from "./assets/members_photo/adamya.jpeg";
 import sarv from "./assets/members_photo/sarv.jpeg";
 import ankita from "./assets/members_photo/ankita.jpeg";
 import yash from "./assets/members_photo/yash.jpeg";
-import astitva from "./assets/members_photo/astitva.jpeg";
 import satyam from "./assets/members_photo/satyam.jpg";
 import rv from "./assets/members_photo/rv.jpg";
+import abhishek from "./assets/members_photo/abhishek.jpg";
+import vansh from "./assets/members_photo/vansh.jpg";
+import deepanshu from "./assets/members_photo/Deepanshu .jpg";
+import vidur from "./assets/members_photo/Vidur.JPG";
+import harsh from "./assets/members_photo/Harsh.jpg";
+import niraj from "./assets/members_photo/Niraj.jpg";
+import harshal from "./assets/members_photo/Harshal .jpeg";
+import aditya from "./assets/members_photo/Aditya.jpg";
+import preetish from "./assets/members_photo/Preetish .jpg";
+import siddharth from "./assets/members_photo/siddharth .jpg";
+import ananya from "./assets/members_photo/ananaya.jpg"
 
 const About = () => {
   return (
@@ -39,60 +41,68 @@ const About = () => {
         <div className="honey">
           {/* <!--col div--> */}
           <div className="comb_0">
-            <HoneyBlock name="Amol" position="President" image={amol} />
+            <HoneyBlock name="Neha" position="President" image={neha} />
           </div>
 
           {/* <!--col div--> */}
-          <div className="comb_1">
-            <HoneyBlock name="Pragati" position="Director" image={pragati} />
-            <HoneyBlock name="Aman" position="President" image={aman} />
+          <div className="comb_3">
+            <HoneyBlock name="Satyam" position="Vice-President" image={satyam} />
+            <HoneyBlock name="Unnat" position="General Sec." image={unnat} />
           </div>
           {/* <!--col div--> */}
           <div className="comb_2">
-            <HoneyBlock
-              name="Divyanshu"
-              position="Vice-President"
-              image={divyanshu}
+          <HoneyBlock
+              name="Akshat"
+              position="Administrative Dir."
+              image={akshat}
             />
-            <HoneyBlock name="Neha" position="Graphics Head" image={neha} />
-            <HoneyBlock name="Unnat" position="Tech Head" image={unnat} />
+            <HoneyBlock
+              name="Adamya"
+              position="Joint Sec."
+              image={adamya}
+            />
+            <HoneyBlock name="Maanyta" position="Managing Dir." image={maanyta} />
+            <HoneyBlock name="Raghvendra" position="Tech Dir." image={rv} />
 
             <HoneyBlock
-              name="Maanyta"
-              position="Content Head"
-              image={maanyta}
+              name="Ankita"
+              position="Marketing Dir."
+              image={ankita}
             />
 
             <HoneyBlock
-              name="Shreyash"
-              position="Vice-President"
-              image={shreyash}
+              name="Yash"
+              position="Executive Dir."
+              image={yash}
+            />
+            <HoneyBlock
+              name="Sarv"
+              position="Creative Designer"
+              image={sarv}
             />
           </div>
           {/* <!--col div--> */}
           <div className="comb_3">
-            <HoneyBlock name="Yash" position="Open Mic Head" image={yash} />
+            <HoneyBlock name="Vidur" position="Performace Head" image={vidur} />
 
-            <HoneyBlock name="Raghvendra" position="Tech Head" image={rv} />
-            <HoneyBlock name="Ankita" position="PR Head" image={ankita} />
-            <HoneyBlock name="Satyam" position="Tech Head" image={satyam} />
+            <HoneyBlock name="Deepanshu" position="Performace Head" image={deepanshu} />
+            <HoneyBlock name="Abhishek" position="Tech Head" image={abhishek} />
+            <HoneyBlock name="Vansh" position="Tech Head" image={vansh} />
 
-            <HoneyBlock name="Adamya" position="Content Head" image={adamya} />
-            <HoneyBlock name="Sarv" position="Graphics Head" image={sarv} />
+            <HoneyBlock name="Niraj" position="PR Head" image={niraj} />
+            <HoneyBlock name="Harsh" position="PR Head" image={harsh} />
           </div>
           {/* <!--col div--> */}
-          <div className="comb_4">
-            <HoneyBlock name="Akshat" position="Treasurer" image={akshat} />
-            {/* <HoneyBlock name="Vivek" position="Open Mic Head" image={naman} /> */}
-            <HoneyBlock name="Naman" position="PR Head" image={naman} />
-          </div>
-          <div className="comb_5">
+          <div className="comb_2">
+            <HoneyBlock name="Harshal" position="GD Head" image={harshal} />
+            <HoneyBlock name="Siddharth" position="GD Head" image={siddharth} />
+            <HoneyBlock name="Aditya" position="Chief Editor" image={aditya} />
             <HoneyBlock
-              name="Astitva"
+              name="Ananya"
               position="Content Head"
-              image={astitva}
+              image={ananya}
             />
-            <HoneyBlock name="Aditya" position="PR Head" image={kumar} />
+            <HoneyBlock name="Preetish" position="Content Head" image={preetish} />
           </div>
         </div>
       </div>
