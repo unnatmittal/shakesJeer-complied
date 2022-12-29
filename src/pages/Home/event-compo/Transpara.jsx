@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 
 const textArray = [
-  "Are your exams causing you to feel down? Let SHAKESJEER land that strike!! Shakesjeer returns with an exciting open mic event that is sure to liven up your day. ",
-  "Shakesjeer was delighted to conduct our flagship event “Comic Verse” for NSUT'Thon to keep all the freshers  filled with the maximum exuberance during the Fresher’s week. The event witnessed a grand success with participation of more than 150 teams.",
-  "ShakesJeer brings to you its debut vlog, which was shot at After-hours Café, City Centre Mall, Dwarka.It shows how our superfun Open Mics operate and also includes the backstage preparations and the radiating laughter that warmed up the venue.",
-  "The event was a great success with an audience of over 300 students. We gave opportunity to budding artists to perform in front of live audience. The event gave college students a break from there hectic schedule. The event also helped us build connections with DU colleges.",
+  "A good laugh is sunshine in the house.Resonanz'22 is all set to kick off in less than 48 hours and Shakesjeer is all set to present another event in its association, LaughHoes. ",
+  "ShakesJeer is back, yet again to lighten the mood and this time to re-ignite and re-kindle that talent of yours.Be it Rap, Poetry, Beatbox, Stand-up, Shayari (Hope it sounds better than this one).The stage is set for you to be spontaneous and be SPOT-ON.",
+  "For a comedy to work, magic has to happen,Carrying on with our events for Moksha-Inno’’22, we present you all to our another flagship event for the upcoming fest, Comic Wars. ",
+  "Comedy is simply a funny way of being serious.ShakesJeer is proud to highlight the magnificent success of our very first open mic event in this year 2022. A huge interest and enthusiasm were to be seen among our audience ",
+  "Continuing with our events, we now introduce you all to another flagship event for the upcoming fest, in our event Zombieloon ",
+  "Tired of mind numbing classes and continuous exams? Want to make this friday as your Funday? ShakesJeer brings to you their spellbinding open mic event - Comedy Knight where various performers will entertain you with their comic sketches"
 ];
 
 class Trans3 extends Component {

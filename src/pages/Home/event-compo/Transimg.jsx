@@ -1,16 +1,17 @@
 import React from "react";
-import openmic from "./image/openmic.png";
+import eventp from "./image/eventp.jpeg";
 // import fresher from "./image/s2.png";
-import e2 from "./image/e2.jpg";
-import e3 from "./image/e3.jpg";
-// import e4 from "./image/revent.png";
-import e5 from "./image/eventp.jpeg"
+import Spoton_reso from "./image/Spoton_reso.png";
+import LaughHoes from "./image/LaughHoes.png";
+import comicwars_moksha from "./image/comicwars_moksha.png";
+import sunlobhai_moksha from "./image/sunlobhai_moksha.png";
+import Zombeloon_moksha from "./image/Zombeloon_moksha.png";
 
 class Trans2 extends React.Component {
   constructor(props) {
     super(props);
 
-    const images = [e5,e3, e2, openmic];
+    const images = [ LaughHoes,Spoton_reso,comicwars_moksha,sunlobhai_moksha,Zombeloon_moksha,eventp];
 
     this.state = {
       images,
